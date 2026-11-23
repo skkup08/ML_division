@@ -1,43 +1,68 @@
 # 이가온 · 운동기구 인식과 운동 자세 분석
 
-성균관대 1398피트니스센터의 운동기구를 사진에서 찾는 모델과, 운동 영상을 포즈 좌표로 변환해 동작을 분석한 Colab 작업을 담았다. 기구 인식은 사진 속 기구의 위치와 종류를 출력한다. 자세 분석은 운동별로 학습 자료와 평가 범위가 다르다.
+성균관대 1398피트니스센터를 대상으로 두 가지 기능을 개발했습니다. **기구 인식**은 사진에서 “어떤 기구가 어디에 있는지” 찾습니다. **자세 분석**은 운동하는 사람의 관절 위치를 읽어 동작을 분석합니다.
 
-## 운동기구 사진 인식
-
-26종 YOLO11n 재학습에 이미지 3,537장을 사용했다. 학습 3,128장, 검증 204장, 테스트 205장이다. 저장된 PyTorch 체크포인트의 테스트 결과는 다음과 같다.
-
-| Precision | Recall | mAP50 | mAP50–95 |
-| ---: | ---: | ---: | ---: |
-| 0.9350 | 0.8694 | 0.9185 | 0.7967 |
-
-일부 기구는 테스트 사진이 한 장뿐이다. 기구별 AP와 표본 수는 [테스트 결과](SKKU_1398_Fitness_ML/03_training_runs/equipment26_min100_retrain_20261101T020110Z/test_metrics.json)에 함께 기록했다.
-
-| 용도 | 파일 |
+| 보고 싶은 내용 | 바로가기 |
 | --- | --- |
-| 학습 과정 확인 | [26종 재학습 Colab 노트북](SKKU_1398_Fitness_ML/01_notebooks/equipment26_min100_round1_20261101.ipynb) |
-| Python 모델 사용 | [재학습 best.pt](SKKU_1398_Fitness_ML/03_training_runs/equipment26_min100_retrain_20261101T020110Z/fit/weights/best.pt) |
-| 앱에 모델 탑재 | [FP32 TFLite 모델](SKKU_1398_Fitness_ML/04_exports_and_reports/equipment26_tflite_20261101T034127Z/equipment26_fp32.tflite) · [라벨 순서](SKKU_1398_Fitness_ML/04_exports_and_reports/equipment26_tflite_20261101T034127Z/labels.txt) |
-| 앱 입출력 확인 | [텐서 규격](SKKU_1398_Fitness_ML/04_exports_and_reports/equipment26_tflite_20261101T034127Z/input_output_spec.json) · [변환 후 검증 결과](SKKU_1398_Fitness_ML/04_exports_and_reports/equipment26_tflite_20261101T034127Z/validation_report.json) |
-| 데이터 준비 | [데이터셋 구축·선별 기록](SKKU_1398_Fitness_ML/02_dataset) · [5종 초기 프로젝트와 테스트](SKKU_1398_Fitness_ML/01_notebooks/SKKU_1398_Colab_Project) |
+| 사진 한 장으로 26종 기구를 찾는 모델을 앱에 넣고 싶다 | [앱용 모델과 기구 이름 목록](SKKU_1398_Fitness_ML/04_exports_and_reports/equipment26_tflite_20261101T034127Z) |
+| 운동별로 어디까지 자세 분석을 학습했는지 알고 싶다 | [운동별 학습 상태표](Allinone/Exercise_AI_26_Training_Status_Audit_20261123.md) |
 
-TFLite 모델은 `float32 [1, 3, 640, 640]`을 받아 `float32 [1, 30, 8400]`을 반환한다. 8,400개 후보마다 박스 좌표 4개와 기구별 점수 26개가 있다. 앱에서 신뢰도 필터와 중복 박스 제거(NMS)를 적용한다.
+## 기구 인식 · v1에서 v2로 무엇이 달라졌나
 
-## 운동 자세 분석
+처음에는 5종으로 사진 속 기구를 찾아 상자로 표시하는 과정을 검증했습니다. 이후 24종 모델에 **메가맥스**와 **더블 트위스트**를 추가했습니다. 아래에서 **v1**은 10월 31일에 처음 학습한 26종 모델을, **v2**는 사진이 부족했던 기구를 보강해 11월 1일 재학습을 마친 26종 모델을 가리킵니다. 두 버전 모두 같은 YOLO11n 구조를 사용합니다. [5종 초기 프로젝트](SKKU_1398_Fitness_ML/01_notebooks/SKKU_1398_Colab_Project) · [24종에서 26종으로 확장한 기록](SKKU_1398_Fitness_ML/03_training_runs/equipment26_yolo11n_20261031T125943Z/initialization.json)
 
-11월 23일 기준으로 [부위별 폴더](Exercise_AI_Models/Equipment26)에 운동별 자세 모델 17개와 설정 파일 17개가 있다. 기존 11개에 22개 운동을 재시도해 얻은 6개를 더한 수치다. 재시도한 나머지 16개는 자료 또는 유효 관절 샘플이 부족했다. 17개 모두 정상으로 간주한 자세만 학습한 `GOOD_ONLY` 모델이다. 잘못된 자세를 구별하는 성능은 별도 평가가 필요하다.
+| 달라진 점 | v1 · 첫 26종 모델 | v2 · 데이터 보강 후 재학습 |
+| --- | ---: | ---: |
+| 전체 사진 수 | 3,369장 | 3,537장 |
+| 학습 / 검증 / 테스트 사진 | 2,969 / 200 / 200장 | 3,128 / 204 / 205장 |
+| 메가맥스 학습 / 테스트 사진 | 2 / 0장 | 100 / 5장 |
+| 더블 트위스트 학습 / 테스트 사진 | 39 / 4장 | 100 / 4장 |
+| 테스트 사진으로 평가한 기구 | 25종 | 26종 |
 
-| 용도 | 자료 |
+**v2에서는 26종 모두 기구당 학습 사진을 100장 이상 확보했습니다.** 특히 v1은 메가맥스를 출력할 수 있어도, 학습에 쓰지 않은 사진에서 제대로 찾는지는 측정할 수 없었습니다. v2에서는 처음으로 그 성능을 측정했습니다. 다만 메가맥스의 테스트 사진은 5장이고, 센터에서 직접 촬영한 사진을 이용한 현장 검증은 아직 남아 있습니다. [v1 데이터 구성](SKKU_1398_Fitness_ML/03_training_runs/equipment26_yolo11n_20261031T125943Z/summary.json) · [v2 데이터 구성](SKKU_1398_Fitness_ML/03_training_runs/equipment26_min100_retrain_20261101T020110Z/summary.json)
+
+### 테스트 결과는 어떻게 읽나
+
+| 지표 | 뜻 | v1 | v2 |
+| --- | --- | ---: | ---: |
+| 정밀도 (Precision) | 모델이 기구를 찾았다고 표시한 결과 중 맞은 비율 | 94.20% | 93.50% |
+| 재현율 (Recall) | 사진에 실제로 있는 기구 중 모델이 찾아낸 비율 | 82.92% | 86.94% |
+| mAP50 | 예측 상자와 정답 상자가 50% 이상 겹치는 기준에서 계산한 평균 탐지 점수 | 0.9154 | 0.9185 |
+| mAP50–95 | 상자가 겹쳐야 하는 기준을 50%에서 95%까지 높여가며 평균한 점수 | 0.8065 | 0.7967 |
+
+각 버전의 테스트 기록에서는 재현율과 mAP50이 올랐고, 정밀도와 mAP50–95는 내려갔습니다. 테스트 사진과 평가한 기구 수가 달라서 데이터 보강만으로 성능이 얼마나 달라졌는지는 이 두 결과에서 분리할 수 없습니다. [v1 기구별 테스트 결과](SKKU_1398_Fitness_ML/03_training_runs/equipment26_yolo11n_20261031T125943Z/test_metrics.json) · [v2 기구별 테스트 결과](SKKU_1398_Fitness_ML/03_training_runs/equipment26_min100_retrain_20261101T020110Z/test_metrics.json)
+
+### v2를 앱에 연결하려면
+
+예를 들어 사용자가 트레드밀 사진을 찍으면, 앱은 사진 비율을 유지한 채 크기를 조정하고 여백을 더해 640×640 입력을 만듭니다. 모델이 내놓은 후보 중 신뢰도가 낮은 상자를 걸러낸 다음, 같은 기구에 상자가 여러 개 겹치면 점수가 높은 상자를 남깁니다(NMS). 그 좌표를 원본 사진 크기로 되돌리면 사진 위에 **트레드밀**이라는 이름과 상자를 표시할 수 있습니다. 표시할 후보가 없으면 탐지 결과는 빈 목록입니다.
+
+| 필요한 것 | 파일과 규격 |
 | --- | --- |
-| 어떤 운동이 학습됐는지 확인 | [운동별 상태와 자료 수](Allinone/Exercise_AI_26_Training_Status_Audit_20261123.md) |
-| 최근 실행 확인 | [22종 재시도 노트북과 최종 결과표](Colab_Notebooks/Exercise_AI_22_Retry_FIXED_Colab_copy.ipynb) |
-| 이전 실험 확인 | [데드리프트·스쿼트 등 학습 코드와 평가 자료](Allinone) · [동일 영상 그룹을 분리한 자세 분류 실험](Exercise_AI_New_20261117_RF_GroupHoldout_v2) |
+| 앱에서 실행할 모델 | [equipment26_fp32.tflite](SKKU_1398_Fitness_ML/04_exports_and_reports/equipment26_tflite_20261101T034127Z/equipment26_fp32.tflite) · [모델 점수에 대응하는 26개 라벨](SKKU_1398_Fitness_ML/04_exports_and_reports/equipment26_tflite_20261101T034127Z/labels.txt) · [한글 기구명 매핑](SKKU_1398_Fitness_ML/04_exports_and_reports/equipment26_tflite_20261101T034127Z/class_mapping.json) |
+| 입력과 출력 | 입력은 RGB 이미지 한 장을 담은 `float32 [1, 3, 640, 640]`입니다. 출력 `[1, 30, 8400]`에는 후보 8,400개별로 상자 좌표 4개와 기구 점수 26개가 들어 있습니다. [텐서 규격](SKKU_1398_Fitness_ML/04_exports_and_reports/equipment26_tflite_20261101T034127Z/input_output_spec.json) · [TFLite 변환 검증](SKKU_1398_Fitness_ML/04_exports_and_reports/equipment26_tflite_20261101T034127Z/validation_report.json) |
+| Python에서 실행하거나 학습 과정을 보려면 | [v2 가중치 best.pt](SKKU_1398_Fitness_ML/03_training_runs/equipment26_min100_retrain_20261101T020110Z/fit/weights/best.pt) · [26종 재학습 Colab 노트북](SKKU_1398_Fitness_ML/01_notebooks/equipment26_min100_round1_20261101.ipynb) · [데이터 준비 기록](SKKU_1398_Fitness_ML/02_dataset) |
 
-## 파일 사용
+## 자세 분석 · 어떤 동작까지 학습했나
 
-저장소를 내려받은 뒤, 나누어 저장된 초기 Allinone 모델 묶음 두 개는 저장소 최상위에서 다음 명령으로 복원할 수 있다. 스크립트가 각 파일의 SHA-256을 검증하고 기존 Colab 코드에서 사용하는 위치에 저장한다.
+11월 23일 기준으로 **운동별 자세 모델 17개**를 저장했습니다. 기존 11개를 보존하고, 아직 모델이 없던 운동 22개를 다시 시도해 6개를 추가했습니다. 새로 학습된 운동은 펙덱 플라이, 레그 익스텐션, 플랫·인클라인·디클라인 벤치프레스, 머신 체스트 플라이입니다. 나머지 16개 중 5개는 자료를 찾지 못했고 11개는 관절 위치를 읽어낸 샘플이 부족했습니다. [22종 재시도 노트북과 결과표](Colab_Notebooks/Exercise_AI_22_Retry_FIXED_Colab_copy.ipynb)
+
+이 17개는 모두 정상으로 간주한 시범 자세만 학습한 모델(`GOOD_ONLY`)입니다. 예를 들어 레그 익스텐션 모델은 시범 영상에서 얻은 자세 샘플 25개를 학습했습니다. 시범 자세와 얼마나 다른지 살펴볼 수 있지만, 어느 관절을 어떻게 고쳐야 하는지 알려주려면 실제 오류 자세로 추가 검증해야 합니다. [레그 익스텐션 학습 기록](Exercise_AI_Models/Equipment26/Legs/leg_extension.json) · [부위별 모델 파일](Exercise_AI_Models/Equipment26)
+
+### 자세 분석 폴더의 v2는 무엇인가
+
+기구 사진 인식과 별도로, 운동 자세의 정상·오류를 구별하는 두 실험에도 버전명이 있습니다.
+
+| 실험 | 이전 버전의 문제와 v2에서 바꾼 점 | 확인한 결과 |
+| --- | --- | --- |
+| 데드리프트 영상 분류 | 첫 모델은 데드리프트 영상을 정상·오류로 나눴습니다. v2에서는 훈련 데이터를 여러 번 나눠 분류 방법을 비교하고 랜덤 포레스트(Random Forest)을 선택했습니다. | 기존 테스트 영상 60개에서 정확도는 61.7%에서 60.0%로 바뀌었고, 정상·오류 두 그룹을 같은 비중으로 평가한 균형 정확도는 56.25%로 같았습니다. [v2 비교 기록](Allinone/Deadlift_Improved_Models/20261027_122855/report.json) |
+| 여러 운동의 자세 분류 | 초기 결과를 점검하면서 파일명과 정답 라벨이 다른 사례를 찾았습니다. v2에서는 둘이 충돌하거나 한 이미지에 여러 라벨이 붙은 사례를 제외했습니다. 같은 영상에서 나온 장면은 학습용과 테스트용으로 나눠 쓰지 않았습니다. | v1 중간 점수는 폐기했습니다. v2는 영상 그룹을 나눠 평가했으며, 새로운 사람에게도 같은 성능이 나오는지는 확인되지 않았습니다. [라벨 검수 방법과 실험 범위](Exercise_AI_New_20261117_RF_GroupHoldout_v2/README_KO.md) |
+
+## Colab 실행과 파일 복원
+
+학습 노트북은 원래 Google Drive 폴더 구성을 사용합니다. 학습을 다시 실행하려면 노트북에 적힌 경로에 원본 사진·영상을 준비해야 합니다. 저장소에는 코드, 모델, 데이터 출처·분할 기록과 평가 결과가 들어 있습니다.
+
+`Allinone`의 초기 자세 분석 모델 묶음 두 개는 분할 저장되어 있습니다. 저장소 최상위 폴더에서 아래 명령을 실행하면 조각을 합치고 원본과 같은 파일인지 SHA-256으로 확인합니다. [Allinone 실험 자료](Allinone)
 
 ```bash
 python restore_models.py
 ```
-
-Colab 노트북은 원래 Google Drive 폴더 구성을 사용한다. 학습을 다시 실행하려면 해당 노트북에서 지정한 데이터 경로에 원본을 준비해야 한다. 이 저장소에는 코드, 모델, 데이터 출처·분할 기록과 평가 결과를 수록했다. 학습용 사진·영상 원본은 별도로 관리한다. 노트북의 임시 실행 출력은 정리했고, 11월 23일 재시도 노트북의 최종 상태표는 보존했다.

@@ -1,0 +1,56 @@
+[
+  {
+    "split": "val",
+    "image": "val/images/ea19079cc14a42_2f13f242a71634c6.jpg",
+    "source_image": "/content/skku1398_workspace/grouped_source_v1/val/images/2f13f242a71634c6.jpg",
+    "sha256": "a06ef7c5bb0f031d2f5ff347faac60f67b2749d525416f5ab2c499eeb6a23cc9",
+    "dhash": "d8cccccccceccc98",
+    "classes": "smith_machine",
+    "box_count": "1"
+  },
+  {
+    "split": "val",
+    "image": "val/images/7f5fff1aaef0e9_6e4f5b28cbd00c2d.jpg",
+    "source_image": "/content/skku1398_workspace/grouped_source_v1/val/images/6e4f5b28cbd00c2d.jpg",
+    "sha256": "12b82b280007166769e684f19025cff9f6272ed55dee4237522e96b7522d39da",
+    "dhash": "05ecca83dca2e601",
+    "classes": "smith_machine",
+    "box_count": "1"
+  },
+  {
+    "split": "train",
+    "image": "train/images/52432f558c6c3f_616025e18ea4f1b5.jpg",
+    "source_image": "/content/skku1398_workspace/grouped_source_v1/train/images/616025e18ea4f1b5.jpg",
+    "sha256": "f44036b35f4d2e00a9dcc82b9d956b7d5c3ed4cd49c03778d29fb00560e19fa6",
+    "dhash": "666648686868e0d0",
+    "classes": "shoulder_press",
+    "box_count": "1"
+  },
+  {
+    "split": "train",
+    "image": "train/images/6aae7368351787_b4bb21ef2fddebb1.jpg",
+    "source_image": "/content/skku1398_workspace/grouped_source_v1/train/images/b4bb21ef2fddebb1.jpg",
+    "sha256": "10453c531b0cedb93eabb45e1e51c53b41089aca26272b76cb1e095b82852317",
+    "dhash": "c6ccccccccdcccc6",
+    "classes": "smith_machine",
+    "box_count": "1"
+  },
+  {
+    "split": "train",
+    "image": "train/images/b3b5e72026fc50_c2cb99b360ba3fe3.jpg",
+    "source_image": "/content/skku1398_workspace/grouped_source_v1/train/images/c2cb99b360ba3fe3.jpg",
+    "sha256": "f2c02c55a7a69069b0022154861eced4e5d8a93a8314af8d501ef2cadca21ea4",
+    "dhash": "9cc4c4ccccc4cc8c",
+    "classes": "smith_machine",
+    "box_count": "1"
+  },
+  {
+    "split": "train",
+    "image": "train/images/fabe0393061ce8_d2bed7c27ac0c535.jpg",
+    "source_image": "/content/skku1398_workspace/grouped_source_v1/train/images/d2bed7c27ac0c535.jpg",
+    "sha256": "76611de68e89a2bc746512ef4a8e282e40943ebe0423fb584693e2f168a19eee",
+    "dhash": "cccccccccccccce6",
+    "classes": "smith_machine",
+    "box_count": "1"
+  }
+]

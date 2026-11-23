@@ -1,0 +1,22 @@
+[
+  {
+    "yolo_id": 0,
+    "center_id": 2,
+    "name": "recumbent_bike"
+  },
+  {
+    "yolo_id": 1,
+    "center_id": 4,
+    "name": "elliptical"
+  },
+  {
+    "yolo_id": 2,
+    "center_id": 17,
+    "name": "cable_crossover"
+  },
+  {
+    "yolo_id": 3,
+    "center_id": 25,
+    "name": "hyperextension"
+  }
+]

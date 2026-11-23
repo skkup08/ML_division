@@ -1,0 +1,36 @@
+{
+  "inputs": [
+    {
+      "name": "serving_default_args_0",
+      "index": 0,
+      "shape": [
+        1,
+        3,
+        640,
+        640
+      ],
+      "dtype": "float32",
+      "quantization": [
+        0.0,
+        0
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "name": "serving_default_output_0_output",
+      "index": 573,
+      "shape": [
+        1,
+        30,
+        8400
+      ],
+      "dtype": "float32",
+      "quantization": [
+        0.0,
+        0
+      ]
+    }
+  ],
+  "nms_included": false
+}

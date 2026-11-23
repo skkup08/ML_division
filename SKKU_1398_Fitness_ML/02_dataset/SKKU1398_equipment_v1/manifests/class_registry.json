@@ -1,0 +1,184 @@
+[
+  {
+    "center_id": 1,
+    "name": "treadmill",
+    "name_ko": "트레드밀",
+    "scope": "existing5",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 2,
+    "name": "recumbent_bike",
+    "name_ko": "리컴번트 바이크",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 3,
+    "name": "upright_bike",
+    "name_ko": "업라이트 바이크",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 4,
+    "name": "elliptical",
+    "name_ko": "일립티컬",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 5,
+    "name": "seated_chest_press",
+    "name_ko": "체스트 프레스",
+    "scope": "existing5",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 6,
+    "name": "pectoral_fly",
+    "name_ko": "펙토럴 플라이",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 7,
+    "name": "lat_pulldown",
+    "name_ko": "하이플라이(랫풀다운 대응)",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 8,
+    "name": "shoulder_press",
+    "name_ko": "숄더 프레스",
+    "scope": "existing5",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 9,
+    "name": "seated_cable_row",
+    "name_ko": "롱풀",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 10,
+    "name": "arm_curl",
+    "name_ko": "암컬",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 11,
+    "name": "abdominal_machine",
+    "name_ko": "앱도미널",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 12,
+    "name": "assisted_chin_dip",
+    "name_ko": "친업",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 13,
+    "name": "rotary_torso",
+    "name_ko": "로터리 토르소",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 14,
+    "name": "leg_extension",
+    "name_ko": "레그 익스텐션",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 15,
+    "name": "leg_curl",
+    "name_ko": "레그 컬",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 16,
+    "name": "seated_leg_press",
+    "name_ko": "시티드 레그프레스",
+    "scope": "existing5",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 17,
+    "name": "cable_crossover",
+    "name_ko": "케이블 크로스오버",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 18,
+    "name": "smith_machine",
+    "name_ko": "스미스 머신",
+    "scope": "existing5",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 19,
+    "name": "megamax",
+    "name_ko": "메가맥스",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 20,
+    "name": "chin_dip_hipflexor",
+    "name_ko": "치닝·디핑·힙플렉서",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 21,
+    "name": "power_leg_press",
+    "name_ko": "파워 레그프레스",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 22,
+    "name": "power_rack",
+    "name_ko": "파워랙",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 23,
+    "name": "situp_bench",
+    "name_ko": "싯업",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 24,
+    "name": "double_twist",
+    "name_ko": "더블 트위스트",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 25,
+    "name": "hyperextension",
+    "name_ko": "하이퍼 익스텐션",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  },
+  {
+    "center_id": 26,
+    "name": "incline_decline_bench_press",
+    "name_ko": "슈퍼 벤치프레스 인클라인/디클라인",
+    "scope": "additional21",
+    "exact_center_shape_verified": false
+  }
+]

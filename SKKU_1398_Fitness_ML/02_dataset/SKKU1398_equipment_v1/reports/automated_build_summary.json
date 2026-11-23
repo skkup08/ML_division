@@ -1,0 +1,23 @@
+{
+  "raw_sources": 10,
+  "raw_images": 55251,
+  "raw_archive_bytes": 3544180596,
+  "raw_unique_sha256": 54156,
+  "technical_valid_candidate_images": 33187,
+  "review_representative_images": 12691,
+  "duplicate_groups_all": 21592,
+  "candidate_target_classes": 24,
+  "candidate_additional_classes": 19,
+  "visually_approved_images": 0,
+  "training_images_exported": 0,
+  "raw_archive_integrity": "ZIP CRC plus SHA256 copy verification passed",
+  "review_pack_sha256": "184d600568d1142db2f0e9c6f128fdc2025959be410bcaeb2d1347c61b94cac9",
+  "limitations": [
+    "No automatic semantic approval",
+    "pHash/mirror and filename grouping do not prove independent capture sessions",
+    "No pretrained model training performed",
+    "Mixed classes and missing labels require per-image review",
+    "Center shape equivalence unverified",
+    "Existing 5-class evaluation split is not reused"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "algorithm": "ExtraTrees",
+  "train_videos": 131,
+  "test_videos": 60,
+  "good_threshold": 0.2858148286771399,
+  "bad_threshold": 0.710548730162298,
+  "cv_metrics": {
+    "coverage": 0.6106870229007634,
+    "good_recall_all": 0.4603174603174603,
+    "bad_recall_all": 0.5441176470588235,
+    "good_false_bad_rate": 0.1111111111111111,
+    "bad_false_good_rate": 0.10294117647058823,
+    "recheck_count": 51,
+    "decided_accuracy": 0.825,
+    "confusion_matrix": [
+      [
+        29,
+        7,
+        27
+      ],
+      [
+        7,
+        37,
+        24
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "test_metrics": {
+    "coverage": 0.55,
+    "good_recall_all": 0.05,
+    "bad_recall_all": 0.7,
+    "good_false_bad_rate": 0.2,
+    "bad_false_good_rate": 0.0,
+    "recheck_count": 27,
+    "decided_accuracy": 0.8787878787878788,
+    "confusion_matrix": [
+      [
+        1,
+        4,
+        15
+      ],
+      [
+        0,
+        28,
+        12
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "model_path": "/content/drive/MyDrive/Allinone/Deadlift_V5_Models/20261027_131536/deadlift_v5.joblib",
+  "warning": "S04/S07 have been used in earlier experiments. Not an independent final validation."
+}

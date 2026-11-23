@@ -1,0 +1,2200 @@
+[
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 0,
+    "source_class": "Ab Crunch Machine",
+    "candidate_center_id": 11,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 1,
+    "source_class": "Ab Roller",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 2,
+    "source_class": "Abdominal Bench",
+    "candidate_center_id": 23,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 3,
+    "source_class": "Back Extension Machine",
+    "candidate_center_id": 25,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 4,
+    "source_class": "Barbell",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 5,
+    "source_class": "Bench",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 6,
+    "source_class": "Chest Fly Machine",
+    "candidate_center_id": 6,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 7,
+    "source_class": "Chest Press Machine",
+    "candidate_center_id": 5,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 8,
+    "source_class": "Dumbbell",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 9,
+    "source_class": "Elliptical",
+    "candidate_center_id": 4,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 10,
+    "source_class": "Functional Trainer",
+    "candidate_center_id": 17,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 11,
+    "source_class": "GHD Machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 12,
+    "source_class": "Hack Squat Machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 13,
+    "source_class": "Kettlebells",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 14,
+    "source_class": "Lat Pull Down Machine",
+    "candidate_center_id": 7,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 15,
+    "source_class": "Lateral Raises Machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 16,
+    "source_class": "Leg Curl Machine",
+    "candidate_center_id": 15,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 17,
+    "source_class": "Leg Extension Machine",
+    "candidate_center_id": 14,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 18,
+    "source_class": "Leg Press Machine",
+    "candidate_center_id": 16,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 19,
+    "source_class": "Leg Raise Tower",
+    "candidate_center_id": 20,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 20,
+    "source_class": "Preacher Curl",
+    "candidate_center_id": 10,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 21,
+    "source_class": "Seated Dip Machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 22,
+    "source_class": "Seated Row Machine",
+    "candidate_center_id": 9,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 23,
+    "source_class": "Shoulder Press Machine",
+    "candidate_center_id": 8,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 24,
+    "source_class": "Smith Machine",
+    "candidate_center_id": 18,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 25,
+    "source_class": "Stability Ball",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 26,
+    "source_class": "Stepmill",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "fitfuel__all-gym-equipment__v2",
+    "source_class_id": 27,
+    "source_class": "Treadmill",
+    "candidate_center_id": 1,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 0,
+    "source_class": "abdominal-machine",
+    "candidate_center_id": 11,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 1,
+    "source_class": "arm-curl",
+    "candidate_center_id": 10,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 2,
+    "source_class": "arm-extension",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 3,
+    "source_class": "back-extension",
+    "candidate_center_id": 25,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 4,
+    "source_class": "back-row-machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 5,
+    "source_class": "bench-press",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 6,
+    "source_class": "cable-lat-pulldown",
+    "candidate_center_id": 7,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 7,
+    "source_class": "chest-fly",
+    "candidate_center_id": 6,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 8,
+    "source_class": "chest-press",
+    "candidate_center_id": 5,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 9,
+    "source_class": "dip-chin-assist",
+    "candidate_center_id": 12,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 10,
+    "source_class": "hip-abduction-adduction",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 11,
+    "source_class": "incline-bench",
+    "candidate_center_id": 26,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 12,
+    "source_class": "lat-pulldown",
+    "candidate_center_id": 7,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 13,
+    "source_class": "leg-extension",
+    "candidate_center_id": 14,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 14,
+    "source_class": "leg-press",
+    "candidate_center_id": 16,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 15,
+    "source_class": "lying-down-leg-curl",
+    "candidate_center_id": 15,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 16,
+    "source_class": "overhead-shoulder-press",
+    "candidate_center_id": 8,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 17,
+    "source_class": "pulley-machine",
+    "candidate_center_id": 17,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 18,
+    "source_class": "seated-cable-row",
+    "candidate_center_id": 9,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 19,
+    "source_class": "seated-leg-curl",
+    "candidate_center_id": 15,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 20,
+    "source_class": "smith-machine",
+    "candidate_center_id": 18,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 21,
+    "source_class": "squat-rack",
+    "candidate_center_id": 22,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "rizzlabzz__gymbro__v2",
+    "source_class_id": 22,
+    "source_class": "torso-rotation-machine",
+    "candidate_center_id": 13,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 0,
+    "source_class": "Ab Crunch Machine",
+    "candidate_center_id": 11,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 1,
+    "source_class": "Ab Roller",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 2,
+    "source_class": "Arm Curl Machine",
+    "candidate_center_id": 10,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 3,
+    "source_class": "Assisted Pull Up and Dip Machine",
+    "candidate_center_id": 12,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 4,
+    "source_class": "Back Extension Machine",
+    "candidate_center_id": 25,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 5,
+    "source_class": "Ball",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 6,
+    "source_class": "Barbell",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 7,
+    "source_class": "Bench",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 8,
+    "source_class": "Cable Attachments",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 9,
+    "source_class": "Cable Machine",
+    "candidate_center_id": 17,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 10,
+    "source_class": "Cable Row Attachment",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 11,
+    "source_class": "Cable Triceps Extension",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 12,
+    "source_class": "Chest Machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 13,
+    "source_class": "Close Grip Cable Attachment",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 14,
+    "source_class": "Concentrated Bicep Curls",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 15,
+    "source_class": "Dumbbell",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 16,
+    "source_class": "EZ Bar Cable Attachment",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 17,
+    "source_class": "Elliptical",
+    "candidate_center_id": 4,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 18,
+    "source_class": "Foam Equipment",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 19,
+    "source_class": "Functional Trainer",
+    "candidate_center_id": 17,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 20,
+    "source_class": "GHD Machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 21,
+    "source_class": "Glute Drive Machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 22,
+    "source_class": "Hack Squat Machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 23,
+    "source_class": "Hamstring Curl Machine",
+    "candidate_center_id": 15,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 24,
+    "source_class": "Hip Adduction Machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 25,
+    "source_class": "Kettlebell",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 26,
+    "source_class": "Lat Pull Down Machine",
+    "candidate_center_id": 7,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 27,
+    "source_class": "Lateral Raise Machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 28,
+    "source_class": "Leg Curl Machine",
+    "candidate_center_id": 15,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 29,
+    "source_class": "Leg Extension Machine",
+    "candidate_center_id": 14,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 30,
+    "source_class": "Leg Press Machine",
+    "candidate_center_id": 16,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 31,
+    "source_class": "Leg Raise Tower",
+    "candidate_center_id": 20,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 32,
+    "source_class": "Mag Cable Attachment",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 33,
+    "source_class": "Plates",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 34,
+    "source_class": "Plyometric Box",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 35,
+    "source_class": "Preacher Curl",
+    "candidate_center_id": 10,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 36,
+    "source_class": "Pull Up Bar",
+    "candidate_center_id": 12,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 37,
+    "source_class": "Punching Bag",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 38,
+    "source_class": "Push Up Equipment",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 39,
+    "source_class": "Recumbent Bike",
+    "candidate_center_id": 2,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 40,
+    "source_class": "Resistance Bands",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 41,
+    "source_class": "Roman Chair",
+    "candidate_center_id": 25,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 42,
+    "source_class": "Seated Calf Raise Machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 43,
+    "source_class": "Seated Dip Machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 44,
+    "source_class": "Seated Row Machine",
+    "candidate_center_id": 9,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 45,
+    "source_class": "Shoulder Press Machine",
+    "candidate_center_id": 8,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 46,
+    "source_class": "Single Cable Rope Attachment",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 47,
+    "source_class": "Sliders",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 48,
+    "source_class": "Smith Machine",
+    "candidate_center_id": 18,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 49,
+    "source_class": "Squat Rack",
+    "candidate_center_id": 22,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 50,
+    "source_class": "Stair Climber",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 51,
+    "source_class": "Stationary Bike",
+    "candidate_center_id": 3,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 52,
+    "source_class": "Straight Bar Attachment",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 53,
+    "source_class": "Treadmill",
+    "candidate_center_id": 1,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 54,
+    "source_class": "Triceps Extension Machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 55,
+    "source_class": "V-Bar Cable Attachment",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 56,
+    "source_class": "Wide Grip Cable Attachment",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "trainers-workspace__gym-equipment-t6kck-fkuoc__v1",
+    "source_class_id": 57,
+    "source_class": "parallel bars",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 0,
+    "source_class": "Ab Crunch Machine",
+    "candidate_center_id": 11,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 1,
+    "source_class": "Agility Ladder",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 2,
+    "source_class": "Air Bike",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 3,
+    "source_class": "Assault Runner",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 4,
+    "source_class": "Balance Boards",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 5,
+    "source_class": "Barbell",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 6,
+    "source_class": "Battle Ropes",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 7,
+    "source_class": "Bosu Ball",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 8,
+    "source_class": "Cable Crossover Machine",
+    "candidate_center_id": 17,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 9,
+    "source_class": "Chest Press Machine",
+    "candidate_center_id": 5,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 10,
+    "source_class": "Cones",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 11,
+    "source_class": "Core Sliders",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 12,
+    "source_class": "Dumbbells",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 13,
+    "source_class": "Elliptical Trainer",
+    "candidate_center_id": 4,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 14,
+    "source_class": "Farmers Carry Handles",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 15,
+    "source_class": "GYM-Equipment",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 16,
+    "source_class": "Gymnastic Rings",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 17,
+    "source_class": "Hack Squat Machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 18,
+    "source_class": "Hurdles",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 19,
+    "source_class": "Lat Pulldown Machine",
+    "candidate_center_id": 7,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 20,
+    "source_class": "Leg Curl Machine",
+    "candidate_center_id": 15,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 21,
+    "source_class": "Leg Press Machine",
+    "candidate_center_id": 16,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 22,
+    "source_class": "Medicine Balls",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 23,
+    "source_class": "Parallel Bars",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 24,
+    "source_class": "Pec Deck Machine",
+    "candidate_center_id": 6,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 25,
+    "source_class": "Plyometric Boxes",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 26,
+    "source_class": "Power Tower",
+    "candidate_center_id": 20,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 27,
+    "source_class": "Pull-Up Bar",
+    "candidate_center_id": 12,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 28,
+    "source_class": "Push-Up Bars",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 29,
+    "source_class": "Resistance Bands",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 30,
+    "source_class": "Reverse Hack Squat Machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 31,
+    "source_class": "Rowing Machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 32,
+    "source_class": "Sandbags",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 33,
+    "source_class": "Seated row machine",
+    "candidate_center_id": 9,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 34,
+    "source_class": "Shoulder Press Machine",
+    "candidate_center_id": 8,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 35,
+    "source_class": "Ski Erg",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 36,
+    "source_class": "Smith Machine",
+    "candidate_center_id": 18,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 37,
+    "source_class": "Stair Climber",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 38,
+    "source_class": "Stationary Bike",
+    "candidate_center_id": 3,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 39,
+    "source_class": "T-Bar Row Machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 40,
+    "source_class": "TRX Suspension Trainer",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 41,
+    "source_class": "Treadmill",
+    "candidate_center_id": 1,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 42,
+    "source_class": "Weight Plates",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 43,
+    "source_class": "Weighted Vests",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 44,
+    "source_class": "ab roller coaster",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 45,
+    "source_class": "kettlebell",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 46,
+    "source_class": "multi-grip pull-up station",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 47,
+    "source_class": "sleds",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gymze__gymze__v1",
+    "source_class_id": 48,
+    "source_class": "step ladder",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 0,
+    "source_class": "Arc Trainer",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 1,
+    "source_class": "Assisted Pull-up Machine",
+    "candidate_center_id": 12,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 2,
+    "source_class": "Available",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 3,
+    "source_class": "Cable Machine",
+    "candidate_center_id": 17,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 4,
+    "source_class": "Enter or Exit Door",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 5,
+    "source_class": "Exercise Bike",
+    "candidate_center_id": 3,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 6,
+    "source_class": "Functional Trainer",
+    "candidate_center_id": 17,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 7,
+    "source_class": "Lat Pull Down Machine",
+    "candidate_center_id": 7,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 8,
+    "source_class": "Seated Abdominal Curl",
+    "candidate_center_id": 11,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 9,
+    "source_class": "Stretching area",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 10,
+    "source_class": "Torso Machine",
+    "candidate_center_id": 13,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 11,
+    "source_class": "barbell",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 12,
+    "source_class": "bench",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 13,
+    "source_class": "bench press",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 14,
+    "source_class": "calf raise",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 15,
+    "source_class": "chest press",
+    "candidate_center_id": 5,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 16,
+    "source_class": "curl machine",
+    "candidate_center_id": 10,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 17,
+    "source_class": "declined bench press",
+    "candidate_center_id": 26,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 18,
+    "source_class": "dumbbell",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 19,
+    "source_class": "dumbbells",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 20,
+    "source_class": "elliptical",
+    "candidate_center_id": 4,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 21,
+    "source_class": "hack squat",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 22,
+    "source_class": "hip abduction",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 23,
+    "source_class": "hip thrust",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 24,
+    "source_class": "in use",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 25,
+    "source_class": "incline bench press",
+    "candidate_center_id": 26,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 26,
+    "source_class": "incline chest press",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 27,
+    "source_class": "kettlebell",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 28,
+    "source_class": "ladder",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 29,
+    "source_class": "leg curl",
+    "candidate_center_id": 15,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 30,
+    "source_class": "leg extension",
+    "candidate_center_id": 14,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 31,
+    "source_class": "leg press",
+    "candidate_center_id": 16,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 32,
+    "source_class": "manual treadmill",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 33,
+    "source_class": "objects",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 34,
+    "source_class": "parallel bars",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 35,
+    "source_class": "pec fly machine",
+    "candidate_center_id": 6,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 36,
+    "source_class": "person",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 37,
+    "source_class": "preacher curl machine",
+    "candidate_center_id": 10,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 38,
+    "source_class": "recumbent bike",
+    "candidate_center_id": 2,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 39,
+    "source_class": "rowing",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 40,
+    "source_class": "shoulder press",
+    "candidate_center_id": 8,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 41,
+    "source_class": "shoulder raise",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 42,
+    "source_class": "squat rack",
+    "candidate_center_id": 22,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 43,
+    "source_class": "stair master",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 44,
+    "source_class": "treadmill",
+    "candidate_center_id": 1,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 45,
+    "source_class": "weight rack",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "gym-qknei__gym-shkud__v5",
+    "source_class_id": 46,
+    "source_class": "weights",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "dans-new-workspace__home-gym-equipment-detection__v6",
+    "source_class_id": 0,
+    "source_class": "ab roller",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "dans-new-workspace__home-gym-equipment-detection__v6",
+    "source_class_id": 1,
+    "source_class": "adjustable bench",
+    "candidate_center_id": 26,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "dans-new-workspace__home-gym-equipment-detection__v6",
+    "source_class_id": 2,
+    "source_class": "assault bike",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "dans-new-workspace__home-gym-equipment-detection__v6",
+    "source_class_id": 3,
+    "source_class": "barbell",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "dans-new-workspace__home-gym-equipment-detection__v6",
+    "source_class_id": 4,
+    "source_class": "dumbbell",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "dans-new-workspace__home-gym-equipment-detection__v6",
+    "source_class_id": 5,
+    "source_class": "flat bench",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "dans-new-workspace__home-gym-equipment-detection__v6",
+    "source_class_id": 6,
+    "source_class": "kettlebell",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "dans-new-workspace__home-gym-equipment-detection__v6",
+    "source_class_id": 7,
+    "source_class": "medicine ball",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "dans-new-workspace__home-gym-equipment-detection__v6",
+    "source_class_id": 8,
+    "source_class": "punching bag",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "dans-new-workspace__home-gym-equipment-detection__v6",
+    "source_class_id": 9,
+    "source_class": "resistance bands",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "dans-new-workspace__home-gym-equipment-detection__v6",
+    "source_class_id": 10,
+    "source_class": "squat rack",
+    "candidate_center_id": 22,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "dans-new-workspace__home-gym-equipment-detection__v6",
+    "source_class_id": 11,
+    "source_class": "stationary bike",
+    "candidate_center_id": 3,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "dans-new-workspace__home-gym-equipment-detection__v6",
+    "source_class_id": 12,
+    "source_class": "treadmill",
+    "candidate_center_id": 1,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "dans-new-workspace__home-gym-equipment-detection__v6",
+    "source_class_id": 13,
+    "source_class": "trx straps",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "dans-new-workspace__home-gym-equipment-detection__v6",
+    "source_class_id": 14,
+    "source_class": "weight plates",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "dans-new-workspace__home-gym-equipment-detection__v6",
+    "source_class_id": 15,
+    "source_class": "yoga ball",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "hn-2kixi__healnion-f4l32__v1",
+    "source_class_id": 0,
+    "source_class": "armcurl",
+    "candidate_center_id": 10,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "hn-2kixi__healnion-f4l32__v1",
+    "source_class_id": 1,
+    "source_class": "chestpress",
+    "candidate_center_id": 5,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "hn-2kixi__healnion-f4l32__v1",
+    "source_class_id": 2,
+    "source_class": "hipabduction",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "hn-2kixi__healnion-f4l32__v1",
+    "source_class_id": 3,
+    "source_class": "legcurl",
+    "candidate_center_id": 15,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "hn-2kixi__healnion-f4l32__v1",
+    "source_class_id": 4,
+    "source_class": "legextension",
+    "candidate_center_id": 14,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "hn-2kixi__healnion-f4l32__v1",
+    "source_class_id": 5,
+    "source_class": "powerlegpress",
+    "candidate_center_id": 21,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "hn-2kixi__healnion-f4l32__v1",
+    "source_class_id": 6,
+    "source_class": "shoulderpress",
+    "candidate_center_id": 8,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "hn-2kixi__healnion-f4l32__v1",
+    "source_class_id": 7,
+    "source_class": "tbarrow",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "hydraws__exercise-identifier__v2",
+    "source_class_id": 0,
+    "source_class": "Bench-Press",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "hydraws__exercise-identifier__v2",
+    "source_class_id": 1,
+    "source_class": "Deadlift",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "hydraws__exercise-identifier__v2",
+    "source_class_id": 2,
+    "source_class": "Hack",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "hydraws__exercise-identifier__v2",
+    "source_class_id": 3,
+    "source_class": "High-Row",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "hydraws__exercise-identifier__v2",
+    "source_class_id": 4,
+    "source_class": "Leg-45",
+    "candidate_center_id": 21,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "hydraws__exercise-identifier__v2",
+    "source_class_id": 5,
+    "source_class": "Leg-90",
+    "candidate_center_id": 16,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "hydraws__exercise-identifier__v2",
+    "source_class_id": 6,
+    "source_class": "Low-Row",
+    "candidate_center_id": 9,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "hydraws__exercise-identifier__v2",
+    "source_class_id": 7,
+    "source_class": "Machine-Row",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "hydraws__exercise-identifier__v2",
+    "source_class_id": 8,
+    "source_class": "Roman-Chair",
+    "candidate_center_id": 25,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "hydraws__exercise-identifier__v2",
+    "source_class_id": 9,
+    "source_class": "Shoulder-Press",
+    "candidate_center_id": 8,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "hydraws__exercise-identifier__v2",
+    "source_class_id": 10,
+    "source_class": "Squat",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 0,
+    "source_class": "Barbell rod holder_vertical",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 1,
+    "source_class": "COMMERCIAL FLEX MOTION TRAINER",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 2,
+    "source_class": "Chin Up Dipping machine",
+    "candidate_center_id": 20,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 3,
+    "source_class": "Indoor Rower",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 4,
+    "source_class": "Multi press",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 5,
+    "source_class": "Recumbent Bike",
+    "candidate_center_id": 2,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 6,
+    "source_class": "Squat Stand",
+    "candidate_center_id": 22,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 7,
+    "source_class": "adjustable weight bench",
+    "candidate_center_id": 26,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 8,
+    "source_class": "bananabag",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 9,
+    "source_class": "barbell",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 10,
+    "source_class": "battle-rope",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 11,
+    "source_class": "bench-press",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 12,
+    "source_class": "box_stair",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 13,
+    "source_class": "club_ball",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 14,
+    "source_class": "delt_machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 15,
+    "source_class": "dumb-bell",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 16,
+    "source_class": "dumbell-rack",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 17,
+    "source_class": "eliptical-cycle",
+    "candidate_center_id": 4,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 18,
+    "source_class": "gym_ball",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 19,
+    "source_class": "gym_mat",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 20,
+    "source_class": "helix_trainer",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 21,
+    "source_class": "kettle-ball",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 22,
+    "source_class": "lat pull down machine",
+    "candidate_center_id": 7,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 23,
+    "source_class": "leg-press",
+    "candidate_center_id": 16,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 24,
+    "source_class": "medicine-ball",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 25,
+    "source_class": "push up",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 26,
+    "source_class": "seated _leg_curl_extension",
+    "candidate_center_id": 15,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 27,
+    "source_class": "seated ab crunch",
+    "candidate_center_id": 11,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 28,
+    "source_class": "skipping with rope",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 29,
+    "source_class": "smith machine",
+    "candidate_center_id": 18,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 30,
+    "source_class": "spin bike",
+    "candidate_center_id": 3,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "shazils-workspace__gym-0vnct-2p6bi__v1",
+    "source_class_id": 31,
+    "source_class": "treadmill",
+    "candidate_center_id": 1,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 0,
+    "source_class": "Functional Trainer",
+    "candidate_center_id": 17,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 1,
+    "source_class": "GHD Machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 2,
+    "source_class": "Iso-Lateral High Row",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 3,
+    "source_class": "Iso-Lateral Low Row",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 4,
+    "source_class": "Person",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 5,
+    "source_class": "Punching Bag",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 6,
+    "source_class": "ab_bench",
+    "candidate_center_id": 23,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 7,
+    "source_class": "ab_crunch",
+    "candidate_center_id": 11,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 8,
+    "source_class": "ab_roller",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 9,
+    "source_class": "adjustable_bench",
+    "candidate_center_id": 26,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 10,
+    "source_class": "aerobic_stepper",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 11,
+    "source_class": "arm_machine",
+    "candidate_center_id": 10,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 12,
+    "source_class": "assisted_chin_dip",
+    "candidate_center_id": 12,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 13,
+    "source_class": "back_extension",
+    "candidate_center_id": 25,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 14,
+    "source_class": "barbell",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 15,
+    "source_class": "cable_crossover",
+    "candidate_center_id": 17,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 16,
+    "source_class": "chest_fly",
+    "candidate_center_id": 6,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 17,
+    "source_class": "chest_press",
+    "candidate_center_id": 5,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 18,
+    "source_class": "chin_dip",
+    "candidate_center_id": 20,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 19,
+    "source_class": "dumbbell",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 20,
+    "source_class": "elliptical",
+    "candidate_center_id": 4,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 21,
+    "source_class": "flat_bench_press",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 22,
+    "source_class": "hack_squat",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 23,
+    "source_class": "hip_add_abduct",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 24,
+    "source_class": "kettlebell",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 25,
+    "source_class": "lat_pulldown",
+    "candidate_center_id": 7,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 26,
+    "source_class": "lateral_raise",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 27,
+    "source_class": "leg_curl",
+    "candidate_center_id": 15,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 28,
+    "source_class": "leg_extension",
+    "candidate_center_id": 14,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 29,
+    "source_class": "leg_press",
+    "candidate_center_id": 16,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 30,
+    "source_class": "pullover",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 31,
+    "source_class": "rowing_machine",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 32,
+    "source_class": "seated_dip",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 33,
+    "source_class": "seated_row",
+    "candidate_center_id": 9,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 34,
+    "source_class": "shoulder_press",
+    "candidate_center_id": 8,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 35,
+    "source_class": "smith_machine",
+    "candidate_center_id": 18,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 36,
+    "source_class": "squat_rack",
+    "candidate_center_id": 22,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 37,
+    "source_class": "stability_ball",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 38,
+    "source_class": "stairmill",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 39,
+    "source_class": "stationary_bike",
+    "candidate_center_id": 3,
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 40,
+    "source_class": "tbar_row",
+    "candidate_center_id": "",
+    "status": "candidate_only_not_semantic_approval"
+  },
+  {
+    "source_id": "xuejun-hong__gym-equipment-iv6k9__v1",
+    "source_class_id": 41,
+    "source_class": "treadmill",
+    "candidate_center_id": 1,
+    "status": "candidate_only_not_semantic_approval"
+  }
+]

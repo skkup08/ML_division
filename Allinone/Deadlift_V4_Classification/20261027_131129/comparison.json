@@ -1,0 +1,102 @@
+[
+  {
+    "mode": "THREE_CLASS",
+    "selected_algorithm": "ExtraTrees",
+    "cv_results": [
+      {
+        "mode": "THREE_CLASS",
+        "algorithm": "ExtraTrees",
+        "cv_balanced_accuracy": 0.7184873949579832,
+        "cv_good_recall": 0.7142857142857143
+      },
+      {
+        "mode": "THREE_CLASS",
+        "algorithm": "RandomForest",
+        "cv_balanced_accuracy": 0.6845627139744787,
+        "cv_good_recall": 0.7301587301587301
+      },
+      {
+        "mode": "THREE_CLASS",
+        "algorithm": "SVM",
+        "cv_balanced_accuracy": 0.6384998443821974,
+        "cv_good_recall": 0.6507936507936508
+      }
+    ],
+    "test_accuracy": 0.6833333333333333,
+    "test_balanced_accuracy": 0.6833333333333332,
+    "test_confusion_matrix": [
+      [
+        5,
+        6,
+        9
+      ],
+      [
+        4,
+        16,
+        0
+      ],
+      [
+        0,
+        0,
+        20
+      ]
+    ],
+    "labels": [
+      "GB",
+      "PB",
+      "LLK"
+    ],
+    "converted_binary_accuracy": 0.6833333333333333,
+    "converted_binary_balanced_accuracy": 0.575,
+    "converted_binary_matrix": [
+      [
+        5,
+        15
+      ],
+      [
+        4,
+        36
+      ]
+    ]
+  },
+  {
+    "mode": "BINARY",
+    "selected_algorithm": "ExtraTrees",
+    "cv_results": [
+      {
+        "mode": "BINARY",
+        "algorithm": "ExtraTrees",
+        "cv_balanced_accuracy": 0.7236227824463118,
+        "cv_good_recall": 0.6825396825396826
+      },
+      {
+        "mode": "BINARY",
+        "algorithm": "RandomForest",
+        "cv_balanced_accuracy": 0.6936274509803921,
+        "cv_good_recall": 0.6666666666666666
+      },
+      {
+        "mode": "BINARY",
+        "algorithm": "SVM",
+        "cv_balanced_accuracy": 0.6404061624649859,
+        "cv_good_recall": 0.6190476190476191
+      }
+    ],
+    "test_accuracy": 0.7,
+    "test_balanced_accuracy": 0.5875,
+    "test_confusion_matrix": [
+      [
+        5,
+        15
+      ],
+      [
+        3,
+        37
+      ]
+    ],
+    "labels": [
+      "GOOD",
+      "BAD"
+    ]
+  }
+]

@@ -1,0 +1,1818 @@
+{
+  "checked_at": "2026-10-26",
+  "notes": [
+    "Counts include augmentations. Filename groups are not independent original photographs.",
+    "SHA256 detects byte-identical files only. Filename collisions are warnings, not definitive duplicates.",
+    "Visual inspection: deterministic 4 samples per class for 8 classes, not a full audit."
+  ],
+  "counts": {
+    "hydraws": {
+      "source": "https://universe.roboflow.com/hydraws/exercise-identifier/dataset/2",
+      "classes": {
+        "Bench-Press": {
+          "images": 49,
+          "boxes": 49,
+          "filename_groups": 49
+        },
+        "Deadlift": {
+          "images": 50,
+          "boxes": 52,
+          "filename_groups": 50
+        },
+        "Hack": {
+          "images": 50,
+          "boxes": 54,
+          "filename_groups": 50
+        },
+        "High-Row": {
+          "images": 50,
+          "boxes": 51,
+          "filename_groups": 50
+        },
+        "Leg-45": {
+          "images": 50,
+          "boxes": 50,
+          "filename_groups": 50
+        },
+        "Leg-90": {
+          "images": 48,
+          "boxes": 48,
+          "filename_groups": 48
+        },
+        "Low-Row": {
+          "images": 50,
+          "boxes": 56,
+          "filename_groups": 50
+        },
+        "Machine-Row": {
+          "images": 50,
+          "boxes": 51,
+          "filename_groups": 50
+        },
+        "Roman-Chair": {
+          "images": 50,
+          "boxes": 50,
+          "filename_groups": 50
+        },
+        "Shoulder-Press": {
+          "images": 100,
+          "boxes": 107,
+          "filename_groups": 94
+        },
+        "Squat": {
+          "images": 50,
+          "boxes": 53,
+          "filename_groups": 50
+        }
+      },
+      "bad_rows": 0,
+      "missing_images": 0,
+      "polygon_rows_converted": 0
+    },
+    "shazils-workspace": {
+      "source": "https://universe.roboflow.com/shazils-workspace/gym-0vnct-2p6bi/dataset/1",
+      "classes": {
+        "Barbell rod holder_vertical": {
+          "images": 99,
+          "boxes": 106,
+          "filename_groups": 58
+        },
+        "COMMERCIAL FLEX MOTION TRAINER": {
+          "images": 196,
+          "boxes": 233,
+          "filename_groups": 115
+        },
+        "Chin Up Dipping machine": {
+          "images": 212,
+          "boxes": 214,
+          "filename_groups": 124
+        },
+        "Indoor Rower": {
+          "images": 201,
+          "boxes": 246,
+          "filename_groups": 118
+        },
+        "Multi press": {
+          "images": 200,
+          "boxes": 200,
+          "filename_groups": 118
+        },
+        "Recumbent Bike": {
+          "images": 464,
+          "boxes": 478,
+          "filename_groups": 272
+        },
+        "Squat Stand": {
+          "images": 214,
+          "boxes": 234,
+          "filename_groups": 126
+        },
+        "adjustable weight bench": {
+          "images": 259,
+          "boxes": 272,
+          "filename_groups": 152
+        },
+        "bananabag": {
+          "images": 156,
+          "boxes": 234,
+          "filename_groups": 92
+        },
+        "barbell": {
+          "images": 208,
+          "boxes": 246,
+          "filename_groups": 122
+        },
+        "battle-rope": {
+          "images": 4,
+          "boxes": 4,
+          "filename_groups": 3
+        },
+        "bench-press": {
+          "images": 475,
+          "boxes": 522,
+          "filename_groups": 279
+        },
+        "box_stair": {
+          "images": 409,
+          "boxes": 485,
+          "filename_groups": 240
+        },
+        "club_ball": {
+          "images": 204,
+          "boxes": 438,
+          "filename_groups": 120
+        },
+        "delt_machine": {
+          "images": 263,
+          "boxes": 270,
+          "filename_groups": 156
+        },
+        "dumb-bell": {
+          "images": 258,
+          "boxes": 480,
+          "filename_groups": 152
+        },
+        "dumbell-rack": {
+          "images": 115,
+          "boxes": 129,
+          "filename_groups": 68
+        },
+        "eliptical-cycle": {
+          "images": 452,
+          "boxes": 570,
+          "filename_groups": 249
+        },
+        "gym_ball": {
+          "images": 84,
+          "boxes": 236,
+          "filename_groups": 50
+        },
+        "gym_mat": {
+          "images": 173,
+          "boxes": 400,
+          "filename_groups": 103
+        },
+        "helix_trainer": {
+          "images": 139,
+          "boxes": 149,
+          "filename_groups": 82
+        },
+        "kettle-ball": {
+          "images": 289,
+          "boxes": 711,
+          "filename_groups": 168
+        },
+        "lat pull down machine": {
+          "images": 355,
+          "boxes": 369,
+          "filename_groups": 209
+        },
+        "leg-press": {
+          "images": 309,
+          "boxes": 319,
+          "filename_groups": 182
+        },
+        "medicine-ball": {
+          "images": 248,
+          "boxes": 663,
+          "filename_groups": 146
+        },
+        "push up": {
+          "images": 258,
+          "boxes": 511,
+          "filename_groups": 152
+        },
+        "seated _leg_curl_extension": {
+          "images": 325,
+          "boxes": 332,
+          "filename_groups": 191
+        },
+        "seated ab crunch": {
+          "images": 153,
+          "boxes": 161,
+          "filename_groups": 90
+        },
+        "skipping with rope": {
+          "images": 266,
+          "boxes": 300,
+          "filename_groups": 157
+        },
+        "smith machine": {
+          "images": 201,
+          "boxes": 214,
+          "filename_groups": 118
+        },
+        "spin bike": {
+          "images": 831,
+          "boxes": 970,
+          "filename_groups": 477
+        },
+        "treadmill": {
+          "images": 242,
+          "boxes": 340,
+          "filename_groups": 141
+        }
+      },
+      "bad_rows": 0,
+      "missing_images": 0,
+      "polygon_rows_converted": 11036
+    },
+    "xuejun-hong": {
+      "source": "https://universe.roboflow.com/xuejun-hong/gym-equipment-iv6k9/dataset/1",
+      "classes": {
+        "Functional Trainer": {
+          "images": 55,
+          "boxes": 55,
+          "filename_groups": 55
+        },
+        "GHD Machine": {
+          "images": 30,
+          "boxes": 30,
+          "filename_groups": 30
+        },
+        "Iso-Lateral High Row": {
+          "images": 4,
+          "boxes": 5,
+          "filename_groups": 4
+        },
+        "Iso-Lateral Low Row": {
+          "images": 6,
+          "boxes": 6,
+          "filename_groups": 6
+        },
+        "Person": {
+          "images": 22,
+          "boxes": 22,
+          "filename_groups": 22
+        },
+        "Punching Bag": {
+          "images": 91,
+          "boxes": 99,
+          "filename_groups": 34
+        },
+        "ab_bench": {
+          "images": 15,
+          "boxes": 15,
+          "filename_groups": 15
+        },
+        "ab_crunch": {
+          "images": 14,
+          "boxes": 14,
+          "filename_groups": 14
+        },
+        "ab_roller": {
+          "images": 134,
+          "boxes": 134,
+          "filename_groups": 60
+        },
+        "adjustable_bench": {
+          "images": 50,
+          "boxes": 51,
+          "filename_groups": 50
+        },
+        "aerobic_stepper": {
+          "images": 101,
+          "boxes": 103,
+          "filename_groups": 43
+        },
+        "arm_machine": {
+          "images": 943,
+          "boxes": 957,
+          "filename_groups": 680
+        },
+        "assisted_chin_dip": {
+          "images": 181,
+          "boxes": 181,
+          "filename_groups": 73
+        },
+        "back_extension": {
+          "images": 202,
+          "boxes": 202,
+          "filename_groups": 110
+        },
+        "barbell": {
+          "images": 244,
+          "boxes": 293,
+          "filename_groups": 117
+        },
+        "cable_crossover": {
+          "images": 185,
+          "boxes": 185,
+          "filename_groups": 101
+        },
+        "chest_fly": {
+          "images": 713,
+          "boxes": 721,
+          "filename_groups": 513
+        },
+        "chest_press": {
+          "images": 808,
+          "boxes": 830,
+          "filename_groups": 568
+        },
+        "chin_dip": {
+          "images": 793,
+          "boxes": 912,
+          "filename_groups": 703
+        },
+        "dumbbell": {
+          "images": 4489,
+          "boxes": 9465,
+          "filename_groups": 4092
+        },
+        "elliptical": {
+          "images": 17,
+          "boxes": 17,
+          "filename_groups": 17
+        },
+        "flat_bench_press": {
+          "images": 12,
+          "boxes": 12,
+          "filename_groups": 12
+        },
+        "hack_squat": {
+          "images": 104,
+          "boxes": 105,
+          "filename_groups": 103
+        },
+        "hip_add_abduct": {
+          "images": 335,
+          "boxes": 335,
+          "filename_groups": 204
+        },
+        "kettlebell": {
+          "images": 145,
+          "boxes": 181,
+          "filename_groups": 87
+        },
+        "lat_pulldown": {
+          "images": 707,
+          "boxes": 738,
+          "filename_groups": 535
+        },
+        "lateral_raise": {
+          "images": 505,
+          "boxes": 512,
+          "filename_groups": 416
+        },
+        "leg_curl": {
+          "images": 1208,
+          "boxes": 1248,
+          "filename_groups": 995
+        },
+        "leg_extension": {
+          "images": 864,
+          "boxes": 890,
+          "filename_groups": 664
+        },
+        "leg_press": {
+          "images": 1338,
+          "boxes": 1362,
+          "filename_groups": 1030
+        },
+        "pullover": {
+          "images": 2,
+          "boxes": 2,
+          "filename_groups": 2
+        },
+        "rowing_machine": {
+          "images": 10,
+          "boxes": 10,
+          "filename_groups": 10
+        },
+        "seated_dip": {
+          "images": 499,
+          "boxes": 509,
+          "filename_groups": 412
+        },
+        "seated_row": {
+          "images": 467,
+          "boxes": 504,
+          "filename_groups": 372
+        },
+        "shoulder_press": {
+          "images": 807,
+          "boxes": 812,
+          "filename_groups": 594
+        },
+        "smith_machine": {
+          "images": 822,
+          "boxes": 841,
+          "filename_groups": 615
+        },
+        "squat_rack": {
+          "images": 33,
+          "boxes": 33,
+          "filename_groups": 30
+        },
+        "stability_ball": {
+          "images": 135,
+          "boxes": 140,
+          "filename_groups": 60
+        },
+        "stairmill": {
+          "images": 24,
+          "boxes": 27,
+          "filename_groups": 24
+        },
+        "stationary_bike": {
+          "images": 109,
+          "boxes": 109,
+          "filename_groups": 43
+        },
+        "tbar_row": {
+          "images": 92,
+          "boxes": 92,
+          "filename_groups": 80
+        },
+        "treadmill": {
+          "images": 205,
+          "boxes": 205,
+          "filename_groups": 143
+        }
+      },
+      "bad_rows": 0,
+      "missing_images": 0,
+      "polygon_rows_converted": 42
+    }
+  },
+  "exact_hash_audit": {
+    "hydraws": {
+      "Bench-Press": {
+        "images": 49,
+        "unique_sha256": 49,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 49,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 35,
+          "valid": 10,
+          "test": 4
+        }
+      },
+      "Deadlift": {
+        "images": 50,
+        "unique_sha256": 50,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 50,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 35,
+          "valid": 10,
+          "test": 5
+        }
+      },
+      "Hack": {
+        "images": 50,
+        "unique_sha256": 50,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 50,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 35,
+          "valid": 10,
+          "test": 5
+        }
+      },
+      "High-Row": {
+        "images": 50,
+        "unique_sha256": 50,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 50,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 35,
+          "valid": 10,
+          "test": 5
+        }
+      },
+      "Leg-45": {
+        "images": 50,
+        "unique_sha256": 50,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 50,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 35,
+          "valid": 10,
+          "test": 5
+        }
+      },
+      "Leg-90": {
+        "images": 48,
+        "unique_sha256": 48,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 48,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 35,
+          "valid": 9,
+          "test": 4
+        }
+      },
+      "Low-Row": {
+        "images": 50,
+        "unique_sha256": 50,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 50,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 35,
+          "valid": 10,
+          "test": 5
+        }
+      },
+      "Machine-Row": {
+        "images": 50,
+        "unique_sha256": 50,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 50,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 35,
+          "valid": 10,
+          "test": 5
+        }
+      },
+      "Roman-Chair": {
+        "images": 50,
+        "unique_sha256": 50,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 50,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 35,
+          "valid": 10,
+          "test": 5
+        }
+      },
+      "Shoulder-Press": {
+        "images": 100,
+        "unique_sha256": 100,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 100,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 70,
+          "valid": 20,
+          "test": 10
+        }
+      },
+      "Squat": {
+        "images": 50,
+        "unique_sha256": 50,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 50,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 35,
+          "valid": 10,
+          "test": 5
+        }
+      }
+    },
+    "shazils-workspace": {
+      "Barbell rod holder_vertical": {
+        "images": 99,
+        "unique_sha256": 97,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 97,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 82,
+          "valid": 11,
+          "test": 6
+        }
+      },
+      "COMMERCIAL FLEX MOTION TRAINER": {
+        "images": 196,
+        "unique_sha256": 194,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 194,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 162,
+          "valid": 23,
+          "test": 11
+        }
+      },
+      "Chin Up Dipping machine": {
+        "images": 212,
+        "unique_sha256": 207,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 207,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 176,
+          "valid": 24,
+          "test": 12
+        }
+      },
+      "Indoor Rower": {
+        "images": 201,
+        "unique_sha256": 194,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 194,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 166,
+          "valid": 24,
+          "test": 11
+        }
+      },
+      "Multi press": {
+        "images": 200,
+        "unique_sha256": 196,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 196,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 164,
+          "valid": 24,
+          "test": 12
+        }
+      },
+      "Recumbent Bike": {
+        "images": 464,
+        "unique_sha256": 453,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 453,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 382,
+          "valid": 56,
+          "test": 26
+        }
+      },
+      "Squat Stand": {
+        "images": 214,
+        "unique_sha256": 209,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 209,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 176,
+          "valid": 25,
+          "test": 13
+        }
+      },
+      "adjustable weight bench": {
+        "images": 259,
+        "unique_sha256": 251,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 251,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 214,
+          "valid": 30,
+          "test": 15
+        }
+      },
+      "bananabag": {
+        "images": 156,
+        "unique_sha256": 154,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 154,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 128,
+          "valid": 19,
+          "test": 9
+        }
+      },
+      "barbell": {
+        "images": 208,
+        "unique_sha256": 204,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 204,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 172,
+          "valid": 24,
+          "test": 12
+        }
+      },
+      "battle-rope": {
+        "images": 4,
+        "unique_sha256": 4,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 4,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 2,
+          "valid": 2
+        }
+      },
+      "bench-press": {
+        "images": 475,
+        "unique_sha256": 466,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 466,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 392,
+          "valid": 55,
+          "test": 28
+        }
+      },
+      "box_stair": {
+        "images": 409,
+        "unique_sha256": 391,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 391,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 338,
+          "valid": 47,
+          "test": 24
+        }
+      },
+      "club_ball": {
+        "images": 204,
+        "unique_sha256": 199,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 199,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 168,
+          "valid": 24,
+          "test": 12
+        }
+      },
+      "delt_machine": {
+        "images": 263,
+        "unique_sha256": 254,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 254,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 214,
+          "valid": 33,
+          "test": 16
+        }
+      },
+      "dumb-bell": {
+        "images": 258,
+        "unique_sha256": 245,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 245,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 212,
+          "valid": 33,
+          "test": 13
+        }
+      },
+      "dumbell-rack": {
+        "images": 115,
+        "unique_sha256": 110,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 110,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 94,
+          "valid": 16,
+          "test": 5
+        }
+      },
+      "eliptical-cycle": {
+        "images": 452,
+        "unique_sha256": 436,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 436,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 374,
+          "valid": 53,
+          "test": 25
+        }
+      },
+      "gym_ball": {
+        "images": 84,
+        "unique_sha256": 81,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 81,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 68,
+          "valid": 10,
+          "test": 6
+        }
+      },
+      "gym_mat": {
+        "images": 173,
+        "unique_sha256": 167,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 167,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 140,
+          "valid": 22,
+          "test": 11
+        }
+      },
+      "helix_trainer": {
+        "images": 139,
+        "unique_sha256": 132,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 132,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 114,
+          "valid": 17,
+          "test": 8
+        }
+      },
+      "kettle-ball": {
+        "images": 289,
+        "unique_sha256": 280,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 280,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 242,
+          "valid": 34,
+          "test": 13
+        }
+      },
+      "lat pull down machine": {
+        "images": 355,
+        "unique_sha256": 348,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 348,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 292,
+          "valid": 42,
+          "test": 21
+        }
+      },
+      "leg-press": {
+        "images": 309,
+        "unique_sha256": 302,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 302,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 254,
+          "valid": 37,
+          "test": 18
+        }
+      },
+      "medicine-ball": {
+        "images": 248,
+        "unique_sha256": 242,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 242,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 204,
+          "valid": 30,
+          "test": 14
+        }
+      },
+      "push up": {
+        "images": 258,
+        "unique_sha256": 246,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 246,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 212,
+          "valid": 31,
+          "test": 15
+        }
+      },
+      "seated _leg_curl_extension": {
+        "images": 325,
+        "unique_sha256": 317,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 317,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 268,
+          "valid": 38,
+          "test": 19
+        }
+      },
+      "seated ab crunch": {
+        "images": 153,
+        "unique_sha256": 150,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 150,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 126,
+          "valid": 18,
+          "test": 9
+        }
+      },
+      "skipping with rope": {
+        "images": 266,
+        "unique_sha256": 257,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 257,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 218,
+          "valid": 33,
+          "test": 15
+        }
+      },
+      "smith machine": {
+        "images": 201,
+        "unique_sha256": 195,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 195,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 166,
+          "valid": 23,
+          "test": 12
+        }
+      },
+      "spin bike": {
+        "images": 831,
+        "unique_sha256": 806,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 806,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 690,
+          "valid": 91,
+          "test": 50
+        }
+      },
+      "treadmill": {
+        "images": 242,
+        "unique_sha256": 231,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 231,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 202,
+          "valid": 26,
+          "test": 14
+        }
+      }
+    },
+    "xuejun-hong": {
+      "Functional Trainer": {
+        "images": 55,
+        "unique_sha256": 55,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 55,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 39,
+          "valid": 11,
+          "test": 5
+        }
+      },
+      "GHD Machine": {
+        "images": 30,
+        "unique_sha256": 30,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 30,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 21,
+          "valid": 6,
+          "test": 3
+        }
+      },
+      "Iso-Lateral High Row": {
+        "images": 4,
+        "unique_sha256": 4,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 4,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 4
+        }
+      },
+      "Iso-Lateral Low Row": {
+        "images": 6,
+        "unique_sha256": 6,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 6,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 6
+        }
+      },
+      "Person": {
+        "images": 22,
+        "unique_sha256": 22,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 22,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 13,
+          "valid": 6,
+          "test": 3
+        }
+      },
+      "Punching Bag": {
+        "images": 91,
+        "unique_sha256": 91,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 91,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 66,
+          "valid": 19,
+          "test": 6
+        }
+      },
+      "ab_bench": {
+        "images": 15,
+        "unique_sha256": 15,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 15,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 11,
+          "valid": 3,
+          "test": 1
+        }
+      },
+      "ab_crunch": {
+        "images": 14,
+        "unique_sha256": 14,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 14,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 10,
+          "valid": 3,
+          "test": 1
+        }
+      },
+      "ab_roller": {
+        "images": 134,
+        "unique_sha256": 134,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 134,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 94,
+          "valid": 19,
+          "test": 21
+        }
+      },
+      "adjustable_bench": {
+        "images": 50,
+        "unique_sha256": 50,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 50,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 35,
+          "valid": 10,
+          "test": 5
+        }
+      },
+      "aerobic_stepper": {
+        "images": 101,
+        "unique_sha256": 101,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 101,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 69,
+          "valid": 18,
+          "test": 14
+        }
+      },
+      "arm_machine": {
+        "images": 943,
+        "unique_sha256": 943,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 943,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 726,
+          "valid": 178,
+          "test": 39
+        }
+      },
+      "assisted_chin_dip": {
+        "images": 181,
+        "unique_sha256": 181,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 181,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 131,
+          "valid": 35,
+          "test": 15
+        }
+      },
+      "back_extension": {
+        "images": 202,
+        "unique_sha256": 202,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 202,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 141,
+          "valid": 39,
+          "test": 22
+        }
+      },
+      "barbell": {
+        "images": 244,
+        "unique_sha256": 244,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 244,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 163,
+          "valid": 57,
+          "test": 24
+        }
+      },
+      "cable_crossover": {
+        "images": 185,
+        "unique_sha256": 185,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 185,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 124,
+          "valid": 44,
+          "test": 17
+        }
+      },
+      "chest_fly": {
+        "images": 713,
+        "unique_sha256": 713,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 713,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 564,
+          "valid": 137,
+          "test": 12
+        }
+      },
+      "chest_press": {
+        "images": 808,
+        "unique_sha256": 708,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 708,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 638,
+          "valid": 143,
+          "test": 27
+        }
+      },
+      "chin_dip": {
+        "images": 793,
+        "unique_sha256": 793,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 793,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 637,
+          "valid": 156
+        }
+      },
+      "dumbbell": {
+        "images": 4489,
+        "unique_sha256": 4489,
+        "sha256_seen_in_old7": 26,
+        "sha256_not_seen_in_old7": 4463,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 3141,
+          "valid": 904,
+          "test": 444
+        }
+      },
+      "elliptical": {
+        "images": 17,
+        "unique_sha256": 17,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 17,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 12,
+          "valid": 3,
+          "test": 2
+        }
+      },
+      "flat_bench_press": {
+        "images": 12,
+        "unique_sha256": 12,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 12,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 12
+        }
+      },
+      "hack_squat": {
+        "images": 104,
+        "unique_sha256": 104,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 104,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 92,
+          "valid": 12
+        }
+      },
+      "hip_add_abduct": {
+        "images": 335,
+        "unique_sha256": 335,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 335,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 237,
+          "valid": 64,
+          "test": 34
+        }
+      },
+      "kettlebell": {
+        "images": 145,
+        "unique_sha256": 145,
+        "sha256_seen_in_old7": 4,
+        "sha256_not_seen_in_old7": 141,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 99,
+          "valid": 33,
+          "test": 13
+        }
+      },
+      "lat_pulldown": {
+        "images": 707,
+        "unique_sha256": 707,
+        "sha256_seen_in_old7": 1,
+        "sha256_not_seen_in_old7": 706,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 550,
+          "valid": 142,
+          "test": 15
+        }
+      },
+      "lateral_raise": {
+        "images": 505,
+        "unique_sha256": 505,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 505,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 397,
+          "valid": 108
+        }
+      },
+      "leg_curl": {
+        "images": 1208,
+        "unique_sha256": 1208,
+        "sha256_seen_in_old7": 1,
+        "sha256_not_seen_in_old7": 1207,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 883,
+          "valid": 288,
+          "test": 37
+        }
+      },
+      "leg_extension": {
+        "images": 864,
+        "unique_sha256": 864,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 864,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 652,
+          "valid": 171,
+          "test": 41
+        }
+      },
+      "leg_press": {
+        "images": 1338,
+        "unique_sha256": 1338,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 1338,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 1022,
+          "valid": 268,
+          "test": 48
+        }
+      },
+      "pullover": {
+        "images": 2,
+        "unique_sha256": 2,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 2,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 2
+        }
+      },
+      "rowing_machine": {
+        "images": 10,
+        "unique_sha256": 10,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 10,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 10
+        }
+      },
+      "seated_dip": {
+        "images": 499,
+        "unique_sha256": 499,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 499,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 406,
+          "valid": 93
+        }
+      },
+      "seated_row": {
+        "images": 467,
+        "unique_sha256": 467,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 467,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 371,
+          "valid": 96
+        }
+      },
+      "shoulder_press": {
+        "images": 807,
+        "unique_sha256": 807,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 807,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 617,
+          "valid": 169,
+          "test": 21
+        }
+      },
+      "smith_machine": {
+        "images": 822,
+        "unique_sha256": 822,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 822,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 703,
+          "valid": 97,
+          "test": 22
+        }
+      },
+      "squat_rack": {
+        "images": 33,
+        "unique_sha256": 33,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 33,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 30,
+          "valid": 3
+        }
+      },
+      "stability_ball": {
+        "images": 135,
+        "unique_sha256": 135,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 135,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 103,
+          "valid": 21,
+          "test": 11
+        }
+      },
+      "stairmill": {
+        "images": 24,
+        "unique_sha256": 24,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 24,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 17,
+          "valid": 5,
+          "test": 2
+        }
+      },
+      "stationary_bike": {
+        "images": 109,
+        "unique_sha256": 109,
+        "sha256_seen_in_old7": 4,
+        "sha256_not_seen_in_old7": 105,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 76,
+          "valid": 23,
+          "test": 10
+        }
+      },
+      "tbar_row": {
+        "images": 92,
+        "unique_sha256": 92,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 92,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 69,
+          "valid": 14,
+          "test": 9
+        }
+      },
+      "treadmill": {
+        "images": 205,
+        "unique_sha256": 205,
+        "sha256_seen_in_old7": 0,
+        "sha256_not_seen_in_old7": 205,
+        "hashes_across_splits": 0,
+        "splits": {
+          "train": 151,
+          "valid": 44,
+          "test": 10
+        }
+      }
+    }
+  },
+  "filename_audit": {
+    "hydraws": {
+      "Bench-Press": {
+        "groups": 49,
+        "groups_with_name_in_old7": 6
+      },
+      "Deadlift": {
+        "groups": 50,
+        "groups_with_name_in_old7": 0
+      },
+      "Hack": {
+        "groups": 50,
+        "groups_with_name_in_old7": 1
+      },
+      "High-Row": {
+        "groups": 50,
+        "groups_with_name_in_old7": 0
+      },
+      "Leg-45": {
+        "groups": 50,
+        "groups_with_name_in_old7": 1
+      },
+      "Leg-90": {
+        "groups": 48,
+        "groups_with_name_in_old7": 2
+      },
+      "Low-Row": {
+        "groups": 50,
+        "groups_with_name_in_old7": 2
+      },
+      "Machine-Row": {
+        "groups": 50,
+        "groups_with_name_in_old7": 2
+      },
+      "Roman-Chair": {
+        "groups": 50,
+        "groups_with_name_in_old7": 0
+      },
+      "Shoulder-Press": {
+        "groups": 94,
+        "groups_with_name_in_old7": 3
+      },
+      "Squat": {
+        "groups": 50,
+        "groups_with_name_in_old7": 50
+      }
+    },
+    "shazils-workspace": {
+      "Barbell rod holder_vertical": {
+        "groups": 58,
+        "groups_with_name_in_old7": 11
+      },
+      "COMMERCIAL FLEX MOTION TRAINER": {
+        "groups": 115,
+        "groups_with_name_in_old7": 14
+      },
+      "Chin Up Dipping machine": {
+        "groups": 124,
+        "groups_with_name_in_old7": 5
+      },
+      "Indoor Rower": {
+        "groups": 118,
+        "groups_with_name_in_old7": 14
+      },
+      "Multi press": {
+        "groups": 118,
+        "groups_with_name_in_old7": 7
+      },
+      "Recumbent Bike": {
+        "groups": 272,
+        "groups_with_name_in_old7": 14
+      },
+      "Squat Stand": {
+        "groups": 126,
+        "groups_with_name_in_old7": 9
+      },
+      "adjustable weight bench": {
+        "groups": 152,
+        "groups_with_name_in_old7": 14
+      },
+      "bananabag": {
+        "groups": 92,
+        "groups_with_name_in_old7": 0
+      },
+      "barbell": {
+        "groups": 122,
+        "groups_with_name_in_old7": 0
+      },
+      "battle-rope": {
+        "groups": 3,
+        "groups_with_name_in_old7": 0
+      },
+      "bench-press": {
+        "groups": 279,
+        "groups_with_name_in_old7": 0
+      },
+      "box_stair": {
+        "groups": 240,
+        "groups_with_name_in_old7": 0
+      },
+      "club_ball": {
+        "groups": 120,
+        "groups_with_name_in_old7": 0
+      },
+      "delt_machine": {
+        "groups": 156,
+        "groups_with_name_in_old7": 0
+      },
+      "dumb-bell": {
+        "groups": 152,
+        "groups_with_name_in_old7": 0
+      },
+      "dumbell-rack": {
+        "groups": 68,
+        "groups_with_name_in_old7": 0
+      },
+      "eliptical-cycle": {
+        "groups": 249,
+        "groups_with_name_in_old7": 23
+      },
+      "gym_ball": {
+        "groups": 50,
+        "groups_with_name_in_old7": 0
+      },
+      "gym_mat": {
+        "groups": 103,
+        "groups_with_name_in_old7": 0
+      },
+      "helix_trainer": {
+        "groups": 82,
+        "groups_with_name_in_old7": 8
+      },
+      "kettle-ball": {
+        "groups": 168,
+        "groups_with_name_in_old7": 0
+      },
+      "lat pull down machine": {
+        "groups": 209,
+        "groups_with_name_in_old7": 0
+      },
+      "leg-press": {
+        "groups": 182,
+        "groups_with_name_in_old7": 0
+      },
+      "medicine-ball": {
+        "groups": 146,
+        "groups_with_name_in_old7": 1
+      },
+      "push up": {
+        "groups": 152,
+        "groups_with_name_in_old7": 23
+      },
+      "seated _leg_curl_extension": {
+        "groups": 191,
+        "groups_with_name_in_old7": 0
+      },
+      "seated ab crunch": {
+        "groups": 90,
+        "groups_with_name_in_old7": 4
+      },
+      "skipping with rope": {
+        "groups": 157,
+        "groups_with_name_in_old7": 15
+      },
+      "smith machine": {
+        "groups": 118,
+        "groups_with_name_in_old7": 3
+      },
+      "spin bike": {
+        "groups": 477,
+        "groups_with_name_in_old7": 18
+      },
+      "treadmill": {
+        "groups": 141,
+        "groups_with_name_in_old7": 8
+      }
+    },
+    "xuejun-hong": {
+      "Functional Trainer": {
+        "groups": 55,
+        "groups_with_name_in_old7": 51
+      },
+      "GHD Machine": {
+        "groups": 30,
+        "groups_with_name_in_old7": 30
+      },
+      "Iso-Lateral High Row": {
+        "groups": 4,
+        "groups_with_name_in_old7": 0
+      },
+      "Iso-Lateral Low Row": {
+        "groups": 6,
+        "groups_with_name_in_old7": 0
+      },
+      "Person": {
+        "groups": 22,
+        "groups_with_name_in_old7": 4
+      },
+      "Punching Bag": {
+        "groups": 34,
+        "groups_with_name_in_old7": 34
+      },
+      "ab_bench": {
+        "groups": 15,
+        "groups_with_name_in_old7": 15
+      },
+      "ab_crunch": {
+        "groups": 14,
+        "groups_with_name_in_old7": 14
+      },
+      "ab_roller": {
+        "groups": 60,
+        "groups_with_name_in_old7": 59
+      },
+      "adjustable_bench": {
+        "groups": 50,
+        "groups_with_name_in_old7": 50
+      },
+      "aerobic_stepper": {
+        "groups": 43,
+        "groups_with_name_in_old7": 43
+      },
+      "arm_machine": {
+        "groups": 680,
+        "groups_with_name_in_old7": 501
+      },
+      "assisted_chin_dip": {
+        "groups": 73,
+        "groups_with_name_in_old7": 0
+      },
+      "back_extension": {
+        "groups": 110,
+        "groups_with_name_in_old7": 35
+      },
+      "barbell": {
+        "groups": 117,
+        "groups_with_name_in_old7": 82
+      },
+      "cable_crossover": {
+        "groups": 101,
+        "groups_with_name_in_old7": 0
+      },
+      "chest_fly": {
+        "groups": 513,
+        "groups_with_name_in_old7": 373
+      },
+      "chest_press": {
+        "groups": 568,
+        "groups_with_name_in_old7": 431
+      },
+      "chin_dip": {
+        "groups": 703,
+        "groups_with_name_in_old7": 401
+      },
+      "dumbbell": {
+        "groups": 4092,
+        "groups_with_name_in_old7": 237
+      },
+      "elliptical": {
+        "groups": 17,
+        "groups_with_name_in_old7": 17
+      },
+      "flat_bench_press": {
+        "groups": 12,
+        "groups_with_name_in_old7": 0
+      },
+      "hack_squat": {
+        "groups": 103,
+        "groups_with_name_in_old7": 100
+      },
+      "hip_add_abduct": {
+        "groups": 204,
+        "groups_with_name_in_old7": 97
+      },
+      "kettlebell": {
+        "groups": 87,
+        "groups_with_name_in_old7": 87
+      },
+      "lat_pulldown": {
+        "groups": 535,
+        "groups_with_name_in_old7": 393
+      },
+      "lateral_raise": {
+        "groups": 416,
+        "groups_with_name_in_old7": 366
+      },
+      "leg_curl": {
+        "groups": 995,
+        "groups_with_name_in_old7": 718
+      },
+      "leg_extension": {
+        "groups": 664,
+        "groups_with_name_in_old7": 354
+      },
+      "leg_press": {
+        "groups": 1030,
+        "groups_with_name_in_old7": 460
+      },
+      "pullover": {
+        "groups": 2,
+        "groups_with_name_in_old7": 0
+      },
+      "rowing_machine": {
+        "groups": 10,
+        "groups_with_name_in_old7": 0
+      },
+      "seated_dip": {
+        "groups": 412,
+        "groups_with_name_in_old7": 250
+      },
+      "seated_row": {
+        "groups": 372,
+        "groups_with_name_in_old7": 231
+      },
+      "shoulder_press": {
+        "groups": 594,
+        "groups_with_name_in_old7": 465
+      },
+      "smith_machine": {
+        "groups": 615,
+        "groups_with_name_in_old7": 294
+      },
+      "squat_rack": {
+        "groups": 30,
+        "groups_with_name_in_old7": 17
+      },
+      "stability_ball": {
+        "groups": 60,
+        "groups_with_name_in_old7": 58
+      },
+      "stairmill": {
+        "groups": 24,
+        "groups_with_name_in_old7": 24
+      },
+      "stationary_bike": {
+        "groups": 43,
+        "groups_with_name_in_old7": 43
+      },
+      "tbar_row": {
+        "groups": 80,
+        "groups_with_name_in_old7": 69
+      },
+      "treadmill": {
+        "groups": 143,
+        "groups_with_name_in_old7": 135
+      }
+    }
+  }
+}

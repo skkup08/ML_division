@@ -1,0 +1,5 @@
+treadmill
+seated_chest_press
+shoulder_press
+seated_leg_press
+smith_machine

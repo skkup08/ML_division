@@ -1,0 +1,14 @@
+{
+  "source": "https://universe.roboflow.com/fitness-training/fitness_merged/dataset/4",
+  "license_as_supplied": "CC BY 4.0",
+  "zip_sha256": "1770e1778ed68f176fcb96082117d7004c909c3cf59e82b141151a9881d4a06e",
+  "original_frames": 3803,
+  "source_filename_groups": 61,
+  "original_split_leaks": 61,
+  "subjects": "unknown",
+  "quality_labels": "unverified source labels inherited on frames",
+  "original_creator_rights": "not independently verified",
+  "allinone": "No data or model reused; 49 metadata files had no source/name match; renamed content overlap unknown",
+  "scope": "15 dataset movement categories, NOT all 26 equipment",
+  "evaluation": "small video-identifier holdout, not subject-independent, not real-world accuracy"
+}

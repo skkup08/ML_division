@@ -1,0 +1,65 @@
+SKKU1398 equipment v1 — 구축 상태
+
+원본 보존 및 자동 정제 완료. 시각 검수 대기 후보와 승인된 학습셋은 별개입니다.
+원본 이미지: 55251
+검수 대표 이미지: 12691
+
+구성
+raw_sources: 원본 이미지·라벨·README 압축파일. 수정하지 않음.
+manifests: 이미지별 출처·원본 파일·좌표·중복 그룹·검수 상태.
+review: 검수 대기 대표 이미지·YOLO 제안 라벨·24장씩 검수 시트.
+yolo: 명시적으로 검수 승인된 사진만 별도 배포.
+reports: 실제 처리 수량 및 품질 검사 결과.
+
+자동 검사 기준
+이미지 디코딩, 유한 좌표, 정수 클래스 ID, 박스 모서리 경계, 양수 폭/높이. 오류가 있는 사진은 일부 박스만 버리고 승인하지 않고 사진 전체를 보류. EXIF 회전 사진은 라벨 동반 변환 검수 전 보류. 원본 크기 유지.
+
+중복 처리
+SHA256 동일 파일, 같은 출처의 증강 파일명 그룹, 원본/좌우 반전 pHash 거리 4 이내 후보를 연결 그룹으로 묶음. 그룹·대응 클래스 조합별 대표 사진 선정. 지각 해시 연결은 동일 사진 확정이나 독립 촬영 수의 보장이 아님. 큰 그룹은 과도한 병합 가능성도 있음. 임베딩 유사도/모든 회전·크롭/연속 촬영의 완전한 검사는 미완료.
+
+분할
+그룹 ID와 seed 1398의 결정적 해시로 80:10:10 확률 할당. 실제 장수는 승인 결과에 따라 다름. 평가 사진은 증강하지 않음. 기존 5종 모델의 holdout을 재사용한 성능으로 비교하지 않음.
+
+출처
+https://universe.roboflow.com/fitfuel/all-gym-equipment/dataset/2 | CC BY 4.0 | 200055250 bytes
+https://universe.roboflow.com/rizzlabzz/gymbro/dataset/2 | CC BY 4.0 | 1310718803 bytes
+https://universe.roboflow.com/trainers-workspace/gym-equipment-t6kck-fkuoc/dataset/1 | CC BY 4.0 | 443873027 bytes
+https://universe.roboflow.com/gymze/gymze/dataset/1 | CC BY 4.0 | 42705001 bytes
+https://universe.roboflow.com/gym-qknei/gym-shkud/dataset/5 | CC BY 4.0 | 9537420 bytes
+https://universe.roboflow.com/dans-new-workspace/home-gym-equipment-detection/dataset/6 | MIT | 47508385 bytes
+https://universe.roboflow.com/hn-2kixi/healnion-f4l32/dataset/1 | CC BY 4.0 | 35558111 bytes
+https://universe.roboflow.com/hydraws/exercise-identifier/dataset/2 | CC BY 4.0 | 97570101 bytes
+https://universe.roboflow.com/shazils-workspace/gym-0vnct-2p6bi/dataset/1 | CC BY 4.0 | 751781360 bytes
+https://universe.roboflow.com/xuejun-hong/gym-equipment-iv6k9/dataset/1 | CC BY 4.0 | 604873138 bytes
+
+기구별 후보 / 기본 검사 통과 / 대표 검수 대상
+01 트레드밀: 1549 / 1549 / 373
+02 리컴번트 바이크: 475 / 475 / 247
+03 업라이트 바이크: 1236 / 1236 / 491
+04 일립티컬: 618 / 618 / 307
+05 체스트 프레스: 2480 / 2479 / 899
+06 펙토럴 플라이: 1907 / 1883 / 726
+07 하이플라이(랫풀다운 대응): 2730 / 2722 / 982
+08 숄더 프레스: 2243 / 2236 / 816
+09 롱풀: 1479 / 1460 / 488
+10 암컬: 2400 / 2397 / 846
+11 앱도미널: 521 / 521 / 160
+12 친업: 590 / 590 / 299
+13 로터리 토르소: 524 / 524 / 129
+14 레그 익스텐션: 1909 / 1895 / 667
+15 레그 컬: 2877 / 2874 / 1237
+16 시티드 레그프레스: 3384 / 3381 / 1405
+17 케이블 크로스오버: 1008 / 1007 / 304
+18 스미스 머신: 2174 / 2174 / 830
+19 메가맥스: 0 / 0 / 0
+20 치닝·디핑·힙플렉서: 1628 / 1626 / 790
+21 파워 레그프레스: 151 / 151 / 143
+22 파워랙: 976 / 976 / 316
+23 싯업: 50 / 50 / 15
+24 더블 트위스트: 0 / 0 / 0
+25 하이퍼 익스텐션: 670 / 670 / 227
+26 슈퍼 벤치프레스 인클라인/디클라인: 978 / 978 / 327
+
+0장인 메가맥스와 더블 트위스트는 학습 클래스에 자동 편입하지 않음. 공개 출처 라이선스 표시는 기록했으나 개별 사진 촬영자의 원출처는 미확인. 현장 성능 검증 및 모델 학습은 수행하지 않음.
+
+최신 시각 검수 및 학습셋 수량: reports/reviewed_export_summary.json 및 class_counts_with_review.csv 참조. 승인본: yolo/approved_yolo_v1.zip. 미검수 자료는 학습 승인본에 포함되지 않습니다.

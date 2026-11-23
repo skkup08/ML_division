@@ -1,0 +1,35 @@
+{
+  "state": "completed",
+  "run": "/content/drive/MyDrive/SKKU_1398_Fitness_ML/03_training_runs/equipment26_min100_retrain_20261101T020110Z",
+  "dataset_manifest_sha256": "3faea06d469f471e85cd2dd976a55049cafcb9db5e4d96809e42a923cb754706",
+  "classes": 26,
+  "epochs_requested": 100,
+  "epochs_completed": 70,
+  "train_images": 3128,
+  "val_images": 204,
+  "test_images": 205,
+  "model_retrained": true,
+  "resumed_from": "/content/drive/MyDrive/SKKU_1398_Fitness_ML/03_training_runs/equipment26_min100_round1_20261031T182137Z",
+  "updated_utc": "2026-11-01T02:59:17.203805+00:00",
+  "gpu": "Tesla T4",
+  "latest_validation_metrics": {
+    "metrics/precision(B)": 0.95082,
+    "metrics/recall(B)": 0.86029,
+    "metrics/mAP50(B)": 0.91847,
+    "metrics/mAP50-95(B)": 0.81423,
+    "val/box_loss": 0.52692,
+    "val/cls_loss": 0.47864,
+    "val/dfl_loss": 1.19078
+  },
+  "best_checkpoint": "/content/drive/MyDrive/SKKU_1398_Fitness_ML/03_training_runs/equipment26_min100_retrain_20261101T020110Z/fit/weights/best.pt",
+  "last_checkpoint": "/content/drive/MyDrive/SKKU_1398_Fitness_ML/03_training_runs/equipment26_min100_retrain_20261101T020110Z/fit/weights/last.pt",
+  "training_completed": true,
+  "best_checkpoint_sha256": "7af2ceb79edad610f40369bdac110f2aeb80fae40c2921ec95a70eb081bc585b",
+  "evaluation_completed": true,
+  "test_metrics": {
+    "precision": 0.9349894984835411,
+    "recall": 0.8694050135524006,
+    "mAP50": 0.9185394306022593,
+    "mAP50_95": 0.7966901716857715
+  }
+}

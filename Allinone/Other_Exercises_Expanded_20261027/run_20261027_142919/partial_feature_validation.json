@@ -1,0 +1,67 @@
+{
+  "status": "partial_data_audit_passed",
+  "utc": "2026-10-27T14:55:21.617067+00:00",
+  "run": "run_20261027_142919",
+  "full_video_training_complete": false,
+  "checks": [
+    {
+      "exercise": "plank",
+      "train_rows": 28518,
+      "test_rows": 710,
+      "feature_dimensions": 64,
+      "finite_values": true,
+      "train_test_coordinate_hash_overlap": 0,
+      "train_test_exact_feature_overlap": 0,
+      "publisher_frame_reference_accuracy": 0.9943661971830986,
+      "publisher_frame_reference_macro_f1": 0.9943408129268109,
+      "subject_independent_validation": false,
+      "train_labels": {
+        "correct": 9903,
+        "plank_hips_high": 9070,
+        "plank_hips_low": 9545
+      },
+      "files": {
+        "train": {
+          "bytes": 4855061,
+          "sha256": "f445e5dca718f4a3bb61479fd17555f0d85c72a376a04a70875069200ffaee21"
+        },
+        "test": {
+          "bytes": 117787,
+          "sha256": "0cd74d4fa753691ee9a4c01a011923daffe45c72658300b5d5067b2a059c3c63"
+        }
+      }
+    },
+    {
+      "exercise": "curl",
+      "train_rows": 15372,
+      "test_rows": 604,
+      "feature_dimensions": 32,
+      "finite_values": true,
+      "train_test_coordinate_hash_overlap": 0,
+      "train_test_exact_feature_overlap": 0,
+      "publisher_frame_reference_accuracy": 0.9983443708609272,
+      "publisher_frame_reference_macro_f1": 0.9983184433908422,
+      "subject_independent_validation": false,
+      "train_labels": {
+        "correct": 8238,
+        "curl_torso_lean_back": 7134
+      },
+      "files": {
+        "train": {
+          "bytes": 1296695,
+          "sha256": "185b5961a6c9dec48f05734f6f375eb14c393c8255d2b58a3091a42cdcdc7685"
+        },
+        "test": {
+          "bytes": 46910,
+          "sha256": "c3b24bbe626f1f5c395f107146814eab77bba2f5c6624a165d098a1bb7b0c734"
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Exact duplicate checks do not rule out near-duplicate adjacent frames or the same person in both partitions.",
+    "No person/video identifiers in source correction CSVs; publisher frame reference scores are not person-independent GOOD/BAD accuracy.",
+    "Plank covers correct/hips high/hips low; curl covers correct/torso lean back only.",
+    "Audit does not interrupt or modify the continuing video training; final raw-data cleanup is not yet verified."
+  ]
+}

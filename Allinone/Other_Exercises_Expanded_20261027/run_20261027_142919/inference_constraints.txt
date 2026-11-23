@@ -1,0 +1,11 @@
+# Use Python 3.11. These are compatibility constraints, not a full environment lock.
+# sklearn 1.9.1 is the writer version observed in the saved model.
+scikit-learn==1.9.1
+mediapipe==0.10.21
+opencv-contrib-python==4.11.0.86
+numpy<2
+pandas<3
+joblib
+requests
+tqdm
+matplotlib

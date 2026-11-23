@@ -1,0 +1,95 @@
+{
+  "input_shape": [
+    1,
+    3,
+    640,
+    640
+  ],
+  "output_shape": [
+    1,
+    9,
+    8400
+  ],
+  "raw_box_mean_abs_error_vs_pytorch_pixels": 3.183778972015716e-05,
+  "raw_class_max_abs_error_vs_pytorch": 5.841255187988281e-06,
+  "normalized_coordinates": true,
+  "test_photos": [
+    {
+      "status": "ok",
+      "image_width": 640,
+      "image_height": 640,
+      "detections": [
+        {
+          "class_id": 3,
+          "class_name": "seated_leg_press",
+          "confidence": 0.7726393938064575,
+          "bbox_xyxy_pixels": [
+            6.00946044921875,
+            0.0,
+            640.0,
+            640.0
+          ]
+        }
+      ],
+      "inference_cpu_ms": 91.83555399999932,
+      "source": "00258fe74093eb_b73f62ccd7bb9fff.jpg"
+    },
+    {
+      "status": "ok",
+      "image_width": 640,
+      "image_height": 640,
+      "detections": [
+        {
+          "class_id": 4,
+          "class_name": "smith_machine",
+          "confidence": 0.8485933542251587,
+          "bbox_xyxy_pixels": [
+            60.684417724609375,
+            95.00186157226562,
+            639.1318359375,
+            537.3570556640625
+          ]
+        }
+      ],
+      "inference_cpu_ms": 95.30786799996349,
+      "source": "00a9fef5f48001_7febd46f1e0aebbd.jpg"
+    },
+    {
+      "status": "ok",
+      "image_width": 640,
+      "image_height": 640,
+      "detections": [
+        {
+          "class_id": 1,
+          "class_name": "seated_chest_press",
+          "confidence": 0.8630877733230591,
+          "bbox_xyxy_pixels": [
+            90.8668212890625,
+            2.9564208984375,
+            568.263427734375,
+            630.0463256835938
+          ]
+        }
+      ],
+      "inference_cpu_ms": 107.2788369999671,
+      "source": "0119fc3ecca9af_c1596e46c990ddf2.jpg"
+    }
+  ],
+  "python_photo_function_test": {
+    "image_width": 640,
+    "image_height": 640,
+    "detections": [
+      {
+        "class_id": 3,
+        "class_name": "seated_leg_press",
+        "confidence": 0.7726399898529053,
+        "bbox_xyxy_pixels": [
+          6.009521484375,
+          0.0,
+          640.0,
+          640.0
+        ]
+      }
+    ]
+  }
+}

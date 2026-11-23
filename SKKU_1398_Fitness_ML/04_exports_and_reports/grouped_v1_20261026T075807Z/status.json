@@ -1,0 +1,11 @@
+{
+  "smoke": "passed",
+  "baseline": "completed_30_epochs_T4",
+  "public_test": "completed",
+  "litert_export": "passed",
+  "python_inference": "passed",
+  "http_api": "passed_200",
+  "center_validation": false,
+  "flutter_phone_test": false,
+  "run": "grouped_v1_20261026T075807Z"
+}

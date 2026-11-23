@@ -1,0 +1,29 @@
+{
+  "source": "QEVD official participant labels",
+  "source_url": "https://softwarecenter.qualcomm.com/api/download/software/dataset/AIDataset/Qualcomm_Exercise_Video_Dataset/QEVD-FIT-300k-Additional-Labels/fine_grained_labels_with_worker_ids.json",
+  "utc": "2026-10-28T02:20:01.681810+00:00",
+  "raw_data_saved_to_drive": false,
+  "status": "metadata_accessible",
+  "not_used_for_training_yet": true,
+  "http_status": 200,
+  "content_type": "application/json",
+  "resolved_url": "https://apigwx-aws.qualcomm.com:443/qsc/public/v1/api/download/software/dataset/AIDataset/Qualcomm_Exercise_Video_Dataset/QEVD-FIT-300k-Additional-Labels/fine_grained_labels_with_worker_ids.json",
+  "json_type": "list",
+  "keys": null,
+  "rows": 298089,
+  "example_rows": [
+    {
+      "video_path": "./00000000.mp4",
+      "worker_id": 1750
+    },
+    {
+      "video_path": "./00000001.mp4",
+      "worker_id": 1750
+    },
+    {
+      "video_path": "./00000002.mp4",
+      "worker_id": 1750
+    }
+  ],
+  "label_counts": {}
+}

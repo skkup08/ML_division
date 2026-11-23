@@ -1,0 +1,10 @@
+{
+  "hardware": "Tesla T4",
+  "runs": 20,
+  "batch": 1,
+  "imgsz": 640,
+  "end_to_end_ms_mean": 14.390664600045966,
+  "end_to_end_ms_median": 14.207318000103442,
+  "includes": "local image decode, preprocessing, inference and NMS; warm cache",
+  "mobile_speed_measured": false
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "source": "preflight",
+    "status": "passed",
+    "detail": "Agg backend + 영상 디코딩 + MediaPipe 실제 추론 확인"
+  },
+  {
+    "source": "exercise_correction_plank",
+    "status": "trained",
+    "detail": "오류 분류 학습 28518행. 사람 독립 검증 아님.",
+    "classes": [
+      "correct",
+      "plank_hips_high",
+      "plank_hips_low"
+    ]
+  },
+  {
+    "source": "exercise_correction_bicep_curl",
+    "status": "trained",
+    "detail": "오류 분류 학습 15372행. 사람 독립 검증 아님.",
+    "classes": [
+      "correct",
+      "curl_torso_lean_back"
+    ]
+  },
+  {
+    "source": "mendeley",
+    "status": "processed",
+    "detail": "사용 영상 829/1042, 라벨 해석 실패 0",
+    "usable_videos": 829,
+    "discovered_videos": 1042
+  },
+  {
+    "source": "ucf101",
+    "status": "disabled",
+    "detail": "기본 실행에서 제외: 이전 HTTPS 인증서 오류. Mendeley + 오류 CSV만 사용. SSL 검증을 끄지 않습니다."
+  },
+  {
+    "source": "kaggle_existing_action_only",
+    "status": "processed",
+    "detail": "440 usable. Quality unknown. File groups only; subject-independent generalization unverified. Existing originals preserved."
+  },
+  {
+    "source": "zenodo_squat_image_reference",
+    "status": "processed",
+    "detail": "3745 usable static images. Not video/subject independent; cannot treat as temporal training."
+  },
+  {
+    "source": "Fitness-AQA",
+    "status": "not_auto_included",
+    "detail": "자동 포함 안 됨: 저자 승인/비상업 조건. 승인받은 영상과 라벨을 EXTRA_MANIFEST로 입력."
+  },
+  {
+    "source": "Kinetics",
+    "status": "not_auto_included",
+    "detail": "자동 전체 수집 안 됨: 대형 행동 데이터이며 Good/Bad 라벨 없음. 권한 있는 영상 직접 URL을 manifest로 입력."
+  },
+  {
+    "source": "InfiniteRep",
+    "status": "not_auto_included",
+    "detail": "자동 포함 안 됨: 원본 배포 접근과 라벨을 확인해야 함. 확보한 파일을 manifest로 입력. 합성 영상을 자동 Good로 처리하지 않음."
+  },
+  {
+    "source": "Zenodo Squat 17558630",
+    "status": "not_auto_included",
+    "detail": "자동 포함 안 됨: 정지 이미지 데이터입니다. 이 영상 학습 입력기에 이미지들을 영상인 것처럼 넣지 않습니다."
+  },
+  {
+    "source": "Kaggle Workout",
+    "status": "not_auto_included",
+    "detail": "자동 포함 안 됨: 게시한 글에 특정 데이터셋 ID가 없음. 확보한 자료를 manifest로 입력."
+  },
+  {
+    "source": "PosePilot / fitness-trainer-pose-estimation",
+    "status": "not_auto_included",
+    "detail": "저장소 코드를 데이터로 간주하거나 기존 모델을 재학습했다고 표시하지 않음."
+  }
+]

@@ -1,0 +1,166 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "file": "landscape.jpg",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "output_size": [
+        1920,
+        1080
+      ],
+      "detections": 1,
+      "status": "PASS"
+    },
+    {
+      "file": "portrait.jpg",
+      "source_size": [
+        1080,
+        1920
+      ],
+      "output_size": [
+        1080,
+        1920
+      ],
+      "detections": 1,
+      "status": "PASS"
+    },
+    {
+      "file": "square.png",
+      "source_size": [
+        640,
+        640
+      ],
+      "output_size": [
+        640,
+        640
+      ],
+      "detections": 1,
+      "status": "PASS"
+    },
+    {
+      "file": "small.png",
+      "source_size": [
+        96,
+        64
+      ],
+      "output_size": [
+        96,
+        64
+      ],
+      "detections": 1,
+      "status": "PASS"
+    },
+    {
+      "file": "panorama.webp",
+      "source_size": [
+        3000,
+        400
+      ],
+      "output_size": [
+        3000,
+        400
+      ],
+      "detections": 0,
+      "status": "PASS"
+    },
+    {
+      "file": "gray.png",
+      "source_size": [
+        720,
+        1280
+      ],
+      "output_size": [
+        720,
+        1280
+      ],
+      "detections": 1,
+      "status": "PASS"
+    },
+    {
+      "file": "alpha.png",
+      "source_size": [
+        900,
+        600
+      ],
+      "output_size": [
+        900,
+        600
+      ],
+      "detections": 1,
+      "status": "PASS"
+    },
+    {
+      "file": "rotated.jpg",
+      "source_size": [
+        1200,
+        800
+      ],
+      "output_size": [
+        800,
+        1200
+      ],
+      "detections": 1,
+      "status": "PASS"
+    }
+  ],
+  "observed_input_tensor_shapes": [
+    [
+      1,
+      3,
+      640,
+      640
+    ],
+    [
+      1,
+      3,
+      640,
+      640
+    ],
+    [
+      1,
+      3,
+      640,
+      640
+    ],
+    [
+      1,
+      3,
+      640,
+      640
+    ],
+    [
+      1,
+      3,
+      640,
+      640
+    ],
+    [
+      1,
+      3,
+      640,
+      640
+    ],
+    [
+      1,
+      3,
+      640,
+      640
+    ],
+    [
+      1,
+      3,
+      640,
+      640
+    ],
+    [
+      1,
+      3,
+      640,
+      640
+    ]
+  ],
+  "scope": "Input preprocessing and output coordinates; not a new accuracy evaluation."
+}

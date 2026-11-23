@@ -1,0 +1,401 @@
+[
+  {
+    "exercise_id": "treadmill_walk",
+    "equipment": "트레드밀",
+    "exercise": "걷기",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "treadmill_run",
+    "equipment": "트레드밀",
+    "exercise": "달리기",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "machine_chest_press",
+    "equipment": "시티드 체스트 프레스",
+    "exercise": "머신 체스트 프레스",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "one_arm_chest_press",
+    "equipment": "시티드 체스트 프레스",
+    "exercise": "원암 체스트 프레스",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "pec_deck_fly",
+    "equipment": "펙토럴 플라이",
+    "exercise": "펙덱 플라이",
+    "missing_media": [
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "reverse_pec_deck",
+    "equipment": "펙토럴 플라이",
+    "exercise": "리버스 펙덱 플라이",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "overhand_lat_pulldown",
+    "equipment": "랫풀다운",
+    "exercise": "오버핸드 그립",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "neutral_lat_pulldown",
+    "equipment": "랫풀다운",
+    "exercise": "뉴트럴 그립",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "machine_shoulder_press",
+    "equipment": "숄더 프레스",
+    "exercise": "머신 숄더 프레스",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "one_arm_shoulder_press",
+    "equipment": "숄더 프레스",
+    "exercise": "원암 숄더 프레스",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "seated_cable_row",
+    "equipment": "롱 풀",
+    "exercise": "시티드 케이블 로우",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "one_arm_cable_row",
+    "equipment": "롱 풀",
+    "exercise": "원암 케이블 로우",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "machine_biceps_curl",
+    "equipment": "암 컬",
+    "exercise": "머신 바이셉 컬",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "one_arm_curl",
+    "equipment": "암 컬",
+    "exercise": "원암 컬",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "pull_up",
+    "equipment": "친업",
+    "exercise": "풀업",
+    "missing_media": [
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "assisted_pull_up",
+    "equipment": "친업",
+    "exercise": "어시스트 풀업",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "leg_extension",
+    "equipment": "레그 익스텐션",
+    "exercise": "머신 레그 익스텐션",
+    "missing_media": [
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "single_leg_extension",
+    "equipment": "레그 익스텐션",
+    "exercise": "싱글 레그 익스텐션",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "seated_leg_curl",
+    "equipment": "레그 컬",
+    "exercise": "시티드 레그 컬",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "single_leg_curl",
+    "equipment": "레그 컬",
+    "exercise": "싱글 레그 컬",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "seated_leg_press",
+    "equipment": "시티드 레그 프레스",
+    "exercise": "시티드 레그 프레스",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "single_seated_leg_press",
+    "equipment": "시티드 레그 프레스",
+    "exercise": "싱글 레그 프레스",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "cable_chest_fly",
+    "equipment": "케이블 크로스오버",
+    "exercise": "케이블 체스트 플라이",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "tricep_pushdown",
+    "equipment": "케이블 크로스오버",
+    "exercise": "트라이셉 푸시다운",
+    "missing_media": [
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "cable_lateral_raise",
+    "equipment": "케이블 크로스오버",
+    "exercise": "케이블 레터럴 레이즈",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "smith_squat",
+    "equipment": "스미스 머신",
+    "exercise": "스미스 스쿼트",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "smith_shoulder_press",
+    "equipment": "스미스 머신",
+    "exercise": "스미스 숄더 프레스",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "smith_bench_press",
+    "equipment": "스미스 머신",
+    "exercise": "스미스 벤치프레스",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "dips",
+    "equipment": "치닝 디핑 힙 플렉서",
+    "exercise": "딥스",
+    "missing_media": [
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "hanging_leg_raise",
+    "equipment": "치닝 디핑 힙 플렉서",
+    "exercise": "행잉 레그 레이즈",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "power_leg_press",
+    "equipment": "파워 레그 프레스",
+    "exercise": "파워 레그 프레스",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "single_power_leg_press",
+    "equipment": "파워 레그 프레스",
+    "exercise": "싱글 레그 프레스",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "barbell_back_squat",
+    "equipment": "파워 랙",
+    "exercise": "바벨 백 스쿼트",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "deadlift",
+    "equipment": "파워 랙",
+    "exercise": "바벨 데드리프트",
+    "missing_media": [
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "barbell_lunge",
+    "equipment": "파워 랙",
+    "exercise": "바벨 런지",
+    "missing_media": [
+      "VIDEO",
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "bench_press",
+    "equipment": "벤치프레스",
+    "exercise": "벤치프레스",
+    "missing_media": [
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  },
+  {
+    "exercise_id": "incline_bench_press",
+    "equipment": "벤치프레스",
+    "exercise": "인클라인 벤치프레스",
+    "missing_media": [
+      "IMAGE",
+      "GIF"
+    ],
+    "note": "그립/기구/원암/싱글레그 변형을 일반 모델로 대체하지 않음. 자료 수집 후 training_input에 넣고 재실행."
+  }
+]

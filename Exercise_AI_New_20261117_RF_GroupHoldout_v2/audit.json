@@ -1,0 +1,247 @@
+{
+  "Normal_SquatsWithBarbell": {
+    "images": 261,
+    "frames": 105,
+    "groups": [
+      "Normal_SquatsWithBarbell_1",
+      "Normal_SquatsWithBarbell_2"
+    ]
+  },
+  "Abnormal_RowingMachineExercise": {
+    "images": 258,
+    "frames": 128,
+    "groups": [
+      "Abnormal_RowingMachineExercise_1",
+      "Abnormal_RowingMachineExercise_2"
+    ]
+  },
+  "Normal_JumpingJacks": {
+    "images": 306,
+    "frames": 124,
+    "groups": [
+      "Normal_Jumping_Jacks_1",
+      "Normal_Jumping_Jacks_2"
+    ]
+  },
+  "Normal_PushUps": {
+    "images": 319,
+    "frames": 125,
+    "groups": [
+      "Normal_PushUps_1",
+      "Normal_PushUps_2"
+    ]
+  },
+  "Normal_MountainClimbers": {
+    "images": 317,
+    "frames": 127,
+    "groups": [
+      "Normal_MountainClimbers_1",
+      "Normal_MountainClimbers_2"
+    ]
+  },
+  "Abnormal_Deadlifts": {
+    "images": 274,
+    "frames": 130,
+    "groups": [
+      "Abnormal_Deadlifts_1",
+      "Abnormal_Deadlifts_2"
+    ]
+  },
+  "Normal_LatPulldown": {
+    "images": 157,
+    "frames": 63,
+    "groups": [
+      "Normal_LatPulldown_1",
+      "Normal_LatPulldown_2"
+    ]
+  },
+  "Normal_Deadlifts": {
+    "images": 319,
+    "frames": 129,
+    "groups": [
+      "Normal_Deadlifts_1",
+      "Normal_Deadlifts_2"
+    ]
+  },
+  "Normal_RowingMachineExercise": {
+    "images": 289,
+    "frames": 125,
+    "groups": [
+      "Normal_RowingMachineExercise_1",
+      "Normal_RowingMachineExercise_2"
+    ]
+  },
+  "Abnormal_BenchPress": {
+    "images": 262,
+    "frames": 124,
+    "groups": [
+      "Abnormal_BenchPress_1",
+      "Abnormal_BenchPress_2"
+    ]
+  },
+  "Abnormal_PullUps": {
+    "images": 457,
+    "frames": 191,
+    "groups": [
+      "Abnormal_PullUps_1",
+      "Abnormal_PullUps_2",
+      "Abnormal_PullUps_3"
+    ]
+  },
+  "Abnormal_LatPulldown": {
+    "images": 431,
+    "frames": 189,
+    "groups": [
+      "Abnormal_LatPulldown_1",
+      "Abnormal_LatPulldown_2",
+      "Normal_LatPulldown_1"
+    ]
+  },
+  "Normal_BrenchPress": {
+    "images": 314,
+    "frames": 126,
+    "groups": [
+      "Normal_BenchPress_1",
+      "Normal_BenchPress_2"
+    ]
+  },
+  "Normal_Plunk": {
+    "images": 313,
+    "frames": 125,
+    "groups": [
+      "Normal_Plunk_1",
+      "Normal_Plunk_2"
+    ]
+  },
+  "Abnormal_SquatsWithBarbell": {
+    "images": 257,
+    "frames": 123,
+    "groups": [
+      "Abormal_SquatsWithBarbell_1",
+      "Abormal_SquatsWithBarbell_2"
+    ]
+  },
+  "Abnormal_MountainClimbers": {
+    "images": 279,
+    "frames": 125,
+    "groups": [
+      "Abormal_MountainClimbers_1",
+      "Abormal_MountainClimbers_2"
+    ]
+  },
+  "Normal_Dips": {
+    "images": 336,
+    "frames": 134,
+    "groups": [
+      "Normal_Dips_1",
+      "Normal_Dips_2"
+    ]
+  },
+  "Normal_DumbbellBicepCurls": {
+    "images": 316,
+    "frames": 126,
+    "groups": [
+      "Normal_DumbbellBicepCurls_1",
+      "Normal_DumbbellBicepCurls_2"
+    ]
+  },
+  "Abnormal_PushUps": {
+    "images": 301,
+    "frames": 127,
+    "groups": [
+      "Abnormal_PushUps_1",
+      "Abnormal_PushUps_2"
+    ]
+  },
+  "Abnormal_LegPress": {
+    "images": 448,
+    "frames": 198,
+    "groups": [
+      "Abnormal_LegPress_1",
+      "Abnormal_LegPress_2",
+      "Normal_LatPulldown_2",
+      "Normal_LegPress_1",
+      "Normal_MountainClimbers_1"
+    ]
+  },
+  "Abnormal_OverheadPress": {
+    "images": 289,
+    "frames": 129,
+    "groups": [
+      "Abnormal_OverheadPress_1",
+      "Abnormal_OverheadPress_2"
+    ]
+  },
+  "Abnormal_Plunk": {
+    "images": 281,
+    "frames": 125,
+    "groups": [
+      "Abnormal_Plunk_1",
+      "Abnormal_Plunk_2"
+    ]
+  },
+  "Normal_Lunges": {
+    "images": 302,
+    "frames": 132,
+    "groups": [
+      "Normal_Lunges_1",
+      "Normal_Lunges_2"
+    ]
+  },
+  "Normal_OverheadPress": {
+    "images": 298,
+    "frames": 124,
+    "groups": [
+      "Normal_OverheadPress_1",
+      "Normal_OverheadPress_2"
+    ]
+  },
+  "Abnormal_DumbbellBicepCurls": {
+    "images": 271,
+    "frames": 125,
+    "groups": [
+      "Abnormal_DumbbellBicepCurls_1",
+      "Abnormal_DumbbellBicepCurls_2"
+    ]
+  },
+  "Abnormal_JumpingJacks": {
+    "images": 201,
+    "frames": 125,
+    "groups": [
+      "Abnormal_Jumping_Jacks_1",
+      "Abnormal_Jumping_Jacks_2"
+    ]
+  },
+  "Abnormal_Lunges": {
+    "images": 306,
+    "frames": 136,
+    "groups": [
+      "Abnormal_Lunges_1",
+      "Abnormal_Lunges_2"
+    ]
+  },
+  "Normal_PullUps": {
+    "images": 336,
+    "frames": 132,
+    "groups": [
+      "Normal_PullUps_1",
+      "Normal_PullUps_2",
+      "Normal_PullUps_3"
+    ]
+  },
+  "Normal_LegPress": {
+    "images": 162,
+    "frames": 66,
+    "groups": [
+      "Normal_LegPress_1",
+      "Normal_LegPress_2"
+    ]
+  },
+  "Abnormal_Dips": {
+    "images": 159,
+    "frames": 65,
+    "groups": [
+      "Abnormal_Dips_1"
+    ]
+  }
+}

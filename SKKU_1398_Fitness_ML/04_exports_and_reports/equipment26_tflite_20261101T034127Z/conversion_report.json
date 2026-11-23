@@ -1,0 +1,9 @@
+{
+  "model": "equipment26_fp32.tflite",
+  "bytes": 10710907,
+  "sha256": "846a39e3bc9807a8a77143a95b02d9a7ecb4c3d87cff295e56af8dda582bf6ed",
+  "ultralytics": "8.4.194",
+  "torch": "2.11.0+cu130",
+  "source_sha256": "7af2ceb79edad610f40369bdac110f2aeb80fae40c2921ec95a70eb081bc585b",
+  "nms_included": false
+}

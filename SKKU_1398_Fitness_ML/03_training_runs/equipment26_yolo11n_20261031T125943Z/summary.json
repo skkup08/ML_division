@@ -1,0 +1,168 @@
+{
+  "images": 3369,
+  "labels": 3369,
+  "boxes": 3412,
+  "classes": 26,
+  "splits": {
+    "train": 2969,
+    "test": 200,
+    "val": 200
+  },
+  "class_image_counts": {
+    "treadmill": {
+      "train": 141,
+      "val": 18,
+      "test": 18
+    },
+    "recumbent_bike": {
+      "train": 102,
+      "val": 8,
+      "test": 9
+    },
+    "upright_bike": {
+      "train": 110,
+      "val": 1,
+      "test": 1
+    },
+    "elliptical": {
+      "train": 108,
+      "val": 5,
+      "test": 4
+    },
+    "seated_chest_press": {
+      "train": 102,
+      "val": 12,
+      "test": 12
+    },
+    "pectoral_fly": {
+      "train": 116,
+      "val": 6,
+      "test": 6
+    },
+    "lat_pulldown": {
+      "train": 108,
+      "val": 10,
+      "test": 10
+    },
+    "shoulder_press": {
+      "train": 104,
+      "val": 13,
+      "test": 13
+    },
+    "seated_cable_row": {
+      "train": 102,
+      "val": 4,
+      "test": 4
+    },
+    "arm_curl": {
+      "train": 102,
+      "val": 10,
+      "test": 10
+    },
+    "abdominal_machine": {
+      "train": 111,
+      "val": 1,
+      "test": 2
+    },
+    "assisted_chin_dip": {
+      "train": 131,
+      "val": 2,
+      "test": 2
+    },
+    "rotary_torso": {
+      "train": 110,
+      "val": 3,
+      "test": 3
+    },
+    "leg_extension": {
+      "train": 104,
+      "val": 11,
+      "test": 10
+    },
+    "leg_curl": {
+      "train": 183,
+      "val": 23,
+      "test": 23
+    },
+    "seated_leg_press": {
+      "train": 107,
+      "val": 5,
+      "test": 5
+    },
+    "cable_crossover": {
+      "train": 143,
+      "val": 4,
+      "test": 4
+    },
+    "smith_machine": {
+      "train": 108,
+      "val": 8,
+      "test": 8
+    },
+    "chin_dip_hipflexor": {
+      "train": 249,
+      "val": 31,
+      "test": 31
+    },
+    "power_leg_press": {
+      "train": 136,
+      "val": 3,
+      "test": 3
+    },
+    "power_rack": {
+      "train": 127,
+      "val": 7,
+      "test": 7
+    },
+    "situp_bench": {
+      "train": 115,
+      "val": 1,
+      "test": 1
+    },
+    "hyperextension": {
+      "train": 107,
+      "val": 4,
+      "test": 3
+    },
+    "incline_decline_bench_press": {
+      "train": 102,
+      "val": 7,
+      "test": 7
+    },
+    "megamax": {
+      "train": 2,
+      "val": 0,
+      "test": 0
+    },
+    "double_twist": {
+      "train": 39,
+      "val": 3,
+      "test": 4
+    }
+  },
+  "target_train_images_per_class": 100,
+  "all_classes_meet_target": false,
+  "shortfalls": {
+    "megamax": 98,
+    "double_twist": 61
+  },
+  "new_class_unique_images": {
+    "megamax": 2,
+    "double_twist": 46
+  },
+  "validation_missing_classes": [
+    "megamax"
+  ],
+  "test_missing_classes": [
+    "megamax"
+  ],
+  "exact_center_identity_verified": false,
+  "status": "experimental_26class_training_dataset",
+  "base_dataset_sha256": "587491a3e2d6ea98310f9c7de489a12b3a139c94de74b765499cd77e92a24f41",
+  "limitations": [
+    "MegaMax has only 2 training images and no held-out evaluation.",
+    "Double twist has 39 training, 3 validation and 4 test images; evaluation is small.",
+    "Existing class IDs 0..23 preserved; appended MegaMax=24, double_twist=25.",
+    "Actual center type and overlapping Smith/power-rack definitions need field validation."
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "dataset": "MyDeadlift",
+  "training_videos": 131,
+  "test_videos": 60,
+  "pose_failures": 0,
+  "selected_algorithm": "RandomForest",
+  "cross_validation": [
+    {
+      "model": "RandomForest",
+      "cv_score": 0.6686363636363637,
+      "fold_scores": [
+        0.5,
+        0.8181818181818182,
+        0.625,
+        0.9,
+        0.5
+      ]
+    },
+    {
+      "model": "ExtraTrees",
+      "cv_score": 0.6684848484848485,
+      "fold_scores": [
+        0.5208333333333333,
+        0.9090909090909091,
+        0.6875,
+        0.725,
+        0.5
+      ]
+    },
+    {
+      "model": "SVM_RBF_C1",
+      "cv_score": 0.614090909090909,
+      "fold_scores": [
+        0.4625,
+        0.5454545454545454,
+        0.5625,
+        0.8500000000000001,
+        0.65
+      ]
+    },
+    {
+      "model": "SVM_RBF_C10",
+      "cv_score": 0.6057575757575757,
+      "fold_scores": [
+        0.5333333333333333,
+        0.5454545454545454,
+        0.5,
+        0.8500000000000001,
+        0.6
+      ]
+    },
+    {
+      "model": "SVM_RBF_C0.1",
+      "cv_score": 0.49257575757575756,
+      "fold_scores": [
+        0.3958333333333333,
+        0.45454545454545453,
+        0.5625,
+        0.5,
+        0.55
+      ]
+    }
+  ],
+  "old_accuracy": 0.6166666666666667,
+  "new_accuracy": 0.6,
+  "old_balanced_accuracy": 0.5625,
+  "new_balanced_accuracy": 0.5625,
+  "confusion_matrix": [
+    [
+      9,
+      11
+    ],
+    [
+      13,
+      27
+    ]
+  ],
+  "model_path": "/content/drive/MyDrive/Allinone/Deadlift_Improved_Models/20261027_122855/deadlift_v2.joblib",
+  "note": "Test subjects S04 and S07 have already been examined in an earlier experiment. Results are not fully independent validation."
+}

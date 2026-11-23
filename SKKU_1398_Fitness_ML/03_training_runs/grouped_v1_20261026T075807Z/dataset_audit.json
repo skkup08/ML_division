@@ -1,0 +1,218 @@
+{
+  "classes": [
+    "treadmill",
+    "seated_chest_press",
+    "shoulder_press",
+    "seated_leg_press",
+    "smith_machine"
+  ],
+  "source_root": "/content/skku1398_workspace/grouped_source_v1",
+  "source_classes": [
+    "treadmill",
+    "seated_chest_press",
+    "shoulder_press",
+    "seated_leg_press",
+    "smith_machine"
+  ],
+  "id_mapping": {
+    "0": {
+      "source_name": "treadmill",
+      "target": "treadmill"
+    },
+    "1": {
+      "source_name": "seated_chest_press",
+      "target": "seated_chest_press"
+    },
+    "2": {
+      "source_name": "shoulder_press",
+      "target": "shoulder_press"
+    },
+    "3": {
+      "source_name": "seated_leg_press",
+      "target": "seated_leg_press"
+    },
+    "4": {
+      "source_name": "smith_machine",
+      "target": "smith_machine"
+    }
+  },
+  "match_caveats": {
+    "treadmill": "generic treadmill vs center treadmill: appearance unverified",
+    "seated_chest_press": "generic chest press may include other press configurations",
+    "shoulder_press": "generic shoulder press vs exact installed machine unverified",
+    "seated_leg_press": "generic leg press may include horizontal/plate-loaded variants",
+    "smith_machine": "generic smith machine vs exact installed unit unverified"
+  },
+  "source_split_counts": {
+    "test": {
+      "available_positive_images": 190,
+      "available_negative_images": 0,
+      "selected_before_exact_dedup": 190,
+      "kept_images": 156
+    },
+    "val": {
+      "available_positive_images": 177,
+      "available_negative_images": 0,
+      "selected_before_exact_dedup": 177,
+      "kept_images": 149
+    },
+    "train": {
+      "available_positive_images": 890,
+      "available_negative_images": 0,
+      "selected_before_exact_dedup": 890,
+      "kept_images": 757
+    }
+  },
+  "box_counts_by_split": {
+    "train": {
+      "smith_machine": 164,
+      "seated_chest_press": 181,
+      "treadmill": 144,
+      "shoulder_press": 143,
+      "seated_leg_press": 148
+    },
+    "val": {
+      "treadmill": 26,
+      "shoulder_press": 32,
+      "smith_machine": 31,
+      "seated_chest_press": 32,
+      "seated_leg_press": 31
+    },
+    "test": {
+      "seated_chest_press": 42,
+      "treadmill": 29,
+      "smith_machine": 29,
+      "shoulder_press": 29,
+      "seated_leg_press": 31
+    }
+  },
+  "label_issue_count": 195,
+  "near_duplicate_warning_count": 4,
+  "limitations": [
+    "Public 29-class labels are proxy labels, not installed-equipment confirmation",
+    "Near duplicates must be manually reviewed; hash check is not proof of independence",
+    "Evaluate separately on real SKKU 1398 photos from independent capture sessions"
+  ],
+  "source_url": "https://universe.roboflow.com/fitfuel/all-gym-equipment/dataset/2",
+  "license": "CC BY 4.0",
+  "attribution": "FitFuel, All Gym Equipment v2, Roboflow Universe, 2024; filtered/remapped and regrouped in this project",
+  "official_source_counts": {
+    "train": {
+      "Preacher Curl": 234,
+      "Lateral Raises Machine": 201,
+      "Leg Raise Tower": 299,
+      "Smith Machine": 253,
+      "Shoulder Press Machine": 221,
+      "Seated Dip Machine": 244,
+      "Chest Press Machine": 299,
+      "Leg Curl Machine": 246,
+      "Kettlebells": 163,
+      "Dumbbell": 720,
+      "Hack Squat Machine": 246,
+      "Ab Roller": 31,
+      "Bench": 95,
+      "Stability Ball": 44,
+      "Lat Pull Down Machine": 260,
+      "Ab Crunch Machine": 27,
+      "GHD Machine": 58,
+      "Functional Trainer": 102,
+      "Back Extension Machine": 65,
+      "Abdominal Bench": 31,
+      "Stepmill": 57,
+      "Barbell": 121,
+      "Elliptical": 34,
+      "Leg Press Machine": 237,
+      "Chest Fly Machine": 228,
+      "Seated Row Machine": 225,
+      "Leg Extension Machine": 230,
+      "Treadmill": 214
+    },
+    "valid": {
+      "Smith Machine": 8,
+      "Leg Raise Tower": 20,
+      "Preacher Curl": 17,
+      "Lateral Raises Machine": 27,
+      "Shoulder Press Machine": 23,
+      "Seated Dip Machine": 18,
+      "Dumbbell": 80,
+      "Kettlebells": 10,
+      "Hack Squat Machine": 13,
+      "Ab Roller": 3,
+      "Lat Pull Down Machine": 23,
+      "Back Extension Machine": 7,
+      "Ab Crunch Machine": 3,
+      "Elliptical": 3,
+      "Stepmill": 5,
+      "Stability Ball": 3,
+      "Abdominal Bench": 3,
+      "Barbell": 10,
+      "Functional Trainer": 10,
+      "Chest Fly Machine": 15,
+      "Leg Press Machine": 16,
+      "Leg Curl Machine": 13,
+      "Seated Row Machine": 24,
+      "Bench": 10,
+      "GHD Machine": 6,
+      "Leg Extension Machine": 19,
+      "Treadmill": 21
+    },
+    "test": {
+      "Dumbbell": 18,
+      "Ab Roller": 2,
+      "Ab Crunch Machine": 1,
+      "Functional Trainer": 5,
+      "Stepmill": 2,
+      "Elliptical": 2,
+      "Stability Ball": 3,
+      "Abdominal Bench": 1,
+      "Bench": 5,
+      "Back Extension Machine": 3,
+      "Barbell": 7,
+      "GHD Machine": 3,
+      "Kettlebells": 15
+    }
+  },
+  "source_class_count": 28,
+  "grouping": "Same pre-.rf filename or rotation-invariant pHash distance <=4; seed 42; frozen before training",
+  "groups": 430,
+  "largest_group_images": 9,
+  "split_selection_label_only_objective": 0.002732418122518126,
+  "negative_images_excluded": 3412,
+  "invalid_images_excluded": 48,
+  "scope": "New grouped holdout of public proxy dataset, NOT official test benchmark, NOT center validation",
+  "independence_limit": "Conservative grouping is not proof of different photographers, source websites or gym sessions. Augmented source images remain; residual similarity can exist.",
+  "additional_near_duplicate_groups_quarantined": 3,
+  "additional_images_quarantined": 6,
+  "final_counts": {
+    "train": {
+      "images": 753,
+      "boxes": {
+        "treadmill": 144,
+        "seated_chest_press": 181,
+        "shoulder_press": 142,
+        "seated_leg_press": 148,
+        "smith_machine": 161
+      }
+    },
+    "val": {
+      "images": 147,
+      "boxes": {
+        "treadmill": 26,
+        "seated_chest_press": 32,
+        "shoulder_press": 32,
+        "seated_leg_press": 31,
+        "smith_machine": 29
+      }
+    },
+    "test": {
+      "images": 156,
+      "boxes": {
+        "treadmill": 29,
+        "seated_chest_press": 42,
+        "shoulder_press": 29,
+        "seated_leg_press": 31,
+        "smith_machine": 29
+      }
+    }
+  }
+}

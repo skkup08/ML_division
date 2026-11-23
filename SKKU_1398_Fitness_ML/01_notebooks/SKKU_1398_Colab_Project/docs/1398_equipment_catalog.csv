@@ -1,0 +1,27 @@
+﻿category,original_name,mvp_class,status,note
+유산소,TREDMILL,treadmill,현장 사진 확인 필요,공개데이터 일반 클래스 매핑; 모델·설치 여부 미확인
+유산소,RECUMBENT BIKE,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+유산소,UPRIGHT BIKE,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+유산소,ELLIPTICAL,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+웨이트,SEATED CHEST PRESS,seated_chest_press,현장 사진 확인 필요,공개데이터 일반 클래스 매핑; 모델·설치 여부 미확인
+웨이트,PECTROL FLY,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+웨이트,HIGH FLY,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+웨이트,SHOULDER PRESS,shoulder_press,현장 사진 확인 필요,공개데이터 일반 클래스 매핑; 모델·설치 여부 미확인
+웨이트,LONG PULL,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+웨이트,ARM CURL,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+웨이트,ABDOMINAL,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+웨이트,CHIN UP,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+웨이트,ROTARY TORSO,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+웨이트,LEG EXTENSION,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+웨이트,LEG CURL,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+웨이트,SEATED LEG PRESS,seated_leg_press,현장 사진 확인 필요,공개데이터 일반 클래스 매핑; 모델·설치 여부 미확인
+웨이트,CABLE CROSS OVER,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+프리웨이트,SMITH MACHINE,smith_machine,현장 사진 확인 필요,공개데이터 일반 클래스 매핑; 모델·설치 여부 미확인
+프리웨이트,MEGA MAX,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+프리웨이트,CHINNING DIPPING HIP FLEXOR,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+프리웨이트,POWER LEG PRESS,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+프리웨이트,POWER RACK,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+프리웨이트,SIT UP,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+프리웨이트,DOUBLE TWIST,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+프리웨이트,HYPER EXTENSION,,현장 사진 확인 필요,정확한 외형·설치 여부 미확인
+프리웨이트,SUPER BENCH PRESS(INCLINE/DECLINE),,현장 사진 확인 필요,정확한 외형·설치 여부 미확인

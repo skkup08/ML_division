@@ -1,0 +1,56 @@
+{
+  "evaluation": "nested leave-one-subject-out; inner subject CV selects model; fixed default decision boundary; outer subject excluded from preprocessing and selection",
+  "n_videos": 191,
+  "n_subjects": 7,
+  "duplicates_removed": 0,
+  "accuracy": 0.6649214659685864,
+  "balanced_accuracy": 0.6562918340026773,
+  "classification_report": {
+    "GOOD": {
+      "precision": 0.620253164556962,
+      "recall": 0.5903614457831325,
+      "f1-score": 0.6049382716049383,
+      "support": 83.0
+    },
+    "BAD": {
+      "precision": 0.6964285714285714,
+      "recall": 0.7222222222222222,
+      "f1-score": 0.7090909090909091,
+      "support": 108.0
+    },
+    "accuracy": 0.6649214659685864,
+    "macro avg": {
+      "precision": 0.6583408679927667,
+      "recall": 0.6562918340026773,
+      "f1-score": 0.6570145903479236,
+      "support": 191.0
+    },
+    "weighted avg": {
+      "precision": 0.6633261694895998,
+      "recall": 0.6649214659685864,
+      "f1-score": 0.6638308624347019,
+      "support": 191.0
+    }
+  },
+  "confusion_labels": [
+    "GOOD",
+    "BAD"
+  ],
+  "confusion_matrix": [
+    [
+      49,
+      34
+    ],
+    [
+      30,
+      78
+    ]
+  ],
+  "limitations": [
+    "Same dataset was explored by earlier V3-V5 experiments; this is not new independent external validation.",
+    "Only seven subjects; S02 has GOOD examples only.",
+    "Cached V4 pose features reused; raw-video feature extraction was not retrained or independently audited.",
+    "GOOD=GB; BAD=LLK/PB only; not all unsafe techniques are represented.",
+    "Final model fits all data; reported metrics belong to outer held-out fold models, not training accuracy."
+  ]
+}

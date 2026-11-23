@@ -1,0 +1,5 @@
+{
+  "checkpoint": "/content/drive/MyDrive/SKKU_1398_Fitness_ML/04_exports_and_reports/equipment26_yolo11n_20261031T125943Z/best.pt",
+  "sha256": "644d918093193f403ada088718ad1f01a1c22fc35817eec917dc8b6ea5ae1900",
+  "method": "fine-tune existing 26-class weights on expanded dataset; new optimizer, not resume old dataset"
+}

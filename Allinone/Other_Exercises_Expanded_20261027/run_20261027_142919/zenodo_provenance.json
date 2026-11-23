@@ -1,0 +1,9 @@
+{
+  "record": "https://zenodo.org/records/17558630",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "file": "Dataset.zip",
+  "sha256": "1a7adb203a9bb2e74b19ad65e7d14a40bc27194bd532771fdb15c87f027a7756",
+  "note": "Image-level reference only; unknown subject/video identity. Not independent subject validation."
+}

@@ -1,0 +1,30 @@
+train: images/train
+val: images/val
+test: images/test
+nc: 24
+names:
+  0: treadmill
+  1: recumbent_bike
+  2: upright_bike
+  3: elliptical
+  4: seated_chest_press
+  5: pectoral_fly
+  6: lat_pulldown
+  7: shoulder_press
+  8: seated_cable_row
+  9: arm_curl
+  10: abdominal_machine
+  11: assisted_chin_dip
+  12: rotary_torso
+  13: leg_extension
+  14: leg_curl
+  15: seated_leg_press
+  16: cable_crossover
+  17: smith_machine
+  18: chin_dip_hipflexor
+  19: power_leg_press
+  20: power_rack
+  21: situp_bench
+  22: hyperextension
+  23: incline_decline_bench_press
+path: /content/equipment24_training/equipment24_expanded_20261031

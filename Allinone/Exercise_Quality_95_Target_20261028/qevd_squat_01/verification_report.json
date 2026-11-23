@@ -1,0 +1,162 @@
+{
+  "status": "saved_model_and_predictions_verified",
+  "new_source": "QEVD explicit squat issue labels only",
+  "planned_clips": 437,
+  "usable_feature_clips": 430,
+  "failed_clips": 7,
+  "all_source_coverage": 0.9839816933638444,
+  "planned_workers": 148,
+  "test_workers": 16,
+  "worker_split_overlap": false,
+  "duplicate_sha256": 0,
+  "test_valid": {
+    "n": 51,
+    "subjects": 16,
+    "accuracy": 0.8431372549019608,
+    "balanced_accuracy": 0.8166666666666667,
+    "accuracy_wilson95_descriptive_clip_independence": [
+      0.7198955322701224,
+      0.9183077677995128
+    ],
+    "subject_cluster_bootstrap95": [
+      0.75,
+      0.9512485481997677
+    ],
+    "classes": {
+      "good": {
+        "precision": 0.8055555555555556,
+        "recall": 0.9666666666666667,
+        "f1-score": 0.8787878787878788,
+        "support": 30.0
+      },
+      "bad": {
+        "precision": 0.9333333333333333,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.7777777777777778,
+        "support": 21.0
+      },
+      "accuracy": 0.8431372549019608,
+      "macro avg": {
+        "precision": 0.8694444444444445,
+        "recall": 0.8166666666666667,
+        "f1-score": 0.8282828282828283,
+        "support": 51.0
+      },
+      "weighted avg": {
+        "precision": 0.8581699346405228,
+        "recall": 0.8431372549019608,
+        "f1-score": 0.8371954842543078,
+        "support": 51.0
+      }
+    },
+    "confusion_labels": [
+      "good",
+      "bad"
+    ],
+    "confusion_matrix": [
+      [
+        29,
+        1
+      ],
+      [
+        7,
+        14
+      ]
+    ],
+    "decision_coverage_within_preserved_features": 1.0
+  },
+  "test_strict_failures_count_wrong": {
+    "n": 51,
+    "subjects": 16,
+    "accuracy": 0.8431372549019608,
+    "balanced_accuracy": 0.8166666666666667,
+    "accuracy_wilson95_descriptive_clip_independence": [
+      0.7198955322701224,
+      0.9183077677995128
+    ],
+    "subject_cluster_bootstrap95": [
+      0.75,
+      0.9512485481997677
+    ],
+    "classes": {
+      "good": {
+        "precision": 0.8055555555555556,
+        "recall": 0.9666666666666667,
+        "f1-score": 0.8787878787878788,
+        "support": 30.0
+      },
+      "bad": {
+        "precision": 0.9333333333333333,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.7777777777777778,
+        "support": 21.0
+      },
+      "unavailable": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "accuracy": 0.8431372549019608,
+      "macro avg": {
+        "precision": 0.5796296296296296,
+        "recall": 0.5444444444444444,
+        "f1-score": 0.5521885521885522,
+        "support": 51.0
+      },
+      "weighted avg": {
+        "precision": 0.8581699346405228,
+        "recall": 0.8431372549019608,
+        "f1-score": 0.8371954842543078,
+        "support": 51.0
+      }
+    },
+    "confusion_labels": [
+      "good",
+      "bad",
+      "unavailable"
+    ],
+    "confusion_matrix": [
+      [
+        29,
+        1,
+        0
+      ],
+      [
+        7,
+        14,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "decision_coverage_within_preserved_features": 1.0,
+    "coverage": 1.0
+  },
+  "pose_failure_denominator_verified": true,
+  "cleanup": {
+    "temporary_raw_directory_removed": true,
+    "existing_raw_or_models_deleted": false
+  },
+  "all7_or_full23_cascade_95_verified": false,
+  "limitations": [
+    "Known squat clips only; no exercise recognition stage tested.",
+    "This particular frozen51clip worker holdout has now been evaluated and cannot become a fresh test in later experiments.",
+    "Clip-level Wilson interval assumes independent clips; worker bootstrap interval better reflects clustering, but few workers limit precision.",
+    "GOOD means QEVD no obvious issue; BAD limited to explicit back/depth/insufficient annotations, not every possible squat issue."
+  ],
+  "local_verification_environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "sklearn": "1.8.0",
+    "load_warnings": [
+      "Trying to unpickle estimator ExtraTreeClassifier from version 1.9.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+      "Trying to unpickle estimator ExtraTreesClassifier from version 1.9.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+      "Trying to unpickle estimator Pipeline from version 1.9.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+      "Trying to unpickle estimator SimpleImputer from version 1.9.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations"
+    ]
+  },
+  "selection_or_threshold_changed": false
+}

@@ -1,0 +1,17 @@
+{
+  "exercise": "chest_fly",
+  "ko": "머신 체스트 플라이",
+  "status": "TRAINED_GOOD_ONLY",
+  "media_mode": "video",
+  "unique_media_files": 197,
+  "pose_samples": 28,
+  "labeled_media": {
+    "ASSUMED_GOOD": 28
+  },
+  "source_samples": {
+    "Kaggle:WorkoutFitnessVideo": 28
+  },
+  "quality_note": "GOOD assumed from action class/demo, BAD means anomalous vs that distribution, not verified exercise error",
+  "model_path": "/content/drive/MyDrive/Exercise_AI_Models/Equipment26/Chest/chest_fly.joblib",
+  "elapsed_seconds": 130.66
+}

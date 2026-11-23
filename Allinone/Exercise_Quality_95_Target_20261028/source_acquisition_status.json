@@ -1,0 +1,46 @@
+{
+  "goal": ".95 minimum observed accuracy for every supported quality exercise and full cascade; no guarantee",
+  "acquired_new_training_videos": 0,
+  "sources": [
+    {
+      "name": "QEVD",
+      "official": "https://www.qualcomm.com/developer/software/qevd-dataset/downloads",
+      "status": "real_squat_video_feature_extraction_running",
+      "notes": "Research-use license; actual label mapping and subject IDs must be checked before training.",
+      "annotation_records": 298089,
+      "broad_candidate_metadata_rows": 57490,
+      "broad_candidate_subjects": 2000,
+      "planned_squat_clips": 437,
+      "planned_squat_subjects": 148,
+      "training_videos_processed_yet": 0,
+      "active_run_folder": "https://drive.google.com/drive/folders/1oWHTOiD0otgBATWYE4fgMkNMgi9lpQaQ",
+      "verified_processed_clips": 20,
+      "verified_failed_clips": 0,
+      "verified_progress_utc": "2026-10-28T02:34:25.571887+00:00"
+    },
+    {
+      "name": "Fitness-AQA",
+      "official": "https://github.com/ParitoshParmar/Fitness-AQA",
+      "status": "provider_approval_required_not_acquired",
+      "notes": "Only non-commercial use; request form requires identity and provider approval."
+    },
+    {
+      "name": "FLEX/MyoMechanix",
+      "official": "https://github.com/HaoYin116/MyoMechanix",
+      "status": "provider_approval_required_not_acquired",
+      "notes": "Academic-only access; no fabricated identity or bypass."
+    },
+    {
+      "name": "PosePro",
+      "official": "https://github.com/Michael-Pytel/PosePro",
+      "status": "code_and_paper_found_no_public_raw_dataset_link_confirmed",
+      "notes": "33-person side-view pushup dataset described; do not count code/models as new training data."
+    },
+    {
+      "name": "AI-Hub fitness posture images",
+      "official": "https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=231",
+      "status": "primary_listing_found_access_and_label_mapping_not_verified",
+      "notes": "Potential remaining exercise source. No data acquired yet; any required personal authentication cannot be fabricated."
+    }
+  ]
+}

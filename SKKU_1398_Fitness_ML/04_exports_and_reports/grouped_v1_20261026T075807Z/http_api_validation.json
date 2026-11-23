@@ -1,0 +1,34 @@
+{
+  "status_code": 200,
+  "response": {
+    "status": "ok",
+    "image_height": 640,
+    "image_width": 640,
+    "detections": [
+      {
+        "class_id": 2,
+        "class_name": "shoulder_press",
+        "confidence": 0.8127,
+        "bbox_xyxy_pixels": [
+          10.34,
+          4.0,
+          640.0,
+          618.95
+        ]
+      },
+      {
+        "class_id": 2,
+        "class_name": "shoulder_press",
+        "confidence": 0.2728,
+        "bbox_xyxy_pixels": [
+          11.31,
+          13.83,
+          328.86,
+          597.54
+        ]
+      }
+    ],
+    "model_scope": "public_proxy_requires_1398_photo_validation"
+  },
+  "tested": "FastAPI TestClient in Colab; no Flutter runtime or phone tested"
+}

@@ -1,0 +1,42 @@
+{
+  "equipment26_training_started_20261031.jpg": {
+    "bytes": 114149,
+    "sha256": "0f4f84ea5342a0cc23ffce3faa54c2f5fe06891336a934ede9008a6bf5b2b39b"
+  },
+  "best.pt": {
+    "bytes": 5500890,
+    "sha256": "644d918093193f403ada088718ad1f01a1c22fc35817eec917dc8b6ea5ae1900"
+  },
+  "class_mapping.json": {
+    "bytes": 2959,
+    "sha256": "b3545bd15740ece2374f833cf7dc0ba0f438801751ba2c48d0d65b27f76c29e7"
+  },
+  "test_metrics.json": {
+    "bytes": 8305,
+    "sha256": "46ca52e6d9139f8dc8cd63b5709aea204db48acd93a701b7609d7f3a169144ab"
+  },
+  "status.json": {
+    "bytes": 2297,
+    "sha256": "bacacef49c547bd41e7fc2ebb572aad98958c0f1c273f2ef8f9c31a4e3b598c4"
+  },
+  "README_ko.txt": {
+    "bytes": 714,
+    "sha256": "15ef237680164a034292d603221bdd708979dc1d7139852a2c9ac0a865a2d86e"
+  },
+  "predict_equipment26.py": {
+    "bytes": 3659,
+    "sha256": "3c192297311623233d89bede01e9eafabf03abfdea5fceb5d6713f4acb445765"
+  },
+  "input_preprocessing_checks.json": {
+    "bytes": 2259,
+    "sha256": "a984eea795815ff9ea35582743ee1d4cf0fe99dcd642bf8b9ef1acb4b2732d32"
+  },
+  "INPUT_AND_FILES_ko.txt": {
+    "bytes": 2990,
+    "sha256": "fda866456104b5b6f777e8969f4d17581c6f96002df000a41ecafadea26cb2d1"
+  },
+  "cleanup_manifest.json": {
+    "bytes": 1563,
+    "sha256": "60916fc685bf0d1445bef12584667efbae3579714b83f01e969ca0dcdb38e054"
+  }
+}

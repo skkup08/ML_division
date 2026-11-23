@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "image_width": 640,
+  "image_height": 640,
+  "detections": [
+    {
+      "class_id": 3,
+      "class_name": "seated_leg_press",
+      "confidence": 0.7726393938064575,
+      "bbox_xyxy_pixels": [
+        6.00946044921875,
+        0.0,
+        640.0,
+        640.0
+      ]
+    }
+  ]
+}

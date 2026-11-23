@@ -1,0 +1,307 @@
+[
+  {
+    "group": "Abnormal_BenchPress_1",
+    "selected": 24,
+    "accepted": 22
+  },
+  {
+    "group": "Abnormal_BenchPress_2",
+    "selected": 24,
+    "accepted": 19
+  },
+  {
+    "group": "Abnormal_Deadlifts_1",
+    "selected": 24,
+    "accepted": 23
+  },
+  {
+    "group": "Abnormal_Deadlifts_2",
+    "selected": 24,
+    "accepted": 21
+  },
+  {
+    "group": "Abnormal_Dips_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Abnormal_DumbbellBicepCurls_1",
+    "selected": 24,
+    "accepted": 23
+  },
+  {
+    "group": "Abnormal_DumbbellBicepCurls_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Abnormal_Jumping_Jacks_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Abnormal_Jumping_Jacks_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Abnormal_LatPulldown_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Abnormal_LatPulldown_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Abnormal_LegPress_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Abnormal_LegPress_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Abnormal_Lunges_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Abnormal_Lunges_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Abnormal_OverheadPress_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Abnormal_OverheadPress_2",
+    "selected": 24,
+    "accepted": 23
+  },
+  {
+    "group": "Abnormal_Plunk_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Abnormal_Plunk_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Abnormal_PullUps_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Abnormal_PullUps_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Abnormal_PullUps_3",
+    "selected": 24,
+    "accepted": 23
+  },
+  {
+    "group": "Abnormal_PushUps_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Abnormal_PushUps_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Abnormal_RowingMachineExercise_1",
+    "selected": 24,
+    "accepted": 23
+  },
+  {
+    "group": "Abnormal_RowingMachineExercise_2",
+    "selected": 24,
+    "accepted": 23
+  },
+  {
+    "group": "Abormal_MountainClimbers_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Abormal_MountainClimbers_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Abormal_SquatsWithBarbell_1",
+    "selected": 24,
+    "accepted": 23
+  },
+  {
+    "group": "Abormal_SquatsWithBarbell_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_BenchPress_1",
+    "selected": 24,
+    "accepted": 14
+  },
+  {
+    "group": "Normal_BenchPress_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_Deadlifts_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_Deadlifts_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_Dips_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_Dips_2",
+    "selected": 24,
+    "accepted": 23
+  },
+  {
+    "group": "Normal_DumbbellBicepCurls_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_DumbbellBicepCurls_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_Jumping_Jacks_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_Jumping_Jacks_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_LatPulldown_1",
+    "selected": 1,
+    "accepted": 0
+  },
+  {
+    "group": "Normal_LatPulldown_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_LegPress_1",
+    "selected": 2,
+    "accepted": 2
+  },
+  {
+    "group": "Normal_LegPress_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_Lunges_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_Lunges_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_MountainClimbers_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_MountainClimbers_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_OverheadPress_1",
+    "selected": 24,
+    "accepted": 22
+  },
+  {
+    "group": "Normal_OverheadPress_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_Plunk_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_Plunk_2",
+    "selected": 24,
+    "accepted": 18
+  },
+  {
+    "group": "Normal_PullUps_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_PullUps_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_PullUps_3",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_PushUps_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_PushUps_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_RowingMachineExercise_1",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_RowingMachineExercise_2",
+    "selected": 24,
+    "accepted": 24
+  },
+  {
+    "group": "Normal_SquatsWithBarbell_1",
+    "selected": 24,
+    "accepted": 23
+  },
+  {
+    "group": "Normal_SquatsWithBarbell_2",
+    "selected": 24,
+    "accepted": 23
+  }
+]

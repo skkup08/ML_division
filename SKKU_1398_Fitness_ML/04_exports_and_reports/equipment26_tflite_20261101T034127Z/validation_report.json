@@ -1,0 +1,64 @@
+{
+  "test_images": 205,
+  "raw_output_comparison": [
+    {
+      "image": "005b098f334b30dff237.jpg",
+      "max_abs_error": 0.0001049041748046875,
+      "mean_abs_error": 1.8481394192804146e-08
+    },
+    {
+      "image": "008f14ae9fa750821307.jpg",
+      "max_abs_error": 2.8014183044433594e-06,
+      "mean_abs_error": 9.377147947020603e-09
+    },
+    {
+      "image": "0095b2e4b83d5b18fa90.jpg",
+      "max_abs_error": 1.2576580047607422e-05,
+      "mean_abs_error": 9.97639570954334e-09
+    },
+    {
+      "image": "0102fb3924eb6ef7053d.jpg",
+      "max_abs_error": 9.298324584960938e-06,
+      "mean_abs_error": 8.53732906591631e-09
+    },
+    {
+      "image": "01f2038f30ac932fe049.jpg",
+      "max_abs_error": 6.020069122314453e-06,
+      "mean_abs_error": 1.1534458721484953e-08
+    }
+  ],
+  "device": "Colab CPU; not a phone",
+  "validation_settings": {
+    "imgsz": 640,
+    "batch": 1,
+    "rect": false,
+    "conf": 0.001,
+    "iou": 0.7
+  },
+  "models": {
+    "pytorch": {
+      "precision": 0.9407863003470628,
+      "recall": 0.8536022386123503,
+      "mAP50": 0.9211424168897471,
+      "mAP50_95": 0.7945360896429797,
+      "speed_ms": {
+        "preprocess": 1.5518874049143405,
+        "inference": 118.72946661949355,
+        "loss": 0.0015247950902515341,
+        "postprocess": 0.8575202829400418
+      }
+    },
+    "tflite": {
+      "precision": 0.9407864048911652,
+      "recall": 0.8536021599339827,
+      "mAP50": 0.9211424168897471,
+      "mAP50_95": 0.7945360896429797,
+      "speed_ms": {
+        "preprocess": 1.7072542390318322,
+        "inference": 117.68452495610002,
+        "loss": 0.0013878440080500186,
+        "postprocess": 0.9309701414611304
+      }
+    }
+  }
+}

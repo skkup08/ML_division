@@ -1,0 +1,27 @@
+﻿center_id,name,name_ko,scope,exact_center_shape_verified,candidate_files,technical_valid_files,unique_sha256,conservative_groups,review_representatives,visually_approved,train,val,test,reviewed_representatives
+1,treadmill,트레드밀,existing5,False,1549,1549,1501,369,373,0,0,0,0,49
+2,recumbent_bike,리컴번트 바이크,additional21,False,475,475,464,247,247,86,67,10,9,247
+3,upright_bike,업라이트 바이크,additional21,False,1236,1236,1207,488,491,0,0,0,0,10
+4,elliptical,일립티컬,additional21,False,618,618,597,305,307,44,38,5,1,307
+5,seated_chest_press,체스트 프레스,existing5,False,2480,2479,2332,894,899,0,0,0,0,19
+6,pectoral_fly,펙토럴 플라이,additional21,False,1907,1883,1853,726,726,0,0,0,0,0
+7,lat_pulldown,하이플라이(랫풀다운 대응),additional21,False,2730,2722,2675,982,982,0,0,0,0,12
+8,shoulder_press,숄더 프레스,existing5,False,2243,2236,2191,815,816,0,0,0,0,3
+9,seated_cable_row,롱풀,additional21,False,1479,1460,1431,488,488,0,0,0,0,0
+10,arm_curl,암컬,additional21,False,2400,2397,2359,846,846,0,0,0,0,0
+11,abdominal_machine,앱도미널,additional21,False,521,521,513,160,160,0,0,0,0,1
+12,assisted_chin_dip,친업,additional21,False,590,590,590,299,299,0,0,0,0,3
+13,rotary_torso,로터리 토르소,additional21,False,524,524,524,129,129,0,0,0,0,0
+14,leg_extension,레그 익스텐션,additional21,False,1909,1895,1856,667,667,0,0,0,0,1
+15,leg_curl,레그 컬,additional21,False,2877,2874,2824,1235,1237,0,0,0,0,1
+16,seated_leg_press,시티드 레그프레스,existing5,False,3384,3381,3332,1405,1405,0,0,0,0,20
+17,cable_crossover,케이블 크로스오버,additional21,False,1008,1007,993,304,304,38,32,2,4,304
+18,smith_machine,스미스 머신,existing5,False,2174,2174,2131,830,830,0,0,0,0,1
+19,megamax,메가맥스,additional21,False,0,0,0,0,0,0,0,0,0,0
+20,chin_dip_hipflexor,치닝·디핑·힙플렉서,additional21,False,1628,1626,1589,789,790,0,0,0,0,0
+21,power_leg_press,파워 레그프레스,additional21,False,151,151,151,143,143,0,0,0,0,0
+22,power_rack,파워랙,additional21,False,976,976,971,316,316,0,0,0,0,3
+23,situp_bench,싯업,additional21,False,50,50,45,15,15,0,0,0,0,0
+24,double_twist,더블 트위스트,additional21,False,0,0,0,0,0,0,0,0,0,0
+25,hyperextension,하이퍼 익스텐션,additional21,False,670,670,665,226,227,35,26,5,4,227
+26,incline_decline_bench_press,슈퍼 벤치프레스 인클라인/디클라인,additional21,False,978,978,970,327,327,0,0,0,0,7

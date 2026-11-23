@@ -1,0 +1,1952 @@
+{
+  "status": "rgb_pose_candidate_complete",
+  "target": 0.95,
+  "independent95_verified": false,
+  "tasks": {
+    "ACTION_7": {
+      "selection": {
+        "task": "ACTION_7",
+        "features": "rgb_plus_pose",
+        "model": "rbf",
+        "train_group_cv_balanced_accuracy": 0.7484194447009573
+      },
+      "validation": {
+        "n": 157,
+        "subjects": 5,
+        "accuracy": 0.7898089171974523,
+        "balanced_accuracy": 0.8025820194298455,
+        "accuracy_wilson95_descriptive_clip_independence": [
+          0.7195403610333274,
+          0.8462341641868566
+        ],
+        "subject_cluster_bootstrap95": [
+          0.7039106145251397,
+          0.8835616438356164
+        ],
+        "classes": {
+          "bent_over_row": {
+            "precision": 0.8125,
+            "recall": 0.8125,
+            "f1-score": 0.8125,
+            "support": 16.0
+          },
+          "bicep_curl": {
+            "precision": 0.625,
+            "recall": 0.8333333333333334,
+            "f1-score": 0.7142857142857143,
+            "support": 24.0
+          },
+          "push_up": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 17.0
+          },
+          "shoulder_press": {
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1-score": 0.8,
+            "support": 25.0
+          },
+          "side_bend": {
+            "precision": 0.75,
+            "recall": 0.5769230769230769,
+            "f1-score": 0.6521739130434783,
+            "support": 26.0
+          },
+          "squat": {
+            "precision": 0.7916666666666666,
+            "recall": 0.8260869565217391,
+            "f1-score": 0.8085106382978723,
+            "support": 23.0
+          },
+          "triceps_extension": {
+            "precision": 0.8695652173913043,
+            "recall": 0.7692307692307693,
+            "f1-score": 0.8163265306122449,
+            "support": 26.0
+          },
+          "accuracy": 0.7898089171974523,
+          "macro avg": {
+            "precision": 0.8069616977225673,
+            "recall": 0.8025820194298455,
+            "f1-score": 0.8005423994627586,
+            "support": 157.0
+          },
+          "weighted avg": {
+            "precision": 0.7981976368503646,
+            "recall": 0.7898089171974523,
+            "f1-score": 0.7892969003742485,
+            "support": 157.0
+          }
+        },
+        "confusion_labels": [
+          "bent_over_row",
+          "bicep_curl",
+          "push_up",
+          "shoulder_press",
+          "side_bend",
+          "squat",
+          "triceps_extension"
+        ],
+        "confusion_matrix": [
+          [
+            13,
+            0,
+            0,
+            0,
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            20,
+            0,
+            0,
+            2,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            17,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            20,
+            0,
+            3,
+            2
+          ],
+          [
+            0,
+            11,
+            0,
+            0,
+            15,
+            0,
+            0
+          ],
+          [
+            3,
+            1,
+            0,
+            0,
+            0,
+            19,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            1,
+            0,
+            20
+          ]
+        ],
+        "decision_coverage_within_preserved_features": 1.0
+      },
+      "legacy_test": {
+        "n": 174,
+        "subjects": 6,
+        "accuracy": 0.7011494252873564,
+        "balanced_accuracy": 0.7020665842094413,
+        "accuracy_wilson95_descriptive_clip_independence": [
+          0.629387762728364,
+          0.7642212442162789
+        ],
+        "subject_cluster_bootstrap95": [
+          0.6438111545988259,
+          0.7575757575757576
+        ],
+        "classes": {
+          "bent_over_row": {
+            "precision": 0.7,
+            "recall": 0.75,
+            "f1-score": 0.7241379310344828,
+            "support": 28.0
+          },
+          "bicep_curl": {
+            "precision": 0.4473684210526316,
+            "recall": 0.7727272727272727,
+            "f1-score": 0.5666666666666667,
+            "support": 22.0
+          },
+          "push_up": {
+            "precision": 1.0,
+            "recall": 0.8571428571428571,
+            "f1-score": 0.9230769230769231,
+            "support": 21.0
+          },
+          "shoulder_press": {
+            "precision": 0.6774193548387096,
+            "recall": 0.7777777777777778,
+            "f1-score": 0.7241379310344828,
+            "support": 27.0
+          },
+          "side_bend": {
+            "precision": 0.6923076923076923,
+            "recall": 0.375,
+            "f1-score": 0.4864864864864865,
+            "support": 24.0
+          },
+          "squat": {
+            "precision": 0.7894736842105263,
+            "recall": 0.6818181818181818,
+            "f1-score": 0.7317073170731707,
+            "support": 22.0
+          },
+          "triceps_extension": {
+            "precision": 0.84,
+            "recall": 0.7,
+            "f1-score": 0.7636363636363637,
+            "support": 30.0
+          },
+          "accuracy": 0.7011494252873564,
+          "macro avg": {
+            "precision": 0.7352241646299371,
+            "recall": 0.7020665842094413,
+            "f1-score": 0.702835659858368,
+            "support": 174.0
+          },
+          "weighted avg": {
+            "precision": 0.735150767309306,
+            "recall": 0.7011494252873564,
+            "f1-score": 0.7032252633250284,
+            "support": 174.0
+          }
+        },
+        "confusion_labels": [
+          "bent_over_row",
+          "bicep_curl",
+          "push_up",
+          "shoulder_press",
+          "side_bend",
+          "squat",
+          "triceps_extension"
+        ],
+        "confusion_matrix": [
+          [
+            21,
+            5,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            17,
+            0,
+            0,
+            3,
+            1,
+            0
+          ],
+          [
+            2,
+            0,
+            18,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            21,
+            1,
+            0,
+            4
+          ],
+          [
+            2,
+            11,
+            0,
+            1,
+            9,
+            1,
+            0
+          ],
+          [
+            4,
+            3,
+            0,
+            0,
+            0,
+            15,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            8,
+            0,
+            0,
+            21
+          ]
+        ],
+        "decision_coverage_within_preserved_features": 1.0,
+        "planned_n": 174,
+        "rgb_coverage": 1.0,
+        "strict_accuracy_counting_rgb_failures_wrong": 0.7011494252873564
+      }
+    },
+    "bent_over_row": {
+      "selection": {
+        "task": "bent_over_row",
+        "features": "rgb_plus_pose",
+        "model": "linear",
+        "train_group_cv_balanced_accuracy": 0.5835317460317461
+      },
+      "validation": {
+        "n": 16,
+        "subjects": 4,
+        "accuracy": 0.3125,
+        "balanced_accuracy": 0.3125,
+        "accuracy_wilson95_descriptive_clip_independence": [
+          0.14164643854782039,
+          0.5559564416525933
+        ],
+        "subject_cluster_bootstrap95": [
+          0.16666666666666666,
+          0.38095238095238093
+        ],
+        "classes": {
+          "bad": {
+            "precision": 0.2857142857142857,
+            "recall": 0.25,
+            "f1-score": 0.26666666666666666,
+            "support": 8.0
+          },
+          "good": {
+            "precision": 0.3333333333333333,
+            "recall": 0.375,
+            "f1-score": 0.35294117647058826,
+            "support": 8.0
+          },
+          "accuracy": 0.3125,
+          "macro avg": {
+            "precision": 0.30952380952380953,
+            "recall": 0.3125,
+            "f1-score": 0.30980392156862746,
+            "support": 16.0
+          },
+          "weighted avg": {
+            "precision": 0.30952380952380953,
+            "recall": 0.3125,
+            "f1-score": 0.30980392156862746,
+            "support": 16.0
+          }
+        },
+        "confusion_labels": [
+          "bad",
+          "good"
+        ],
+        "confusion_matrix": [
+          [
+            2,
+            6
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "decision_coverage_within_preserved_features": 1.0
+      },
+      "legacy_test": {
+        "n": 28,
+        "subjects": 5,
+        "accuracy": 0.6071428571428571,
+        "balanced_accuracy": 0.6071428571428572,
+        "accuracy_wilson95_descriptive_clip_independence": [
+          0.42409044296597176,
+          0.764343134584204
+        ],
+        "subject_cluster_bootstrap95": [
+          0.4230769230769231,
+          0.8214285714285714
+        ],
+        "classes": {
+          "bad": {
+            "precision": 0.6153846153846154,
+            "recall": 0.5714285714285714,
+            "f1-score": 0.5925925925925926,
+            "support": 14.0
+          },
+          "good": {
+            "precision": 0.6,
+            "recall": 0.6428571428571429,
+            "f1-score": 0.6206896551724138,
+            "support": 14.0
+          },
+          "accuracy": 0.6071428571428571,
+          "macro avg": {
+            "precision": 0.6076923076923078,
+            "recall": 0.6071428571428572,
+            "f1-score": 0.6066411238825031,
+            "support": 28.0
+          },
+          "weighted avg": {
+            "precision": 0.6076923076923079,
+            "recall": 0.6071428571428571,
+            "f1-score": 0.6066411238825032,
+            "support": 28.0
+          }
+        },
+        "confusion_labels": [
+          "bad",
+          "good"
+        ],
+        "confusion_matrix": [
+          [
+            8,
+            6
+          ],
+          [
+            5,
+            9
+          ]
+        ],
+        "decision_coverage_within_preserved_features": 1.0,
+        "planned_n": 28,
+        "rgb_coverage": 1.0,
+        "strict_accuracy_counting_rgb_failures_wrong": 0.6071428571428571
+      }
+    },
+    "bicep_curl": {
+      "selection": {
+        "task": "bicep_curl",
+        "features": "rgb_plus_pose",
+        "model": "linear",
+        "train_group_cv_balanced_accuracy": 0.593452380952381
+      },
+      "validation": {
+        "n": 24,
+        "subjects": 5,
+        "accuracy": 0.375,
+        "balanced_accuracy": 0.4357142857142857,
+        "accuracy_wilson95_descriptive_clip_independence": [
+          0.21159367559548778,
+          0.5729003755732572
+        ],
+        "subject_cluster_bootstrap95": [
+          0.2631578947368421,
+          0.47624223602484467
+        ],
+        "classes": {
+          "bad": {
+            "precision": 0.3333333333333333,
+            "recall": 0.07142857142857142,
+            "f1-score": 0.11764705882352941,
+            "support": 14.0
+          },
+          "good": {
+            "precision": 0.38095238095238093,
+            "recall": 0.8,
+            "f1-score": 0.5161290322580645,
+            "support": 10.0
+          },
+          "accuracy": 0.375,
+          "macro avg": {
+            "precision": 0.3571428571428571,
+            "recall": 0.4357142857142857,
+            "f1-score": 0.31688804554079697,
+            "support": 24.0
+          },
+          "weighted avg": {
+            "precision": 0.3531746031746031,
+            "recall": 0.375,
+            "f1-score": 0.2836812144212524,
+            "support": 24.0
+          }
+        },
+        "confusion_labels": [
+          "bad",
+          "good"
+        ],
+        "confusion_matrix": [
+          [
+            1,
+            13
+          ],
+          [
+            2,
+            8
+          ]
+        ],
+        "decision_coverage_within_preserved_features": 1.0
+      },
+      "legacy_test": {
+        "n": 22,
+        "subjects": 5,
+        "accuracy": 0.45454545454545453,
+        "balanced_accuracy": 0.475,
+        "accuracy_wilson95_descriptive_clip_independence": [
+          0.2692029418081331,
+          0.6534020467926505
+        ],
+        "subject_cluster_bootstrap95": [
+          0.37037037037037035,
+          0.5555555555555556
+        ],
+        "classes": {
+          "bad": {
+            "precision": 0.5,
+            "recall": 0.25,
+            "f1-score": 0.3333333333333333,
+            "support": 12.0
+          },
+          "good": {
+            "precision": 0.4375,
+            "recall": 0.7,
+            "f1-score": 0.5384615384615384,
+            "support": 10.0
+          },
+          "accuracy": 0.45454545454545453,
+          "macro avg": {
+            "precision": 0.46875,
+            "recall": 0.475,
+            "f1-score": 0.4358974358974359,
+            "support": 22.0
+          },
+          "weighted avg": {
+            "precision": 0.4715909090909091,
+            "recall": 0.45454545454545453,
+            "f1-score": 0.4265734265734265,
+            "support": 22.0
+          }
+        },
+        "confusion_labels": [
+          "bad",
+          "good"
+        ],
+        "confusion_matrix": [
+          [
+            3,
+            9
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "decision_coverage_within_preserved_features": 1.0,
+        "planned_n": 22,
+        "rgb_coverage": 1.0,
+        "strict_accuracy_counting_rgb_failures_wrong": 0.45454545454545453
+      }
+    },
+    "push_up": {
+      "selection": {
+        "task": "push_up",
+        "features": "rgb",
+        "model": "linear",
+        "train_group_cv_balanced_accuracy": 0.5933333333333334
+      },
+      "validation": {
+        "n": 17,
+        "subjects": 4,
+        "accuracy": 0.5294117647058824,
+        "balanced_accuracy": 0.5416666666666666,
+        "accuracy_wilson95_descriptive_clip_independence": [
+          0.30963235060004424,
+          0.7383489355759056
+        ],
+        "subject_cluster_bootstrap95": [
+          0.375,
+          0.6666666666666666
+        ],
+        "classes": {
+          "bad": {
+            "precision": 0.6,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.42857142857142855,
+            "support": 9.0
+          },
+          "good": {
+            "precision": 0.5,
+            "recall": 0.75,
+            "f1-score": 0.6,
+            "support": 8.0
+          },
+          "accuracy": 0.5294117647058824,
+          "macro avg": {
+            "precision": 0.55,
+            "recall": 0.5416666666666666,
+            "f1-score": 0.5142857142857142,
+            "support": 17.0
+          },
+          "weighted avg": {
+            "precision": 0.5529411764705882,
+            "recall": 0.5294117647058824,
+            "f1-score": 0.5092436974789916,
+            "support": 17.0
+          }
+        },
+        "confusion_labels": [
+          "bad",
+          "good"
+        ],
+        "confusion_matrix": [
+          [
+            3,
+            6
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "decision_coverage_within_preserved_features": 1.0
+      },
+      "legacy_test": {
+        "n": 21,
+        "subjects": 5,
+        "accuracy": 0.42857142857142855,
+        "balanced_accuracy": 0.42272727272727273,
+        "accuracy_wilson95_descriptive_clip_independence": [
+          0.24469968925375957,
+          0.6345344563069328
+        ],
+        "subject_cluster_bootstrap95": [
+          0.3076923076923077,
+          0.5238095238095238
+        ],
+        "classes": {
+          "bad": {
+            "precision": 0.375,
+            "recall": 0.3,
+            "f1-score": 0.3333333333333333,
+            "support": 10.0
+          },
+          "good": {
+            "precision": 0.46153846153846156,
+            "recall": 0.5454545454545454,
+            "f1-score": 0.5,
+            "support": 11.0
+          },
+          "accuracy": 0.42857142857142855,
+          "macro avg": {
+            "precision": 0.4182692307692308,
+            "recall": 0.42272727272727273,
+            "f1-score": 0.41666666666666663,
+            "support": 21.0
+          },
+          "weighted avg": {
+            "precision": 0.42032967032967034,
+            "recall": 0.42857142857142855,
+            "f1-score": 0.4206349206349206,
+            "support": 21.0
+          }
+        },
+        "confusion_labels": [
+          "bad",
+          "good"
+        ],
+        "confusion_matrix": [
+          [
+            3,
+            7
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "decision_coverage_within_preserved_features": 1.0,
+        "planned_n": 21,
+        "rgb_coverage": 1.0,
+        "strict_accuracy_counting_rgb_failures_wrong": 0.42857142857142855
+      }
+    },
+    "shoulder_press": {
+      "selection": {
+        "task": "shoulder_press",
+        "features": "rgb_plus_pose",
+        "model": "rbf",
+        "train_group_cv_balanced_accuracy": 0.5811507936507937
+      },
+      "validation": {
+        "n": 25,
+        "subjects": 5,
+        "accuracy": 0.56,
+        "balanced_accuracy": 0.5576923076923077,
+        "accuracy_wilson95_descriptive_clip_independence": [
+          0.3706733186979878,
+          0.7333436111893266
+        ],
+        "subject_cluster_bootstrap95": [
+          0.5,
+          0.6296296296296297
+        ],
+        "classes": {
+          "bad": {
+            "precision": 0.5714285714285714,
+            "recall": 0.6153846153846154,
+            "f1-score": 0.5925925925925926,
+            "support": 13.0
+          },
+          "good": {
+            "precision": 0.5454545454545454,
+            "recall": 0.5,
+            "f1-score": 0.5217391304347826,
+            "support": 12.0
+          },
+          "accuracy": 0.56,
+          "macro avg": {
+            "precision": 0.5584415584415584,
+            "recall": 0.5576923076923077,
+            "f1-score": 0.5571658615136876,
+            "support": 25.0
+          },
+          "weighted avg": {
+            "precision": 0.558961038961039,
+            "recall": 0.56,
+            "f1-score": 0.5585829307568437,
+            "support": 25.0
+          }
+        },
+        "confusion_labels": [
+          "bad",
+          "good"
+        ],
+        "confusion_matrix": [
+          [
+            8,
+            5
+          ],
+          [
+            6,
+            6
+          ]
+        ],
+        "decision_coverage_within_preserved_features": 1.0
+      },
+      "legacy_test": {
+        "n": 27,
+        "subjects": 5,
+        "accuracy": 0.4074074074074074,
+        "balanced_accuracy": 0.40934065934065933,
+        "accuracy_wilson95_descriptive_clip_independence": [
+          0.24514757074395552,
+          0.592732990319353
+        ],
+        "subject_cluster_bootstrap95": [
+          0.26666666666666666,
+          0.5769230769230769
+        ],
+        "classes": {
+          "bad": {
+            "precision": 0.4,
+            "recall": 0.46153846153846156,
+            "f1-score": 0.42857142857142855,
+            "support": 13.0
+          },
+          "good": {
+            "precision": 0.4166666666666667,
+            "recall": 0.35714285714285715,
+            "f1-score": 0.38461538461538464,
+            "support": 14.0
+          },
+          "accuracy": 0.4074074074074074,
+          "macro avg": {
+            "precision": 0.4083333333333333,
+            "recall": 0.40934065934065933,
+            "f1-score": 0.4065934065934066,
+            "support": 27.0
+          },
+          "weighted avg": {
+            "precision": 0.40864197530864205,
+            "recall": 0.4074074074074074,
+            "f1-score": 0.4057794057794058,
+            "support": 27.0
+          }
+        },
+        "confusion_labels": [
+          "bad",
+          "good"
+        ],
+        "confusion_matrix": [
+          [
+            6,
+            7
+          ],
+          [
+            9,
+            5
+          ]
+        ],
+        "decision_coverage_within_preserved_features": 1.0,
+        "planned_n": 27,
+        "rgb_coverage": 1.0,
+        "strict_accuracy_counting_rgb_failures_wrong": 0.4074074074074074
+      }
+    },
+    "side_bend": {
+      "selection": {
+        "task": "side_bend",
+        "features": "rgb_plus_pose",
+        "model": "linear",
+        "train_group_cv_balanced_accuracy": 0.6692460317460318
+      },
+      "validation": {
+        "n": 26,
+        "subjects": 5,
+        "accuracy": 0.6153846153846154,
+        "balanced_accuracy": 0.5939393939393939,
+        "accuracy_wilson95_descriptive_clip_independence": [
+          0.4253485008511553,
+          0.7757140556428721
+        ],
+        "subject_cluster_bootstrap95": [
+          0.4482758620689655,
+          0.7916666666666666
+        ],
+        "classes": {
+          "bad": {
+            "precision": 0.6470588235294118,
+            "recall": 0.7333333333333333,
+            "f1-score": 0.6875,
+            "support": 15.0
+          },
+          "good": {
+            "precision": 0.5555555555555556,
+            "recall": 0.45454545454545453,
+            "f1-score": 0.5,
+            "support": 11.0
+          },
+          "accuracy": 0.6153846153846154,
+          "macro avg": {
+            "precision": 0.6013071895424837,
+            "recall": 0.5939393939393939,
+            "f1-score": 0.59375,
+            "support": 26.0
+          },
+          "weighted avg": {
+            "precision": 0.6083459024635496,
+            "recall": 0.6153846153846154,
+            "f1-score": 0.6081730769230769,
+            "support": 26.0
+          }
+        },
+        "confusion_labels": [
+          "bad",
+          "good"
+        ],
+        "confusion_matrix": [
+          [
+            11,
+            4
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "decision_coverage_within_preserved_features": 1.0
+      },
+      "legacy_test": {
+        "n": 24,
+        "subjects": 5,
+        "accuracy": 0.5,
+        "balanced_accuracy": 0.5285714285714286,
+        "accuracy_wilson95_descriptive_clip_independence": [
+          0.3142742581957335,
+          0.6857257418042665
+        ],
+        "subject_cluster_bootstrap95": [
+          0.3076923076923077,
+          0.7391304347826086
+        ],
+        "classes": {
+          "bad": {
+            "precision": 0.625,
+            "recall": 0.35714285714285715,
+            "f1-score": 0.45454545454545453,
+            "support": 14.0
+          },
+          "good": {
+            "precision": 0.4375,
+            "recall": 0.7,
+            "f1-score": 0.5384615384615384,
+            "support": 10.0
+          },
+          "accuracy": 0.5,
+          "macro avg": {
+            "precision": 0.53125,
+            "recall": 0.5285714285714286,
+            "f1-score": 0.49650349650349646,
+            "support": 24.0
+          },
+          "weighted avg": {
+            "precision": 0.546875,
+            "recall": 0.5,
+            "f1-score": 0.4895104895104894,
+            "support": 24.0
+          }
+        },
+        "confusion_labels": [
+          "bad",
+          "good"
+        ],
+        "confusion_matrix": [
+          [
+            5,
+            9
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "decision_coverage_within_preserved_features": 1.0,
+        "planned_n": 24,
+        "rgb_coverage": 1.0,
+        "strict_accuracy_counting_rgb_failures_wrong": 0.5
+      }
+    },
+    "squat": {
+      "selection": {
+        "task": "squat",
+        "features": "rgb_plus_pose",
+        "model": "linear",
+        "train_group_cv_balanced_accuracy": 0.6141666666666666
+      },
+      "validation": {
+        "n": 23,
+        "subjects": 5,
+        "accuracy": 0.6086956521739131,
+        "balanced_accuracy": 0.5846153846153846,
+        "accuracy_wilson95_descriptive_clip_independence": [
+          0.4078552239138171,
+          0.7784237720752205
+        ],
+        "subject_cluster_bootstrap95": [
+          0.5238095238095238,
+          0.6842105263157895
+        ],
+        "classes": {
+          "bad": {
+            "precision": 0.625,
+            "recall": 0.7692307692307693,
+            "f1-score": 0.6896551724137931,
+            "support": 13.0
+          },
+          "good": {
+            "precision": 0.5714285714285714,
+            "recall": 0.4,
+            "f1-score": 0.47058823529411764,
+            "support": 10.0
+          },
+          "accuracy": 0.6086956521739131,
+          "macro avg": {
+            "precision": 0.5982142857142857,
+            "recall": 0.5846153846153846,
+            "f1-score": 0.5801217038539555,
+            "support": 23.0
+          },
+          "weighted avg": {
+            "precision": 0.6017080745341614,
+            "recall": 0.6086956521739131,
+            "f1-score": 0.5944086780139343,
+            "support": 23.0
+          }
+        },
+        "confusion_labels": [
+          "bad",
+          "good"
+        ],
+        "confusion_matrix": [
+          [
+            10,
+            3
+          ],
+          [
+            6,
+            4
+          ]
+        ],
+        "decision_coverage_within_preserved_features": 1.0
+      },
+      "legacy_test": {
+        "n": 22,
+        "subjects": 5,
+        "accuracy": 0.6363636363636364,
+        "balanced_accuracy": 0.6416666666666666,
+        "accuracy_wilson95_descriptive_clip_independence": [
+          0.42951708090131013,
+          0.8026679532963387
+        ],
+        "subject_cluster_bootstrap95": [
+          0.5882352941176471,
+          0.6666666666666666
+        ],
+        "classes": {
+          "bad": {
+            "precision": 0.7,
+            "recall": 0.5833333333333334,
+            "f1-score": 0.6363636363636364,
+            "support": 12.0
+          },
+          "good": {
+            "precision": 0.5833333333333334,
+            "recall": 0.7,
+            "f1-score": 0.6363636363636364,
+            "support": 10.0
+          },
+          "accuracy": 0.6363636363636364,
+          "macro avg": {
+            "precision": 0.6416666666666666,
+            "recall": 0.6416666666666666,
+            "f1-score": 0.6363636363636364,
+            "support": 22.0
+          },
+          "weighted avg": {
+            "precision": 0.646969696969697,
+            "recall": 0.6363636363636364,
+            "f1-score": 0.6363636363636364,
+            "support": 22.0
+          }
+        },
+        "confusion_labels": [
+          "bad",
+          "good"
+        ],
+        "confusion_matrix": [
+          [
+            7,
+            5
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "decision_coverage_within_preserved_features": 1.0,
+        "planned_n": 22,
+        "rgb_coverage": 1.0,
+        "strict_accuracy_counting_rgb_failures_wrong": 0.6363636363636364
+      }
+    },
+    "triceps_extension": {
+      "selection": {
+        "task": "triceps_extension",
+        "features": "rgb",
+        "model": "rbf",
+        "train_group_cv_balanced_accuracy": 0.4970238095238096
+      },
+      "validation": {
+        "n": 26,
+        "subjects": 5,
+        "accuracy": 0.5384615384615384,
+        "balanced_accuracy": 0.5384615384615384,
+        "accuracy_wilson95_descriptive_clip_independence": [
+          0.35457938746858797,
+          0.7124414646960878
+        ],
+        "subject_cluster_bootstrap95": [
+          0.5,
+          0.6153846153846154
+        ],
+        "classes": {
+          "bad": {
+            "precision": 0.5384615384615384,
+            "recall": 0.5384615384615384,
+            "f1-score": 0.5384615384615384,
+            "support": 13.0
+          },
+          "good": {
+            "precision": 0.5384615384615384,
+            "recall": 0.5384615384615384,
+            "f1-score": 0.5384615384615384,
+            "support": 13.0
+          },
+          "accuracy": 0.5384615384615384,
+          "macro avg": {
+            "precision": 0.5384615384615384,
+            "recall": 0.5384615384615384,
+            "f1-score": 0.5384615384615384,
+            "support": 26.0
+          },
+          "weighted avg": {
+            "precision": 0.5384615384615384,
+            "recall": 0.5384615384615384,
+            "f1-score": 0.5384615384615384,
+            "support": 26.0
+          }
+        },
+        "confusion_labels": [
+          "bad",
+          "good"
+        ],
+        "confusion_matrix": [
+          [
+            7,
+            6
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "decision_coverage_within_preserved_features": 1.0
+      },
+      "legacy_test": {
+        "n": 30,
+        "subjects": 6,
+        "accuracy": 0.4666666666666667,
+        "balanced_accuracy": 0.4598214285714286,
+        "accuracy_wilson95_descriptive_clip_independence": [
+          0.30232388907699753,
+          0.638577003801267
+        ],
+        "subject_cluster_bootstrap95": [
+          0.3939393939393939,
+          0.5357142857142857
+        ],
+        "classes": {
+          "bad": {
+            "precision": 0.5,
+            "recall": 0.5625,
+            "f1-score": 0.5294117647058824,
+            "support": 16.0
+          },
+          "good": {
+            "precision": 0.4166666666666667,
+            "recall": 0.35714285714285715,
+            "f1-score": 0.38461538461538464,
+            "support": 14.0
+          },
+          "accuracy": 0.4666666666666667,
+          "macro avg": {
+            "precision": 0.45833333333333337,
+            "recall": 0.4598214285714286,
+            "f1-score": 0.4570135746606335,
+            "support": 30.0
+          },
+          "weighted avg": {
+            "precision": 0.46111111111111114,
+            "recall": 0.4666666666666667,
+            "f1-score": 0.4618401206636501,
+            "support": 30.0
+          }
+        },
+        "confusion_labels": [
+          "bad",
+          "good"
+        ],
+        "confusion_matrix": [
+          [
+            9,
+            7
+          ],
+          [
+            9,
+            5
+          ]
+        ],
+        "decision_coverage_within_preserved_features": 1.0,
+        "planned_n": 30,
+        "rgb_coverage": 1.0,
+        "strict_accuracy_counting_rgb_failures_wrong": 0.4666666666666667
+      }
+    }
+  },
+  "legacy_action7_cascade": {
+    "n": 174,
+    "subjects": 6,
+    "accuracy": 0.3505747126436782,
+    "balanced_accuracy": 0.3517750107035821,
+    "accuracy_wilson95_descriptive_clip_independence": [
+      0.2836009342372594,
+      0.4240038034610061
+    ],
+    "subject_cluster_bootstrap95": [
+      0.3048851746161163,
+      0.398803680981595
+    ],
+    "classes": {
+      "bent_over_row|bad": {
+        "precision": 0.3333333333333333,
+        "recall": 0.2857142857142857,
+        "f1-score": 0.3076923076923077,
+        "support": 14.0
+      },
+      "bent_over_row|good": {
+        "precision": 0.4444444444444444,
+        "recall": 0.5714285714285714,
+        "f1-score": 0.5,
+        "support": 14.0
+      },
+      "bicep_curl|bad": {
+        "precision": 0.2,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.18181818181818182,
+        "support": 12.0
+      },
+      "bicep_curl|good": {
+        "precision": 0.21428571428571427,
+        "recall": 0.6,
+        "f1-score": 0.3157894736842105,
+        "support": 10.0
+      },
+      "push_up|bad": {
+        "precision": 0.3333333333333333,
+        "recall": 0.2,
+        "f1-score": 0.25,
+        "support": 10.0
+      },
+      "push_up|good": {
+        "precision": 0.5,
+        "recall": 0.5454545454545454,
+        "f1-score": 0.5217391304347826,
+        "support": 11.0
+      },
+      "shoulder_press|bad": {
+        "precision": 0.3157894736842105,
+        "recall": 0.46153846153846156,
+        "f1-score": 0.375,
+        "support": 13.0
+      },
+      "shoulder_press|good": {
+        "precision": 0.25,
+        "recall": 0.21428571428571427,
+        "f1-score": 0.23076923076923078,
+        "support": 14.0
+      },
+      "side_bend|bad": {
+        "precision": 0.375,
+        "recall": 0.21428571428571427,
+        "f1-score": 0.2727272727272727,
+        "support": 14.0
+      },
+      "side_bend|good": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 10.0
+      },
+      "squat|bad": {
+        "precision": 0.4444444444444444,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.38095238095238093,
+        "support": 12.0
+      },
+      "squat|good": {
+        "precision": 0.6,
+        "recall": 0.6,
+        "f1-score": 0.6,
+        "support": 10.0
+      },
+      "triceps_extension|bad": {
+        "precision": 0.5,
+        "recall": 0.375,
+        "f1-score": 0.42857142857142855,
+        "support": 16.0
+      },
+      "triceps_extension|good": {
+        "precision": 0.38461538461538464,
+        "recall": 0.35714285714285715,
+        "f1-score": 0.37037037037037035,
+        "support": 14.0
+      },
+      "accuracy": 0.3505747126436782,
+      "macro avg": {
+        "precision": 0.34966043772434746,
+        "recall": 0.3517750107035821,
+        "f1-score": 0.338244984072869,
+        "support": 174.0
+      },
+      "weighted avg": {
+        "precision": 0.35539247839610816,
+        "recall": 0.3505747126436782,
+        "f1-score": 0.3415186397922004,
+        "support": 174.0
+      }
+    },
+    "confusion_labels": [
+      "bent_over_row|bad",
+      "bent_over_row|good",
+      "bicep_curl|bad",
+      "bicep_curl|good",
+      "push_up|bad",
+      "push_up|good",
+      "shoulder_press|bad",
+      "shoulder_press|good",
+      "side_bend|bad",
+      "side_bend|good",
+      "squat|bad",
+      "squat|good",
+      "triceps_extension|bad",
+      "triceps_extension|good"
+    ],
+    "confusion_matrix": [
+      [
+        4,
+        5,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        8,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        6,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        2,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        4,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        5,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        7,
+        3,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        2,
+        0,
+        2,
+        3,
+        0,
+        0,
+        1,
+        0,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        5,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        7
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        4,
+        0,
+        0,
+        0,
+        0,
+        3,
+        5
+      ]
+    ],
+    "decision_coverage_within_preserved_features": 1.0,
+    "planned_test_n": 174,
+    "rgb_coverage": 1.0,
+    "strict_accuracy_counting_rgb_failures_wrong": 0.3505747126436782
+  },
+  "frozen23_recognizer_cascade": {
+    "n": 174,
+    "subjects": 6,
+    "accuracy": 0.41954022988505746,
+    "balanced_accuracy": 0.4286359473859474,
+    "accuracy_wilson95_descriptive_clip_independence": [
+      0.3487295867421836,
+      0.49382681047995935
+    ],
+    "subject_cluster_bootstrap95": [
+      0.34065934065934067,
+      0.4973360655737704
+    ],
+    "classes": {
+      "bent_over_row|bad": {
+        "precision": 0.46153846153846156,
+        "recall": 0.42857142857142855,
+        "f1-score": 0.4444444444444444,
+        "support": 14.0
+      },
+      "bent_over_row|good": {
+        "precision": 0.6,
+        "recall": 0.6428571428571429,
+        "f1-score": 0.6206896551724138,
+        "support": 14.0
+      },
+      "bicep_curl|bad": {
+        "precision": 0.16666666666666666,
+        "recall": 0.08333333333333333,
+        "f1-score": 0.1111111111111111,
+        "support": 12.0
+      },
+      "bicep_curl|good": {
+        "precision": 0.42857142857142855,
+        "recall": 0.6,
+        "f1-score": 0.5,
+        "support": 10.0
+      },
+      "decline_bench_press|unavailable": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "push_up|bad": {
+        "precision": 0.375,
+        "recall": 0.3,
+        "f1-score": 0.3333333333333333,
+        "support": 10.0
+      },
+      "push_up|good": {
+        "precision": 0.46153846153846156,
+        "recall": 0.5454545454545454,
+        "f1-score": 0.5,
+        "support": 11.0
+      },
+      "shoulder_press|bad": {
+        "precision": 0.3125,
+        "recall": 0.38461538461538464,
+        "f1-score": 0.3448275862068966,
+        "support": 13.0
+      },
+      "shoulder_press|good": {
+        "precision": 0.5,
+        "recall": 0.35714285714285715,
+        "f1-score": 0.4166666666666667,
+        "support": 14.0
+      },
+      "side_bend|bad": {
+        "precision": 0.3,
+        "recall": 0.21428571428571427,
+        "f1-score": 0.25,
+        "support": 14.0
+      },
+      "side_bend|good": {
+        "precision": 0.3684210526315789,
+        "recall": 0.7,
+        "f1-score": 0.4827586206896552,
+        "support": 10.0
+      },
+      "squat|bad": {
+        "precision": 0.42857142857142855,
+        "recall": 0.25,
+        "f1-score": 0.3157894736842105,
+        "support": 12.0
+      },
+      "squat|good": {
+        "precision": 0.6363636363636364,
+        "recall": 0.7,
+        "f1-score": 0.6666666666666666,
+        "support": 10.0
+      },
+      "triceps_extension|bad": {
+        "precision": 0.3888888888888889,
+        "recall": 0.4375,
+        "f1-score": 0.4117647058823529,
+        "support": 16.0
+      },
+      "triceps_extension|good": {
+        "precision": 0.4166666666666667,
+        "recall": 0.35714285714285715,
+        "f1-score": 0.38461538461538464,
+        "support": 14.0
+      },
+      "accuracy": 0.41954022988505746,
+      "macro avg": {
+        "precision": 0.38964844609581456,
+        "recall": 0.40006021756021753,
+        "f1-score": 0.38551117656487577,
+        "support": 174.0
+      },
+      "weighted avg": {
+        "precision": 0.41656859432494636,
+        "recall": 0.41954022988505746,
+        "f1-score": 0.40891501868869223,
+        "support": 174.0
+      }
+    },
+    "confusion_labels": [
+      "bent_over_row|bad",
+      "bent_over_row|good",
+      "bicep_curl|bad",
+      "bicep_curl|good",
+      "decline_bench_press|unavailable",
+      "push_up|bad",
+      "push_up|good",
+      "shoulder_press|bad",
+      "shoulder_press|good",
+      "side_bend|bad",
+      "side_bend|good",
+      "squat|bad",
+      "squat|good",
+      "triceps_extension|bad",
+      "triceps_extension|good"
+    ],
+    "confusion_matrix": [
+      [
+        6,
+        5,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        5,
+        4,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        5,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        7,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        3,
+        4,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        7,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        7
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        6,
+        5
+      ]
+    ],
+    "decision_coverage_within_preserved_features": 1.0,
+    "strict_accuracy_counting_rgb_failures_wrong": 0.41954022988505746
+  },
+  "scope": "Frozen ImageNet RGB feature extraction8frames960dimensions, RGB+pose candidate quality for7 exercises. Legacy subject split retained. Not new independent data.",
+  "limitations": [
+    "Legacy test has been used before; never a new independent target verification.",
+    "RGB may exploit background, clothing and camera cues; fresh subject/location tests required.",
+    "Uniform8frame sampling may miss short form errors; ImageNet pretraining is not exercise quality supervision.",
+    "Original excluded raw videos are outside frozen829 feature-source sample universe.",
+    "All failed RGB extractions are recorded and count wrong in strict cascade."
+  ],
+  "original_models_replaced": false,
+  "deployment_status": "research_only_no_automatic_replacement",
+  "selection_policy": "Original TRAIN subject GroupKFold only; transforms fit inside each fold; no tuning on validation/test.",
+  "environment": {
+    "python": "3.11.18 (main, Oct 26 2026, 14:05:07) [Clang 23.1.3 ]",
+    "torch": "2.7.1+cpu",
+    "torchvision": "0.22.1+cpu"
+  },
+  "pretrained_weights_source": "https://download.pytorch.org/models/mobilenet_v3_large-5c1a4163.pth",
+  "source": {
+    "page": "https://data.mendeley.com/datasets/kgbb3yn47p/3",
+    "file": {
+      "name": "Dataset Subject-wise.zip",
+      "url": "https://data.mendeley.com/public-files/datasets/kgbb3yn47p/files/b878bcef-7bbe-4829-9f02-f4e9bb83ed55/file_downloaded",
+      "size": 3113825556,
+      "sha": "6f6bfda33f094ba13e8509b1cd9a5c1e479062fd0e7749f6b6713db7d588ef84"
+    },
+    "license": "CC BY 4.0"
+  }
+}

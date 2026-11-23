@@ -1,0 +1,2344 @@
+{
+  "date": "2026-10-26",
+  "scope": "downloaded YOLO label counts, all splits, augmented images included; filename groups NOT unique originals; no center validation",
+  "datasets": {
+    "fitfuel": {
+      "Ab Crunch Machine": {
+        "images": 31,
+        "boxes": 31,
+        "filename_groups_not_deduplicated": 14
+      },
+      "Ab Roller": {
+        "images": 36,
+        "boxes": 36,
+        "filename_groups_not_deduplicated": 16
+      },
+      "Abdominal Bench": {
+        "images": 35,
+        "boxes": 35,
+        "filename_groups_not_deduplicated": 15
+      },
+      "Back Extension Machine": {
+        "images": 75,
+        "boxes": 75,
+        "filename_groups_not_deduplicated": 35
+      },
+      "Barbell": {
+        "images": 78,
+        "boxes": 138,
+        "filename_groups_not_deduplicated": 34
+      },
+      "Bench": {
+        "images": 107,
+        "boxes": 110,
+        "filename_groups_not_deduplicated": 50
+      },
+      "Chest Fly Machine": {
+        "images": 243,
+        "boxes": 243,
+        "filename_groups_not_deduplicated": 100
+      },
+      "Chest Press Machine": {
+        "images": 275,
+        "boxes": 299,
+        "filename_groups_not_deduplicated": 100
+      },
+      "Dumbbell": {
+        "images": 226,
+        "boxes": 818,
+        "filename_groups_not_deduplicated": 99
+      },
+      "Elliptical": {
+        "images": 39,
+        "boxes": 39,
+        "filename_groups_not_deduplicated": 17
+      },
+      "Functional Trainer": {
+        "images": 117,
+        "boxes": 117,
+        "filename_groups_not_deduplicated": 50
+      },
+      "GHD Machine": {
+        "images": 67,
+        "boxes": 67,
+        "filename_groups_not_deduplicated": 30
+      },
+      "Hack Squat Machine": {
+        "images": 258,
+        "boxes": 259,
+        "filename_groups_not_deduplicated": 100
+      },
+      "Kettlebells": {
+        "images": 110,
+        "boxes": 188,
+        "filename_groups_not_deduplicated": 48
+      },
+      "Lat Pull Down Machine": {
+        "images": 246,
+        "boxes": 283,
+        "filename_groups_not_deduplicated": 100
+      },
+      "Lateral Raises Machine": {
+        "images": 228,
+        "boxes": 228,
+        "filename_groups_not_deduplicated": 100
+      },
+      "Leg Curl Machine": {
+        "images": 256,
+        "boxes": 259,
+        "filename_groups_not_deduplicated": 100
+      },
+      "Leg Extension Machine": {
+        "images": 238,
+        "boxes": 249,
+        "filename_groups_not_deduplicated": 100
+      },
+      "Leg Press Machine": {
+        "images": 248,
+        "boxes": 253,
+        "filename_groups_not_deduplicated": 100
+      },
+      "Leg Raise Tower": {
+        "images": 245,
+        "boxes": 319,
+        "filename_groups_not_deduplicated": 100
+      },
+      "Preacher Curl": {
+        "images": 242,
+        "boxes": 251,
+        "filename_groups_not_deduplicated": 100
+      },
+      "Seated Dip Machine": {
+        "images": 254,
+        "boxes": 262,
+        "filename_groups_not_deduplicated": 100
+      },
+      "Seated Row Machine": {
+        "images": 238,
+        "boxes": 249,
+        "filename_groups_not_deduplicated": 100
+      },
+      "Shoulder Press Machine": {
+        "images": 238,
+        "boxes": 244,
+        "filename_groups_not_deduplicated": 97
+      },
+      "Smith Machine": {
+        "images": 261,
+        "boxes": 261,
+        "filename_groups_not_deduplicated": 98
+      },
+      "Stability Ball": {
+        "images": 37,
+        "boxes": 50,
+        "filename_groups_not_deduplicated": 17
+      },
+      "Stepmill": {
+        "images": 55,
+        "boxes": 64,
+        "filename_groups_not_deduplicated": 24
+      },
+      "Treadmill": {
+        "images": 235,
+        "boxes": 235,
+        "filename_groups_not_deduplicated": 100
+      }
+    },
+    "rizzlabzz": {
+      "abdominal-machine": {
+        "images": 287,
+        "boxes": 287,
+        "filename_groups_not_deduplicated": 86
+      },
+      "arm-curl": {
+        "images": 744,
+        "boxes": 744,
+        "filename_groups_not_deduplicated": 237
+      },
+      "arm-extension": {
+        "images": 363,
+        "boxes": 363,
+        "filename_groups_not_deduplicated": 87
+      },
+      "back-extension": {
+        "images": 286,
+        "boxes": 293,
+        "filename_groups_not_deduplicated": 85
+      },
+      "back-row-machine": {
+        "images": 401,
+        "boxes": 401,
+        "filename_groups_not_deduplicated": 104
+      },
+      "bench-press": {
+        "images": 610,
+        "boxes": 639,
+        "filename_groups_not_deduplicated": 222
+      },
+      "cable-lat-pulldown": {
+        "images": 500,
+        "boxes": 500,
+        "filename_groups_not_deduplicated": 155
+      },
+      "chest-fly": {
+        "images": 942,
+        "boxes": 942,
+        "filename_groups_not_deduplicated": 276
+      },
+      "chest-press": {
+        "images": 1263,
+        "boxes": 1269,
+        "filename_groups_not_deduplicated": 411
+      },
+      "dip-chin-assist": {
+        "images": 244,
+        "boxes": 244,
+        "filename_groups_not_deduplicated": 102
+      },
+      "hip-abduction-adduction": {
+        "images": 617,
+        "boxes": 617,
+        "filename_groups_not_deduplicated": 171
+      },
+      "incline-bench": {
+        "images": 360,
+        "boxes": 380,
+        "filename_groups_not_deduplicated": 121
+      },
+      "lat-pulldown": {
+        "images": 519,
+        "boxes": 519,
+        "filename_groups_not_deduplicated": 154
+      },
+      "leg-extension": {
+        "images": 332,
+        "boxes": 333,
+        "filename_groups_not_deduplicated": 105
+      },
+      "leg-press": {
+        "images": 876,
+        "boxes": 879,
+        "filename_groups_not_deduplicated": 250
+      },
+      "lying-down-leg-curl": {
+        "images": 246,
+        "boxes": 246,
+        "filename_groups_not_deduplicated": 57
+      },
+      "overhead-shoulder-press": {
+        "images": 603,
+        "boxes": 603,
+        "filename_groups_not_deduplicated": 170
+      },
+      "pulley-machine": {
+        "images": 458,
+        "boxes": 458,
+        "filename_groups_not_deduplicated": 145
+      },
+      "seated-cable-row": {
+        "images": 374,
+        "boxes": 385,
+        "filename_groups_not_deduplicated": 121
+      },
+      "seated-leg-curl": {
+        "images": 307,
+        "boxes": 307,
+        "filename_groups_not_deduplicated": 92
+      },
+      "smith-machine": {
+        "images": 486,
+        "boxes": 486,
+        "filename_groups_not_deduplicated": 141
+      },
+      "squat-rack": {
+        "images": 372,
+        "boxes": 408,
+        "filename_groups_not_deduplicated": 125
+      },
+      "torso-rotation-machine": {
+        "images": 523,
+        "boxes": 523,
+        "filename_groups_not_deduplicated": 144
+      }
+    },
+    "trainers-workspace": {
+      "Ab Crunch Machine": {
+        "images": 32,
+        "boxes": 32,
+        "filename_groups_not_deduplicated": 17
+      },
+      "Ab Roller": {
+        "images": 47,
+        "boxes": 47,
+        "filename_groups_not_deduplicated": 22
+      },
+      "Arm Curl Machine": {
+        "images": 172,
+        "boxes": 180,
+        "filename_groups_not_deduplicated": 85
+      },
+      "Assisted Pull Up and Dip Machine": {
+        "images": 65,
+        "boxes": 214,
+        "filename_groups_not_deduplicated": 65
+      },
+      "Back Extension Machine": {
+        "images": 56,
+        "boxes": 56,
+        "filename_groups_not_deduplicated": 32
+      },
+      "Ball": {
+        "images": 303,
+        "boxes": 322,
+        "filename_groups_not_deduplicated": 175
+      },
+      "Barbell": {
+        "images": 315,
+        "boxes": 366,
+        "filename_groups_not_deduplicated": 178
+      },
+      "Bench": {
+        "images": 187,
+        "boxes": 194,
+        "filename_groups_not_deduplicated": 92
+      },
+      "Cable Attachments": {
+        "images": 7,
+        "boxes": 16,
+        "filename_groups_not_deduplicated": 7
+      },
+      "Cable Machine": {
+        "images": 6,
+        "boxes": 6,
+        "filename_groups_not_deduplicated": 6
+      },
+      "Cable Row Attachment": {
+        "images": 7,
+        "boxes": 7,
+        "filename_groups_not_deduplicated": 7
+      },
+      "Cable Triceps Extension": {
+        "images": 1,
+        "boxes": 1,
+        "filename_groups_not_deduplicated": 1
+      },
+      "Chest Machine": {
+        "images": 778,
+        "boxes": 816,
+        "filename_groups_not_deduplicated": 193
+      },
+      "Close Grip Cable Attachment": {
+        "images": 5,
+        "boxes": 5,
+        "filename_groups_not_deduplicated": 5
+      },
+      "Concentrated Bicep Curls": {
+        "images": 1,
+        "boxes": 1,
+        "filename_groups_not_deduplicated": 1
+      },
+      "Dumbbell": {
+        "images": 493,
+        "boxes": 1344,
+        "filename_groups_not_deduplicated": 185
+      },
+      "EZ Bar Cable Attachment": {
+        "images": 7,
+        "boxes": 7,
+        "filename_groups_not_deduplicated": 7
+      },
+      "Elliptical": {
+        "images": 33,
+        "boxes": 33,
+        "filename_groups_not_deduplicated": 18
+      },
+      "Foam Equipment": {
+        "images": 3,
+        "boxes": 5,
+        "filename_groups_not_deduplicated": 3
+      },
+      "Functional Trainer": {
+        "images": 152,
+        "boxes": 152,
+        "filename_groups_not_deduplicated": 50
+      },
+      "GHD Machine": {
+        "images": 53,
+        "boxes": 53,
+        "filename_groups_not_deduplicated": 28
+      },
+      "Glute Drive Machine": {
+        "images": 3,
+        "boxes": 3,
+        "filename_groups_not_deduplicated": 3
+      },
+      "Hack Squat Machine": {
+        "images": 222,
+        "boxes": 223,
+        "filename_groups_not_deduplicated": 101
+      },
+      "Hamstring Curl Machine": {
+        "images": 4,
+        "boxes": 4,
+        "filename_groups_not_deduplicated": 4
+      },
+      "Hip Adduction Machine": {
+        "images": 2,
+        "boxes": 4,
+        "filename_groups_not_deduplicated": 2
+      },
+      "Kettlebell": {
+        "images": 198,
+        "boxes": 311,
+        "filename_groups_not_deduplicated": 95
+      },
+      "Lat Pull Down Machine": {
+        "images": 362,
+        "boxes": 415,
+        "filename_groups_not_deduplicated": 103
+      },
+      "Lateral Raise Machine": {
+        "images": 310,
+        "boxes": 310,
+        "filename_groups_not_deduplicated": 102
+      },
+      "Leg Curl Machine": {
+        "images": 372,
+        "boxes": 375,
+        "filename_groups_not_deduplicated": 100
+      },
+      "Leg Extension Machine": {
+        "images": 354,
+        "boxes": 374,
+        "filename_groups_not_deduplicated": 102
+      },
+      "Leg Press Machine": {
+        "images": 511,
+        "boxes": 518,
+        "filename_groups_not_deduplicated": 155
+      },
+      "Leg Raise Tower": {
+        "images": 367,
+        "boxes": 479,
+        "filename_groups_not_deduplicated": 100
+      },
+      "Mag Cable Attachment": {
+        "images": 4,
+        "boxes": 8,
+        "filename_groups_not_deduplicated": 4
+      },
+      "Plates": {
+        "images": 4,
+        "boxes": 5,
+        "filename_groups_not_deduplicated": 4
+      },
+      "Plyometric Box": {
+        "images": 5,
+        "boxes": 13,
+        "filename_groups_not_deduplicated": 5
+      },
+      "Preacher Curl": {
+        "images": 188,
+        "boxes": 197,
+        "filename_groups_not_deduplicated": 97
+      },
+      "Pull Up Bar": {
+        "images": 48,
+        "boxes": 49,
+        "filename_groups_not_deduplicated": 48
+      },
+      "Punching Bag": {
+        "images": 62,
+        "boxes": 91,
+        "filename_groups_not_deduplicated": 22
+      },
+      "Push Up Equipment": {
+        "images": 7,
+        "boxes": 10,
+        "filename_groups_not_deduplicated": 7
+      },
+      "Recumbent Bike": {
+        "images": 1,
+        "boxes": 1,
+        "filename_groups_not_deduplicated": 1
+      },
+      "Resistance Bands": {
+        "images": 70,
+        "boxes": 130,
+        "filename_groups_not_deduplicated": 68
+      },
+      "Roman Chair": {
+        "images": 1,
+        "boxes": 1,
+        "filename_groups_not_deduplicated": 1
+      },
+      "Seated Calf Raise Machine": {
+        "images": 1,
+        "boxes": 1,
+        "filename_groups_not_deduplicated": 1
+      },
+      "Seated Dip Machine": {
+        "images": 360,
+        "boxes": 370,
+        "filename_groups_not_deduplicated": 100
+      },
+      "Seated Row Machine": {
+        "images": 343,
+        "boxes": 357,
+        "filename_groups_not_deduplicated": 104
+      },
+      "Shoulder Press Machine": {
+        "images": 347,
+        "boxes": 355,
+        "filename_groups_not_deduplicated": 103
+      },
+      "Single Cable Rope Attachment": {
+        "images": 1,
+        "boxes": 1,
+        "filename_groups_not_deduplicated": 1
+      },
+      "Sliders": {
+        "images": 1,
+        "boxes": 1,
+        "filename_groups_not_deduplicated": 1
+      },
+      "Smith Machine": {
+        "images": 380,
+        "boxes": 380,
+        "filename_groups_not_deduplicated": 101
+      },
+      "Squat Rack": {
+        "images": 5,
+        "boxes": 7,
+        "filename_groups_not_deduplicated": 5
+      },
+      "Stair Climber": {
+        "images": 48,
+        "boxes": 58,
+        "filename_groups_not_deduplicated": 27
+      },
+      "Stationary Bike": {
+        "images": 120,
+        "boxes": 120,
+        "filename_groups_not_deduplicated": 40
+      },
+      "Straight Bar Attachment": {
+        "images": 7,
+        "boxes": 8,
+        "filename_groups_not_deduplicated": 7
+      },
+      "Treadmill": {
+        "images": 495,
+        "boxes": 516,
+        "filename_groups_not_deduplicated": 152
+      },
+      "Triceps Extension Machine": {
+        "images": 4,
+        "boxes": 4,
+        "filename_groups_not_deduplicated": 4
+      },
+      "V-Bar Cable Attachment": {
+        "images": 7,
+        "boxes": 8,
+        "filename_groups_not_deduplicated": 7
+      },
+      "Wide Grip Cable Attachment": {
+        "images": 4,
+        "boxes": 10,
+        "filename_groups_not_deduplicated": 4
+      },
+      "parallel bars": {
+        "images": 97,
+        "boxes": 98,
+        "filename_groups_not_deduplicated": 86
+      }
+    },
+    "gymze": {
+      "Ab Crunch Machine": {
+        "images": 3,
+        "boxes": 3,
+        "filename_groups_not_deduplicated": 1
+      },
+      "Agility Ladder": {
+        "images": 39,
+        "boxes": 52,
+        "filename_groups_not_deduplicated": 17
+      },
+      "Air Bike": {
+        "images": 31,
+        "boxes": 34,
+        "filename_groups_not_deduplicated": 13
+      },
+      "Assault Runner": {
+        "images": 27,
+        "boxes": 30,
+        "filename_groups_not_deduplicated": 9
+      },
+      "Balance Boards": {
+        "images": 10,
+        "boxes": 31,
+        "filename_groups_not_deduplicated": 4
+      },
+      "Barbell": {
+        "images": 49,
+        "boxes": 88,
+        "filename_groups_not_deduplicated": 19
+      },
+      "Battle Ropes": {
+        "images": 28,
+        "boxes": 34,
+        "filename_groups_not_deduplicated": 10
+      },
+      "Bosu Ball": {
+        "images": 23,
+        "boxes": 42,
+        "filename_groups_not_deduplicated": 11
+      },
+      "Cable Crossover Machine": {
+        "images": 14,
+        "boxes": 14,
+        "filename_groups_not_deduplicated": 6
+      },
+      "Chest Press Machine": {
+        "images": 25,
+        "boxes": 25,
+        "filename_groups_not_deduplicated": 9
+      },
+      "Cones": {
+        "images": 27,
+        "boxes": 128,
+        "filename_groups_not_deduplicated": 11
+      },
+      "Core Sliders": {
+        "images": 43,
+        "boxes": 136,
+        "filename_groups_not_deduplicated": 15
+      },
+      "Dumbbells": {
+        "images": 63,
+        "boxes": 231,
+        "filename_groups_not_deduplicated": 27
+      },
+      "Elliptical Trainer": {
+        "images": 14,
+        "boxes": 17,
+        "filename_groups_not_deduplicated": 6
+      },
+      "Farmers Carry Handles": {
+        "images": 16,
+        "boxes": 23,
+        "filename_groups_not_deduplicated": 6
+      },
+      "GYM-Equipment": {
+        "images": 3,
+        "boxes": 3,
+        "filename_groups_not_deduplicated": 1
+      },
+      "Gymnastic Rings": {
+        "images": 35,
+        "boxes": 47,
+        "filename_groups_not_deduplicated": 13
+      },
+      "Hack Squat Machine": {
+        "images": 6,
+        "boxes": 6,
+        "filename_groups_not_deduplicated": 2
+      },
+      "Hurdles": {
+        "images": 34,
+        "boxes": 88,
+        "filename_groups_not_deduplicated": 16
+      },
+      "Lat Pulldown Machine": {
+        "images": 27,
+        "boxes": 27,
+        "filename_groups_not_deduplicated": 9
+      },
+      "Leg Curl Machine": {
+        "images": 45,
+        "boxes": 51,
+        "filename_groups_not_deduplicated": 19
+      },
+      "Leg Press Machine": {
+        "images": 48,
+        "boxes": 54,
+        "filename_groups_not_deduplicated": 20
+      },
+      "Medicine Balls": {
+        "images": 72,
+        "boxes": 303,
+        "filename_groups_not_deduplicated": 28
+      },
+      "Parallel Bars": {
+        "images": 3,
+        "boxes": 3,
+        "filename_groups_not_deduplicated": 1
+      },
+      "Pec Deck Machine": {
+        "images": 7,
+        "boxes": 7,
+        "filename_groups_not_deduplicated": 3
+      },
+      "Plyometric Boxes": {
+        "images": 17,
+        "boxes": 24,
+        "filename_groups_not_deduplicated": 11
+      },
+      "Power Tower": {
+        "images": 11,
+        "boxes": 11,
+        "filename_groups_not_deduplicated": 5
+      },
+      "Pull-Up Bar": {
+        "images": 46,
+        "boxes": 52,
+        "filename_groups_not_deduplicated": 20
+      },
+      "Push-Up Bars": {
+        "images": 17,
+        "boxes": 46,
+        "filename_groups_not_deduplicated": 7
+      },
+      "Resistance Bands": {
+        "images": 38,
+        "boxes": 52,
+        "filename_groups_not_deduplicated": 16
+      },
+      "Reverse Hack Squat Machine": {
+        "images": 3,
+        "boxes": 3,
+        "filename_groups_not_deduplicated": 1
+      },
+      "Rowing Machine": {
+        "images": 22,
+        "boxes": 22,
+        "filename_groups_not_deduplicated": 12
+      },
+      "Sandbags": {
+        "images": 38,
+        "boxes": 49,
+        "filename_groups_not_deduplicated": 14
+      },
+      "Seated row machine": {
+        "images": 7,
+        "boxes": 10,
+        "filename_groups_not_deduplicated": 3
+      },
+      "Shoulder Press Machine": {
+        "images": 24,
+        "boxes": 25,
+        "filename_groups_not_deduplicated": 10
+      },
+      "Ski Erg": {
+        "images": 28,
+        "boxes": 43,
+        "filename_groups_not_deduplicated": 10
+      },
+      "Smith Machine": {
+        "images": 24,
+        "boxes": 24,
+        "filename_groups_not_deduplicated": 12
+      },
+      "Stair Climber": {
+        "images": 27,
+        "boxes": 27,
+        "filename_groups_not_deduplicated": 11
+      },
+      "Stationary Bike": {
+        "images": 16,
+        "boxes": 16,
+        "filename_groups_not_deduplicated": 6
+      },
+      "T-Bar Row Machine": {
+        "images": 6,
+        "boxes": 6,
+        "filename_groups_not_deduplicated": 2
+      },
+      "TRX Suspension Trainer": {
+        "images": 16,
+        "boxes": 34,
+        "filename_groups_not_deduplicated": 6
+      },
+      "Treadmill": {
+        "images": 16,
+        "boxes": 17,
+        "filename_groups_not_deduplicated": 8
+      },
+      "Weight Plates": {
+        "images": 92,
+        "boxes": 310,
+        "filename_groups_not_deduplicated": 38
+      },
+      "Weighted Vests": {
+        "images": 31,
+        "boxes": 64,
+        "filename_groups_not_deduplicated": 13
+      },
+      "ab roller coaster": {
+        "images": 13,
+        "boxes": 13,
+        "filename_groups_not_deduplicated": 5
+      },
+      "kettlebell": {
+        "images": 70,
+        "boxes": 189,
+        "filename_groups_not_deduplicated": 29
+      },
+      "multi-grip pull-up station": {
+        "images": 4,
+        "boxes": 4,
+        "filename_groups_not_deduplicated": 2
+      },
+      "sleds": {
+        "images": 17,
+        "boxes": 20,
+        "filename_groups_not_deduplicated": 7
+      },
+      "step ladder": {
+        "images": 3,
+        "boxes": 3,
+        "filename_groups_not_deduplicated": 1
+      }
+    },
+    "gym-qknei": {
+      "Arc Trainer": {
+        "images": 3,
+        "boxes": 5,
+        "filename_groups_not_deduplicated": 3
+      },
+      "Assisted Pull-up Machine": {
+        "images": 6,
+        "boxes": 6,
+        "filename_groups_not_deduplicated": 6
+      },
+      "Available": {
+        "images": 86,
+        "boxes": 138,
+        "filename_groups_not_deduplicated": 86
+      },
+      "Cable Machine": {
+        "images": 16,
+        "boxes": 29,
+        "filename_groups_not_deduplicated": 16
+      },
+      "Enter or Exit Door": {
+        "images": 1,
+        "boxes": 1,
+        "filename_groups_not_deduplicated": 1
+      },
+      "Exercise Bike": {
+        "images": 5,
+        "boxes": 9,
+        "filename_groups_not_deduplicated": 5
+      },
+      "Functional Trainer": {
+        "images": 5,
+        "boxes": 7,
+        "filename_groups_not_deduplicated": 5
+      },
+      "Lat Pull Down Machine": {
+        "images": 14,
+        "boxes": 17,
+        "filename_groups_not_deduplicated": 14
+      },
+      "Seated Abdominal Curl": {
+        "images": 1,
+        "boxes": 1,
+        "filename_groups_not_deduplicated": 1
+      },
+      "Stretching area": {
+        "images": 8,
+        "boxes": 8,
+        "filename_groups_not_deduplicated": 8
+      },
+      "Torso Machine": {
+        "images": 1,
+        "boxes": 1,
+        "filename_groups_not_deduplicated": 1
+      },
+      "barbell": {
+        "images": 3,
+        "boxes": 3,
+        "filename_groups_not_deduplicated": 3
+      },
+      "bench": {
+        "images": 9,
+        "boxes": 9,
+        "filename_groups_not_deduplicated": 9
+      },
+      "bench press": {
+        "images": 3,
+        "boxes": 4,
+        "filename_groups_not_deduplicated": 3
+      },
+      "calf raise": {
+        "images": 1,
+        "boxes": 1,
+        "filename_groups_not_deduplicated": 1
+      },
+      "chest press": {
+        "images": 10,
+        "boxes": 12,
+        "filename_groups_not_deduplicated": 10
+      },
+      "curl machine": {
+        "images": 9,
+        "boxes": 9,
+        "filename_groups_not_deduplicated": 9
+      },
+      "declined bench press": {
+        "images": 2,
+        "boxes": 2,
+        "filename_groups_not_deduplicated": 2
+      },
+      "dumbbell": {
+        "images": 2,
+        "boxes": 2,
+        "filename_groups_not_deduplicated": 2
+      },
+      "dumbbells": {
+        "images": 4,
+        "boxes": 4,
+        "filename_groups_not_deduplicated": 4
+      },
+      "elliptical": {
+        "images": 63,
+        "boxes": 156,
+        "filename_groups_not_deduplicated": 63
+      },
+      "hack squat": {
+        "images": 3,
+        "boxes": 3,
+        "filename_groups_not_deduplicated": 3
+      },
+      "hip abduction": {
+        "images": 3,
+        "boxes": 3,
+        "filename_groups_not_deduplicated": 3
+      },
+      "hip thrust": {
+        "images": 3,
+        "boxes": 3,
+        "filename_groups_not_deduplicated": 3
+      },
+      "in use": {
+        "images": 44,
+        "boxes": 70,
+        "filename_groups_not_deduplicated": 44
+      },
+      "incline bench press": {
+        "images": 5,
+        "boxes": 7,
+        "filename_groups_not_deduplicated": 5
+      },
+      "incline chest press": {
+        "images": 5,
+        "boxes": 5,
+        "filename_groups_not_deduplicated": 5
+      },
+      "kettlebell": {
+        "images": 2,
+        "boxes": 2,
+        "filename_groups_not_deduplicated": 2
+      },
+      "ladder": {
+        "images": 9,
+        "boxes": 11,
+        "filename_groups_not_deduplicated": 9
+      },
+      "leg curl": {
+        "images": 7,
+        "boxes": 8,
+        "filename_groups_not_deduplicated": 7
+      },
+      "leg extension": {
+        "images": 3,
+        "boxes": 3,
+        "filename_groups_not_deduplicated": 3
+      },
+      "leg press": {
+        "images": 6,
+        "boxes": 6,
+        "filename_groups_not_deduplicated": 6
+      },
+      "manual treadmill": {
+        "images": 3,
+        "boxes": 3,
+        "filename_groups_not_deduplicated": 3
+      },
+      "objects": {
+        "images": 4,
+        "boxes": 8,
+        "filename_groups_not_deduplicated": 4
+      },
+      "parallel bars": {
+        "images": 3,
+        "boxes": 3,
+        "filename_groups_not_deduplicated": 3
+      },
+      "pec fly machine": {
+        "images": 2,
+        "boxes": 2,
+        "filename_groups_not_deduplicated": 2
+      },
+      "person": {
+        "images": 146,
+        "boxes": 344,
+        "filename_groups_not_deduplicated": 146
+      },
+      "preacher curl machine": {
+        "images": 2,
+        "boxes": 2,
+        "filename_groups_not_deduplicated": 2
+      },
+      "recumbent bike": {
+        "images": 10,
+        "boxes": 31,
+        "filename_groups_not_deduplicated": 10
+      },
+      "rowing": {
+        "images": 2,
+        "boxes": 2,
+        "filename_groups_not_deduplicated": 2
+      },
+      "shoulder press": {
+        "images": 17,
+        "boxes": 17,
+        "filename_groups_not_deduplicated": 17
+      },
+      "shoulder raise": {
+        "images": 2,
+        "boxes": 2,
+        "filename_groups_not_deduplicated": 2
+      },
+      "squat rack": {
+        "images": 7,
+        "boxes": 10,
+        "filename_groups_not_deduplicated": 7
+      },
+      "stair master": {
+        "images": 12,
+        "boxes": 14,
+        "filename_groups_not_deduplicated": 12
+      },
+      "treadmill": {
+        "images": 40,
+        "boxes": 70,
+        "filename_groups_not_deduplicated": 40
+      },
+      "weight rack": {
+        "images": 6,
+        "boxes": 6,
+        "filename_groups_not_deduplicated": 6
+      },
+      "weights": {
+        "images": 2,
+        "boxes": 3,
+        "filename_groups_not_deduplicated": 2
+      }
+    },
+    "dans-new-workspace": {
+      "ab roller": {
+        "images": 40,
+        "boxes": 40,
+        "filename_groups_not_deduplicated": 4
+      },
+      "adjustable bench": {
+        "images": 304,
+        "boxes": 326,
+        "filename_groups_not_deduplicated": 43
+      },
+      "assault bike": {
+        "images": 22,
+        "boxes": 32,
+        "filename_groups_not_deduplicated": 4
+      },
+      "barbell": {
+        "images": 334,
+        "boxes": 521,
+        "filename_groups_not_deduplicated": 46
+      },
+      "dumbbell": {
+        "images": 175,
+        "boxes": 861,
+        "filename_groups_not_deduplicated": 22
+      },
+      "flat bench": {
+        "images": 155,
+        "boxes": 175,
+        "filename_groups_not_deduplicated": 20
+      },
+      "kettlebell": {
+        "images": 189,
+        "boxes": 672,
+        "filename_groups_not_deduplicated": 27
+      },
+      "medicine ball": {
+        "images": 135,
+        "boxes": 303,
+        "filename_groups_not_deduplicated": 18
+      },
+      "punching bag": {
+        "images": 87,
+        "boxes": 107,
+        "filename_groups_not_deduplicated": 15
+      },
+      "resistance bands": {
+        "images": 147,
+        "boxes": 158,
+        "filename_groups_not_deduplicated": 21
+      },
+      "squat rack": {
+        "images": 345,
+        "boxes": 346,
+        "filename_groups_not_deduplicated": 48
+      },
+      "stationary bike": {
+        "images": 155,
+        "boxes": 175,
+        "filename_groups_not_deduplicated": 20
+      },
+      "treadmill": {
+        "images": 316,
+        "boxes": 376,
+        "filename_groups_not_deduplicated": 37
+      },
+      "trx straps": {
+        "images": 25,
+        "boxes": 28,
+        "filename_groups_not_deduplicated": 7
+      },
+      "weight plates": {
+        "images": 457,
+        "boxes": 2460,
+        "filename_groups_not_deduplicated": 61
+      },
+      "yoga ball": {
+        "images": 251,
+        "boxes": 296,
+        "filename_groups_not_deduplicated": 35
+      }
+    },
+    "hn-2kixi": {
+      "armcurl": {
+        "images": 100,
+        "boxes": 100,
+        "filename_groups_not_deduplicated": 87
+      },
+      "chestpress": {
+        "images": 99,
+        "boxes": 99,
+        "filename_groups_not_deduplicated": 81
+      },
+      "hipabduction": {
+        "images": 115,
+        "boxes": 115,
+        "filename_groups_not_deduplicated": 115
+      },
+      "legcurl": {
+        "images": 107,
+        "boxes": 107,
+        "filename_groups_not_deduplicated": 107
+      },
+      "legextension": {
+        "images": 118,
+        "boxes": 118,
+        "filename_groups_not_deduplicated": 118
+      },
+      "powerlegpress": {
+        "images": 101,
+        "boxes": 101,
+        "filename_groups_not_deduplicated": 101
+      },
+      "shoulderpress": {
+        "images": 107,
+        "boxes": 107,
+        "filename_groups_not_deduplicated": 83
+      },
+      "tbarrow": {
+        "images": 104,
+        "boxes": 104,
+        "filename_groups_not_deduplicated": 79
+      }
+    }
+  },
+  "basic_valid_counts_order": [
+    "images",
+    "boxes",
+    "filename_groups"
+  ],
+  "basic_valid_counts": {
+    "fitfuel": {
+      "Ab Crunch Machine": [
+        31,
+        31,
+        14
+      ],
+      "Ab Roller": [
+        36,
+        36,
+        16
+      ],
+      "Abdominal Bench": [
+        35,
+        35,
+        15
+      ],
+      "Back Extension Machine": [
+        75,
+        75,
+        35
+      ],
+      "Barbell": [
+        57,
+        117,
+        25
+      ],
+      "Bench": [
+        107,
+        110,
+        50
+      ],
+      "Chest Fly Machine": [
+        243,
+        243,
+        100
+      ],
+      "Chest Press Machine": [
+        275,
+        299,
+        100
+      ],
+      "Dumbbell": [
+        226,
+        818,
+        99
+      ],
+      "Elliptical": [
+        39,
+        39,
+        17
+      ],
+      "Functional Trainer": [
+        117,
+        117,
+        50
+      ],
+      "GHD Machine": [
+        67,
+        67,
+        30
+      ],
+      "Hack Squat Machine": [
+        258,
+        259,
+        100
+      ],
+      "Kettlebells": [
+        110,
+        188,
+        48
+      ],
+      "Lat Pull Down Machine": [
+        246,
+        283,
+        100
+      ],
+      "Lateral Raises Machine": [
+        228,
+        228,
+        100
+      ],
+      "Leg Curl Machine": [
+        256,
+        259,
+        100
+      ],
+      "Leg Extension Machine": [
+        238,
+        249,
+        100
+      ],
+      "Leg Press Machine": [
+        248,
+        253,
+        100
+      ],
+      "Leg Raise Tower": [
+        245,
+        319,
+        100
+      ],
+      "Preacher Curl": [
+        242,
+        251,
+        100
+      ],
+      "Seated Dip Machine": [
+        254,
+        262,
+        100
+      ],
+      "Seated Row Machine": [
+        238,
+        249,
+        100
+      ],
+      "Shoulder Press Machine": [
+        238,
+        244,
+        97
+      ],
+      "Smith Machine": [
+        261,
+        261,
+        98
+      ],
+      "Stability Ball": [
+        10,
+        13,
+        4
+      ],
+      "Stepmill": [
+        55,
+        64,
+        24
+      ],
+      "Treadmill": [
+        235,
+        235,
+        100
+      ]
+    },
+    "rizzlabzz": {
+      "abdominal-machine": [
+        274,
+        274,
+        85
+      ],
+      "arm-curl": [
+        744,
+        744,
+        237
+      ],
+      "arm-extension": [
+        357,
+        357,
+        86
+      ],
+      "back-extension": [
+        286,
+        293,
+        85
+      ],
+      "back-row-machine": [
+        401,
+        401,
+        104
+      ],
+      "bench-press": [
+        601,
+        630,
+        220
+      ],
+      "cable-lat-pulldown": [
+        500,
+        500,
+        155
+      ],
+      "chest-fly": [
+        942,
+        942,
+        276
+      ],
+      "chest-press": [
+        1233,
+        1236,
+        395
+      ],
+      "dip-chin-assist": [
+        244,
+        244,
+        102
+      ],
+      "hip-abduction-adduction": [
+        617,
+        617,
+        171
+      ],
+      "incline-bench": [
+        360,
+        380,
+        121
+      ],
+      "lat-pulldown": [
+        519,
+        519,
+        154
+      ],
+      "leg-extension": [
+        332,
+        333,
+        105
+      ],
+      "leg-press": [
+        876,
+        879,
+        250
+      ],
+      "lying-down-leg-curl": [
+        246,
+        246,
+        57
+      ],
+      "overhead-shoulder-press": [
+        603,
+        603,
+        170
+      ],
+      "pulley-machine": [
+        458,
+        458,
+        145
+      ],
+      "seated-cable-row": [
+        374,
+        385,
+        121
+      ],
+      "seated-leg-curl": [
+        298,
+        298,
+        90
+      ],
+      "smith-machine": [
+        486,
+        486,
+        141
+      ],
+      "squat-rack": [
+        372,
+        408,
+        125
+      ],
+      "torso-rotation-machine": [
+        502,
+        502,
+        140
+      ]
+    },
+    "trainers-workspace": {
+      "Ab Crunch Machine": [
+        32,
+        32,
+        17
+      ],
+      "Ab Roller": [
+        47,
+        47,
+        22
+      ],
+      "Arm Curl Machine": [
+        172,
+        180,
+        85
+      ],
+      "Assisted Pull Up and Dip Machine": [
+        65,
+        214,
+        65
+      ],
+      "Back Extension Machine": [
+        56,
+        56,
+        32
+      ],
+      "Ball": [
+        280,
+        290,
+        162
+      ],
+      "Barbell": [
+        299,
+        350,
+        169
+      ],
+      "Bench": [
+        187,
+        194,
+        92
+      ],
+      "Cable Attachments": [
+        7,
+        16,
+        7
+      ],
+      "Cable Machine": [
+        6,
+        6,
+        6
+      ],
+      "Cable Row Attachment": [
+        7,
+        7,
+        7
+      ],
+      "Cable Triceps Extension": [
+        1,
+        1,
+        1
+      ],
+      "Chest Machine": [
+        778,
+        816,
+        193
+      ],
+      "Close Grip Cable Attachment": [
+        5,
+        5,
+        5
+      ],
+      "Concentrated Bicep Curls": [
+        1,
+        1,
+        1
+      ],
+      "Dumbbell": [
+        493,
+        1344,
+        185
+      ],
+      "EZ Bar Cable Attachment": [
+        7,
+        7,
+        7
+      ],
+      "Elliptical": [
+        33,
+        33,
+        18
+      ],
+      "Foam Equipment": [
+        3,
+        5,
+        3
+      ],
+      "Functional Trainer": [
+        152,
+        152,
+        50
+      ],
+      "GHD Machine": [
+        53,
+        53,
+        28
+      ],
+      "Glute Drive Machine": [
+        3,
+        3,
+        3
+      ],
+      "Hack Squat Machine": [
+        222,
+        223,
+        101
+      ],
+      "Hamstring Curl Machine": [
+        4,
+        4,
+        4
+      ],
+      "Hip Adduction Machine": [
+        2,
+        4,
+        2
+      ],
+      "Kettlebell": [
+        198,
+        311,
+        95
+      ],
+      "Lat Pull Down Machine": [
+        362,
+        415,
+        103
+      ],
+      "Lateral Raise Machine": [
+        310,
+        310,
+        102
+      ],
+      "Leg Curl Machine": [
+        372,
+        375,
+        100
+      ],
+      "Leg Extension Machine": [
+        354,
+        374,
+        102
+      ],
+      "Leg Press Machine": [
+        511,
+        518,
+        155
+      ],
+      "Leg Raise Tower": [
+        367,
+        479,
+        100
+      ],
+      "Mag Cable Attachment": [
+        4,
+        8,
+        4
+      ],
+      "Plates": [
+        4,
+        5,
+        4
+      ],
+      "Plyometric Box": [
+        5,
+        13,
+        5
+      ],
+      "Preacher Curl": [
+        188,
+        197,
+        97
+      ],
+      "Pull Up Bar": [
+        48,
+        49,
+        48
+      ],
+      "Punching Bag": [
+        62,
+        91,
+        22
+      ],
+      "Push Up Equipment": [
+        7,
+        10,
+        7
+      ],
+      "Recumbent Bike": [
+        1,
+        1,
+        1
+      ],
+      "Resistance Bands": [
+        70,
+        130,
+        68
+      ],
+      "Roman Chair": [
+        1,
+        1,
+        1
+      ],
+      "Seated Calf Raise Machine": [
+        1,
+        1,
+        1
+      ],
+      "Seated Dip Machine": [
+        360,
+        370,
+        100
+      ],
+      "Seated Row Machine": [
+        343,
+        357,
+        104
+      ],
+      "Shoulder Press Machine": [
+        347,
+        355,
+        103
+      ],
+      "Single Cable Rope Attachment": [
+        1,
+        1,
+        1
+      ],
+      "Sliders": [
+        1,
+        1,
+        1
+      ],
+      "Smith Machine": [
+        380,
+        380,
+        101
+      ],
+      "Squat Rack": [
+        5,
+        7,
+        5
+      ],
+      "Stair Climber": [
+        48,
+        58,
+        27
+      ],
+      "Stationary Bike": [
+        120,
+        120,
+        40
+      ],
+      "Straight Bar Attachment": [
+        7,
+        8,
+        7
+      ],
+      "Treadmill": [
+        495,
+        516,
+        152
+      ],
+      "Triceps Extension Machine": [
+        4,
+        4,
+        4
+      ],
+      "V-Bar Cable Attachment": [
+        7,
+        8,
+        7
+      ],
+      "Wide Grip Cable Attachment": [
+        4,
+        10,
+        4
+      ],
+      "parallel bars": [
+        97,
+        98,
+        86
+      ]
+    },
+    "gymze": {
+      "Ab Crunch Machine": [
+        3,
+        3,
+        1
+      ],
+      "Agility Ladder": [
+        39,
+        52,
+        17
+      ],
+      "Air Bike": [
+        31,
+        34,
+        13
+      ],
+      "Assault Runner": [
+        27,
+        30,
+        9
+      ],
+      "Balance Boards": [
+        10,
+        31,
+        4
+      ],
+      "Barbell": [
+        49,
+        88,
+        19
+      ],
+      "Battle Ropes": [
+        28,
+        34,
+        10
+      ],
+      "Bosu Ball": [
+        23,
+        42,
+        11
+      ],
+      "Cable Crossover Machine": [
+        14,
+        14,
+        6
+      ],
+      "Chest Press Machine": [
+        25,
+        25,
+        9
+      ],
+      "Cones": [
+        27,
+        128,
+        11
+      ],
+      "Core Sliders": [
+        43,
+        136,
+        15
+      ],
+      "Dumbbells": [
+        63,
+        228,
+        27
+      ],
+      "Elliptical Trainer": [
+        14,
+        17,
+        6
+      ],
+      "Farmers Carry Handles": [
+        16,
+        23,
+        6
+      ],
+      "GYM-Equipment": [
+        3,
+        3,
+        1
+      ],
+      "Gymnastic Rings": [
+        35,
+        47,
+        13
+      ],
+      "Hack Squat Machine": [
+        6,
+        6,
+        2
+      ],
+      "Hurdles": [
+        34,
+        88,
+        16
+      ],
+      "Lat Pulldown Machine": [
+        27,
+        27,
+        9
+      ],
+      "Leg Curl Machine": [
+        45,
+        51,
+        19
+      ],
+      "Leg Press Machine": [
+        48,
+        54,
+        20
+      ],
+      "Medicine Balls": [
+        72,
+        303,
+        28
+      ],
+      "Parallel Bars": [
+        3,
+        3,
+        1
+      ],
+      "Pec Deck Machine": [
+        7,
+        7,
+        3
+      ],
+      "Plyometric Boxes": [
+        17,
+        24,
+        11
+      ],
+      "Power Tower": [
+        11,
+        11,
+        5
+      ],
+      "Pull-Up Bar": [
+        46,
+        52,
+        20
+      ],
+      "Push-Up Bars": [
+        17,
+        46,
+        7
+      ],
+      "Resistance Bands": [
+        38,
+        52,
+        16
+      ],
+      "Reverse Hack Squat Machine": [
+        3,
+        3,
+        1
+      ],
+      "Rowing Machine": [
+        22,
+        22,
+        12
+      ],
+      "Sandbags": [
+        38,
+        49,
+        14
+      ],
+      "Seated row machine": [
+        7,
+        10,
+        3
+      ],
+      "Shoulder Press Machine": [
+        24,
+        25,
+        10
+      ],
+      "Ski Erg": [
+        28,
+        43,
+        10
+      ],
+      "Smith Machine": [
+        24,
+        24,
+        12
+      ],
+      "Stair Climber": [
+        27,
+        27,
+        11
+      ],
+      "Stationary Bike": [
+        16,
+        16,
+        6
+      ],
+      "T-Bar Row Machine": [
+        6,
+        6,
+        2
+      ],
+      "TRX Suspension Trainer": [
+        16,
+        34,
+        6
+      ],
+      "Treadmill": [
+        16,
+        17,
+        8
+      ],
+      "Weight Plates": [
+        92,
+        310,
+        38
+      ],
+      "Weighted Vests": [
+        31,
+        64,
+        13
+      ],
+      "ab roller coaster": [
+        13,
+        13,
+        5
+      ],
+      "kettlebell": [
+        70,
+        189,
+        29
+      ],
+      "multi-grip pull-up station": [
+        4,
+        4,
+        2
+      ],
+      "sleds": [
+        17,
+        20,
+        7
+      ],
+      "step ladder": [
+        3,
+        3,
+        1
+      ]
+    },
+    "gym-qknei": {
+      "Arc Trainer": [
+        3,
+        5,
+        3
+      ],
+      "Assisted Pull-up Machine": [
+        6,
+        6,
+        6
+      ],
+      "Available": [
+        86,
+        138,
+        86
+      ],
+      "Cable Machine": [
+        16,
+        29,
+        16
+      ],
+      "Enter or Exit Door": [
+        1,
+        1,
+        1
+      ],
+      "Exercise Bike": [
+        5,
+        9,
+        5
+      ],
+      "Functional Trainer": [
+        5,
+        7,
+        5
+      ],
+      "Lat Pull Down Machine": [
+        14,
+        17,
+        14
+      ],
+      "Seated Abdominal Curl": [
+        1,
+        1,
+        1
+      ],
+      "Stretching area": [
+        8,
+        8,
+        8
+      ],
+      "Torso Machine": [
+        1,
+        1,
+        1
+      ],
+      "barbell": [
+        3,
+        3,
+        3
+      ],
+      "bench": [
+        9,
+        9,
+        9
+      ],
+      "bench press": [
+        3,
+        4,
+        3
+      ],
+      "calf raise": [
+        1,
+        1,
+        1
+      ],
+      "chest press": [
+        10,
+        12,
+        10
+      ],
+      "curl machine": [
+        9,
+        9,
+        9
+      ],
+      "declined bench press": [
+        2,
+        2,
+        2
+      ],
+      "dumbbell": [
+        2,
+        2,
+        2
+      ],
+      "dumbbells": [
+        4,
+        4,
+        4
+      ],
+      "elliptical": [
+        63,
+        156,
+        63
+      ],
+      "hack squat": [
+        3,
+        3,
+        3
+      ],
+      "hip abduction": [
+        3,
+        3,
+        3
+      ],
+      "hip thrust": [
+        3,
+        3,
+        3
+      ],
+      "in use": [
+        44,
+        70,
+        44
+      ],
+      "incline bench press": [
+        5,
+        7,
+        5
+      ],
+      "incline chest press": [
+        5,
+        5,
+        5
+      ],
+      "kettlebell": [
+        2,
+        2,
+        2
+      ],
+      "ladder": [
+        9,
+        11,
+        9
+      ],
+      "leg curl": [
+        7,
+        8,
+        7
+      ],
+      "leg extension": [
+        3,
+        3,
+        3
+      ],
+      "leg press": [
+        6,
+        6,
+        6
+      ],
+      "manual treadmill": [
+        3,
+        3,
+        3
+      ],
+      "objects": [
+        4,
+        8,
+        4
+      ],
+      "parallel bars": [
+        3,
+        3,
+        3
+      ],
+      "pec fly machine": [
+        2,
+        2,
+        2
+      ],
+      "person": [
+        146,
+        344,
+        146
+      ],
+      "preacher curl machine": [
+        2,
+        2,
+        2
+      ],
+      "recumbent bike": [
+        10,
+        31,
+        10
+      ],
+      "rowing": [
+        2,
+        2,
+        2
+      ],
+      "shoulder press": [
+        17,
+        17,
+        17
+      ],
+      "shoulder raise": [
+        2,
+        2,
+        2
+      ],
+      "squat rack": [
+        7,
+        10,
+        7
+      ],
+      "stair master": [
+        12,
+        14,
+        12
+      ],
+      "treadmill": [
+        40,
+        70,
+        40
+      ],
+      "weight rack": [
+        6,
+        6,
+        6
+      ],
+      "weights": [
+        2,
+        3,
+        2
+      ]
+    },
+    "dans-new-workspace": {
+      "ab roller": [
+        40,
+        40,
+        4
+      ],
+      "adjustable bench": [
+        271,
+        292,
+        37
+      ],
+      "assault bike": [
+        21,
+        31,
+        3
+      ],
+      "barbell": [
+        125,
+        207,
+        17
+      ],
+      "dumbbell": [
+        30,
+        80,
+        3
+      ],
+      "flat bench": [
+        104,
+        114,
+        14
+      ],
+      "kettlebell": [
+        158,
+        589,
+        23
+      ],
+      "medicine ball": [
+        125,
+        293,
+        17
+      ],
+      "punching bag": [
+        84,
+        104,
+        12
+      ],
+      "resistance bands": [
+        93,
+        103,
+        12
+      ],
+      "squat rack": [
+        333,
+        334,
+        45
+      ],
+      "stationary bike": [
+        144,
+        164,
+        18
+      ],
+      "treadmill": [
+        316,
+        376,
+        37
+      ],
+      "trx straps": [
+        24,
+        27,
+        6
+      ],
+      "weight plates": [
+        456,
+        2438,
+        60
+      ],
+      "yoga ball": [
+        248,
+        291,
+        32
+      ]
+    },
+    "hn-2kixi": {
+      "armcurl": [
+        100,
+        100,
+        87
+      ],
+      "chestpress": [
+        99,
+        99,
+        81
+      ],
+      "hipabduction": [
+        115,
+        115,
+        115
+      ],
+      "legcurl": [
+        107,
+        107,
+        107
+      ],
+      "legextension": [
+        118,
+        118,
+        118
+      ],
+      "powerlegpress": [
+        101,
+        101,
+        101
+      ],
+      "shoulderpress": [
+        107,
+        107,
+        83
+      ],
+      "tbarrow": [
+        104,
+        104,
+        79
+      ]
+    }
+  },
+  "validation": {
+    "missing_images": 0,
+    "invalid_box_rows": {
+      "fitfuel": 58,
+      "rizzlabzz": 91,
+      "trainers-workspace": 48,
+      "gymze": 3,
+      "gym-qknei": 0,
+      "dans-new-workspace": 1393,
+      "hn-2kixi": 0
+    },
+    "checks": "five numeric fields; finite; x,y,w,h in [0,1]; positive w,h. Visual correctness, image bounds from corners, and cross-source dedup not verified."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "classes": [
+    "treadmill",
+    "seated_chest_press",
+    "shoulder_press",
+    "seated_leg_press",
+    "smith_machine"
+  ],
+  "id_to_name": {
+    "0": "treadmill",
+    "1": "seated_chest_press",
+    "2": "shoulder_press",
+    "3": "seated_leg_press",
+    "4": "smith_machine"
+  },
+  "public_training_scope": "generic proxy categories",
+  "center_installed_equipment_verified": false,
+  "requirements": [
+    "Collect center photos",
+    "Independently verify gym machines and class definitions",
+    "Separate photo sessions for train and evaluation"
+  ]
+}

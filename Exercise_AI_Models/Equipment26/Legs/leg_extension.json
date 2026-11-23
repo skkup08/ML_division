@@ -1,0 +1,17 @@
+{
+  "exercise": "leg_extension",
+  "ko": "레그 익스텐션",
+  "status": "TRAINED_GOOD_ONLY",
+  "media_mode": "video",
+  "unique_media_files": 201,
+  "pose_samples": 25,
+  "labeled_media": {
+    "ASSUMED_GOOD": 25
+  },
+  "source_samples": {
+    "Kaggle:WorkoutFitnessVideo": 25
+  },
+  "quality_note": "GOOD assumed from action class/demo, BAD means anomalous vs that distribution, not verified exercise error",
+  "model_path": "/content/drive/MyDrive/Exercise_AI_Models/Equipment26/Legs/leg_extension.joblib",
+  "elapsed_seconds": 206.54
+}

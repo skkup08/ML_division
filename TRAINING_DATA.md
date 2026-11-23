@@ -1,8 +1,8 @@
-# 종목별 수집 자료와 모델 학습 내용
+# 운동기구 26종의 수집 자료와 학습 사진 수
 
-기구 사진을 모은 수와 사람이 운동하는 모습을 모은 수는 서로 다릅니다. 예를 들어 **레그 익스텐션** 기구 인식 v2에는 사진 **125장**(학습 104·검증 11·테스트 10)을 사용했습니다. 같은 운동의 자세 분석에서는 미디어 **201개**를 확보했고, 그중 관절 특징을 얻은 **25개**로 시범 자세를 학습했습니다.
+기구별로 처음 수집한 후보 파일 수와 실제 학습·검증·테스트에 사용한 사진 수를 확인할 수 있습니다. 예를 들어 레그 익스텐션은 초기 후보가 1,909개였고, v2에 사용된 사진은 학습 104장, 검증 11장, 테스트 10장으로 총 125장입니다.
 
-## 1. 기구 인식용 사진 26종
+## v1과 v2의 학습 데이터
 
 **학습 목표**는 사진 속 기구에 이름을 붙이고 위치를 상자로 찾는 것입니다. 정답 데이터에는 각 기구의 종류와 상자 좌표가 있습니다. **v1**은 24종 모델의 기존 가중치를 가져와 메가맥스와 더블 트위스트를 포함하는 26종 탐지기로 학습했습니다. **v2**는 v1의 가중치에서 출발해 두 기구의 사진을 보강한 데이터로 같은 26종을 다시 학습했습니다. [v1 학습 시작 기록](SKKU_1398_Fitness_ML/03_training_runs/equipment26_yolo11n_20261031T125943Z/initialization.json) · [v2 학습 시작 기록](SKKU_1398_Fitness_ML/03_training_runs/equipment26_min100_round1_20261031T182137Z/initialization.json) · [v2 학습 완료 기록](SKKU_1398_Fitness_ML/03_training_runs/equipment26_min100_retrain_20261101T020110Z/status.json)
 
@@ -41,73 +41,3 @@
 **추가된 168장** 중 메가맥스가 107장(학습 +98, 검증 +4, 테스트 +5), 더블 트위스트가 61장(학습 +61)입니다. 다른 24종의 분할별 수량은 같았습니다. v1에서 테스트 사진이 없었던 메가맥스를 v2에서는 5장으로 평가했습니다. [초기 후보 집계표](SKKU_1398_Fitness_ML/02_dataset/SKKU1398_equipment_v1/reports/class_counts_with_review.csv) · [v1 종목별 기록](SKKU_1398_Fitness_ML/03_training_runs/equipment26_yolo11n_20261031T125943Z/summary.json) · [v2 종목별 기록](SKKU_1398_Fitness_ML/03_training_runs/equipment26_min100_retrain_20261101T020110Z/summary.json)
 
 기구를 찾아낸 비율(재현율)은 v1 82.92%, v2 86.94%였고, 표시한 결과가 맞은 비율(정밀도)은 각각 94.20%, 93.50%였습니다. 테스트 구성은 200장·25종에서 205장·26종으로 달라졌습니다. 센터 현장에서의 성능은 별도 검증이 필요합니다. [v1 평가](SKKU_1398_Fitness_ML/03_training_runs/equipment26_yolo11n_20261031T125943Z/test_metrics.json) · [v2 평가](SKKU_1398_Fitness_ML/03_training_runs/equipment26_min100_retrain_20261101T020110Z/test_metrics.json)
-
-## 2. 기구 대표 동작 26개와 가슴 세부 동작 7개
-
-**학습 목표**는 운동마다 시범 자세를 이루는 관절 위치의 패턴을 익히는 것입니다. 정상으로 간주한 시범 샘플을 이용해, 새 자세가 이 패턴에서 얼마나 벗어나는지 점수화하는 모델(Isolation Forest)을 학습했습니다. 저장된 17개 모델은 모두 이 방식입니다. 실제 오류 유형과 교정 방법을 구별하는 성능은 아직 검증되지 않았습니다.
-
-**수집 파일**은 해당 운동 실행에서 기록한 이미지·GIF·영상 파일 수입니다. **유효 샘플**은 관절 위치를 읽어 특징값을 계산한 수입니다. 기존 11개 모델의 실행은 한 파일에서 여러 장면을 추출할 수 있습니다. 후속 재시도는 선택한 각 파일에서 특징을 최대 한 묶음으로 요약했습니다. 두 실행의 샘플 수는 이런 단위 차이를 고려해 읽어야 합니다. [초기 학습 코드](Colab_Notebooks/Exercise_AI_All_26_Plus_Chest7_Colab.ipynb) · [22개 운동 재시도 코드와 결과](Colab_Notebooks/Exercise_AI_22_Retry_FIXED_Colab_copy.ipynb)
-
-| Colab 분류 | 운동 | 수집 파일(개) | 유효 샘플(개) | 학습 결과 |
-| --- | --- | --- | --- | --- |
-| 대표 1 | 트레드밀 걷기 | 0 | 0 | 미학습 · 자료 없음 |
-| 대표 2 | 리컴번트 바이크 | 2 | 2 | 미학습 · 샘플 부족 |
-| 대표 3 | 업라이트 바이크 | 2 | 2 | 미학습 · 샘플 부족 |
-| 대표 4 | 일립티컬 | 7 | 5 | 미학습 · 샘플 부족 |
-| 대표 5 | 시티드 체스트 프레스 | 4 | 4 | 미학습 · 샘플 부족 |
-| 대표 6 | 펙덱 플라이 | 28 | 28 | [추가 학습](Exercise_AI_Models/Equipment26/Chest/pec_deck_fly.json) |
-| 대표 7 | 하이 플라이 | 6 | 12 | [기존 모델 유지](Exercise_AI_Models/Equipment26/Chest/high_fly_info.json) |
-| 대표 8 | 머신 숄더 프레스 | 8 | 16 | [기존 모델 유지](Exercise_AI_Models/Equipment26/Shoulder/machine_shoulder_press_info.json) |
-| 대표 9 | 롱 풀 시티드 케이블 로우 | 3 | 3 | 미학습 · 샘플 부족 |
-| 대표 10 | 머신 암 컬 | 2 | 2 | 미학습 · 샘플 부족 |
-| 대표 11 | 머신 앱도미널 크런치 | 4 | 4 | 미학습 · 샘플 부족 |
-| 대표 12 | 친업 | 10 | 20 | [기존 모델 유지](Exercise_AI_Models/Equipment26/Back/chin_up_info.json) |
-| 대표 13 | 로터리 토르소 | 0 | 0 | 미학습 · 자료 없음 |
-| 대표 14 | 레그 익스텐션 | 201 | 25 | [추가 학습](Exercise_AI_Models/Equipment26/Legs/leg_extension.json) |
-| 대표 15 | 레그 컬 | 14 | 20 | [기존 모델 유지](Exercise_AI_Models/Equipment26/Legs/leg_curl_info.json) |
-| 대표 16 | 시티드 레그 프레스 | 0 | 0 | 미학습 · 자료 없음 |
-| 대표 17 | 케이블 크로스오버 | 14 | 22 | [기존 모델 유지](Exercise_AI_Models/Equipment26/Chest/cable_crossover_info.json) |
-| 대표 18 | 스미스 스쿼트 | 4 | 4 | 미학습 · 샘플 부족 |
-| 대표 19 | 메가맥스 랫 풀다운 | 12 | 16 | [기존 모델 유지](Exercise_AI_Models/Equipment26/Back/mega_max_lat_pulldown_info.json) |
-| 대표 20 | 치닝 디핑 머신 딥스 | 16 | 32 | [기존 모델 유지](Exercise_AI_Models/Equipment26/Chest/dip_station_dip_info.json) |
-| 대표 21 | 파워 레그 프레스 | 6 | 12 | [기존 모델 유지](Exercise_AI_Models/Equipment26/Legs/power_leg_press_info.json) |
-| 대표 22 | 파워랙 바벨 스쿼트 | 20 | 25 | [기존 모델 유지](Exercise_AI_Models/Equipment26/Legs/power_rack_squat_info.json) |
-| 대표 23 | 싯업 | 24 | 45 | [기존 모델 유지](Exercise_AI_Models/Equipment26/Core/sit_up_info.json) |
-| 대표 24 | 더블 트위스트 | 0 | 0 | 미학습 · 자료 없음 |
-| 대표 25 | 하이퍼 익스텐션 | 6 | 12 | [기존 모델 유지](Exercise_AI_Models/Equipment26/Back/hyperextension_info.json) |
-| 대표 26 | 플랫 벤치프레스 | 212 | 35 | [추가 학습](Exercise_AI_Models/Equipment26/Chest/flat_bench_press.json) |
-| 가슴 추가 1 | 인클라인 벤치프레스 | 216 | 34 | [추가 학습](Exercise_AI_Models/Equipment26/Chest/incline_bench_press.json) |
-| 가슴 추가 2 | 디클라인 벤치프레스 | 193 | 12 | [추가 학습](Exercise_AI_Models/Equipment26/Chest/decline_bench_press.json) |
-| 가슴 추가 3 | 머신 체스트 프레스 | 4 | 4 | 미학습 · 샘플 부족 |
-| 가슴 추가 4 | 머신 체스트 플라이 | 197 | 28 | [추가 학습](Exercise_AI_Models/Equipment26/Chest/chest_fly.json) |
-| 가슴 추가 5 | 하이 투 로우 플라이 | 0 | 0 | 미학습 · 자료 없음 |
-| 가슴 추가 6 | 로우 투 하이 플라이 | 2 | 2 | 미학습 · 샘플 부족 |
-| 가슴 추가 7 | 인클라인 덤벨 플라이 | 2 | 2 | 미학습 · 샘플 부족 |
-
-재시도한 22개 중 6개에서 모델을 추가했습니다. 5개는 자료가 없었고 11개는 유효 샘플이 최소 8개에 못 미쳤습니다. 펙덱 플라이와 머신 체스트 플라이처럼 같은 출처·검색어를 사용한 운동이 있어 종목별 파일 수를 더하면 중복될 수 있습니다. 표의 번호는 Colab에서 시도한 동작 순서입니다. 예를 들어 메가맥스 랫풀다운은 복합기구의 한 동작 후보이며, 같은 이름의 설치 기구 전체를 검증한 결과로 확대할 수 없습니다. [기구와 운동 간 대응 근거](Allinone/Exercise_AI_26_Training_Status_Audit_20261123.md)
-
-## 3. 정상·오류 라벨로 학습한 별도 실험
-
-**데드리프트 영상 분류.** v1과 v2 모두 MyDeadlift 영상 191개(학습 131개·테스트 60개)를 사용해 정상과 오류를 구분했습니다. v2에서는 여러 분류 방법을 훈련 데이터에서 비교한 뒤 랜덤 포레스트를 선택했습니다. 테스트 정확도는 61.7%에서 60.0%로 바뀌었고, 정상·오류를 같은 비중으로 평가한 균형 정확도는 모두 56.25%였습니다. [첫 모델 평가](Allinone/Deadlift_Binary_Models/20261027_122206/report.json) · [v2 비교 기록](Allinone/Deadlift_Improved_Models/20261027_122855/report.json)
-
-**15종 영상의 프레임 분류.** 공개 데이터에 기록된 정상·오류 라벨을 사용해 관절 좌표로 두 상태를 분류했습니다. v2에서는 파일명과 라벨의 불일치 및 다중 라벨 사례를 제외했습니다. 같은 영상에서 나온 프레임은 한쪽에만 배정해 학습과 테스트를 분리했습니다. 아래의 **원본 프레임**은 증강본을 정리한 뒤의 장면 수이며, 각각의 영상이나 참가자 수와는 단위가 다릅니다. 라벨 검수 전 v1의 중간 점수는 폐기했습니다.
-
-| 운동 | 원본 프레임(장) | v2 학습(장) | v2 테스트(장) | 결과 |
-| --- | --- | --- | --- | --- |
-| 벤치프레스 | 250 | 36 | 43 | 실험 모델 학습 |
-| 데드리프트 | 259 | 47 | 45 | 실험 모델 학습 |
-| 딥스 | 199 | — | — | 미학습 · 영상 그룹 부족 |
-| 덤벨 바이셉 컬 | 251 | 47 | 48 | 실험 모델 학습 |
-| 점핑 잭 | 249 | 48 | 48 | 실험 모델 학습 |
-| 랫풀다운 | 252 | — | — | 미학습 · 영상 그룹 부족 |
-| 레그 프레스 | 264 | 26 | 48 | 실험 모델 학습 |
-| 런지 | 268 | 48 | 48 | 실험 모델 학습 |
-| 마운틴 클라이머 | 252 | 48 | 48 | 실험 모델 학습 |
-| 오버헤드 프레스 | 253 | 46 | 47 | 실험 모델 학습 |
-| 플랭크 (원본 Plunk) | 250 | 48 | 42 | 실험 모델 학습 |
-| 풀업 | 323 | 96 | 47 | 실험 모델 학습 |
-| 푸시업 | 252 | 48 | 48 | 실험 모델 학습 |
-| 로잉 머신 운동 | 253 | 47 | 47 | 실험 모델 학습 |
-| 바벨 스쿼트 | 228 | 46 | 47 | 실험 모델 학습 |
-
-원본 3,803프레임은 61개 영상 그룹에서 나왔습니다. 13개 운동에서 실험 모델이 생성됐고, 딥스와 랫풀다운은 포즈를 확보한 영상 그룹이 부족해 학습을 건너뛰었습니다. 시험 결과는 소수 영상의 프레임 단위 결과이며 새로운 참가자에 대한 성능은 미검증입니다. [원본 집계](Exercise_AI_New_20261117_RF_GroupHoldout_v2/audit.json) · [분할 및 평가 결과](Exercise_AI_New_20261117_RF_GroupHoldout_v2/metrics.json) · [라벨 검수와 학습 기준](Exercise_AI_New_20261117_RF_GroupHoldout_v2/README_KO.md)

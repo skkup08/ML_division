@@ -1,8 +1,0 @@
-{
-  "status": "passed",
-  "matplotlib_backend": "Agg",
-  "mediapipe_version": "0.10.32",
-  "opencv_version": "4.11.0",
-  "decoded_and_inferred_frames": 12,
-  "note": "합성 빈 영상으로 초기화/디코딩/실제 추론만 확인. 사람 검출 성능 검증 아님."
-}

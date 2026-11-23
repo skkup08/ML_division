@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "images": 3537,
+  "labels": 3537,
+  "boxes": 3580,
+  "classes": 26,
+  "splits": {
+    "train": 3128,
+    "val": 204,
+    "test": 205
+  },
+  "known_group_cross_split": 0,
+  "exact_duplicate_images": 0,
+  "all_classes_train_at_least_100": true,
+  "base_records_preserved": true,
+  "new_images": 135,
+  "manual_review_notes": [
+    "r123_440 perceptual nearest match is a visually different legacy Smith image; retained.",
+    "round4_9 excluded: independent free-weight rack function unclear.",
+    "r123_533 excluded: ambiguous multiple equipment image and source split overlap.",
+    "round18_0 excluded: color/background variant of r123_283. round18_1 retained: distinct rear view of same structure."
+  ],
+  "model_retrained": false
+}

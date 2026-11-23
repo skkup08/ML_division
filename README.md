@@ -4,6 +4,7 @@
 
 | 하려는 일 | 먼저 열 파일 |
 | --- | --- |
+| **관심 있는 종목의 수집량과 실제 학습량 확인하기** | [26종 기구의 v1·v2 사진 수, 33개 동작의 미디어·관절 샘플 수, 정상·오류 분류 실험](TRAINING_DATA.md) |
 | 모바일 앱에 26종 기구 인식 넣기 | [v2 TFLite 모델](SKKU_1398_Fitness_ML/04_exports_and_reports/equipment26_tflite_20261101T034127Z/equipment26_fp32.tflite) · [출력 번호와 한글 기구명 대응표](SKKU_1398_Fitness_ML/04_exports_and_reports/equipment26_tflite_20261101T034127Z/class_mapping.json) |
 | Python에서 기구 인식 모델 사용하기 | [v2 가중치 best.pt](SKKU_1398_Fitness_ML/03_training_runs/equipment26_min100_retrain_20261101T020110Z/fit/weights/best.pt) |
 | Colab에서 26종 모델 학습 과정 따라가기 | [재학습 노트북](SKKU_1398_Fitness_ML/01_notebooks/equipment26_min100_round1_20261101.ipynb) · [데이터 준비 기록](SKKU_1398_Fitness_ML/02_dataset) |
@@ -11,7 +12,7 @@
 
 ## 기구 인식 v1과 v2의 차이
 
-**v2의 가장 큰 변화는 사진이 부족했던 기구까지 학습하고 평가할 수 있게 된 점입니다.** 5종 초기 실험과 24종 학습을 거쳐 메가맥스와 더블 트위스트를 더한 첫 26종 모델이 이 문서의 **v1**입니다. **v2**는 같은 YOLO11n 구조와 같은 26종을 유지하면서 두 기구의 사진을 보강한 모델입니다. [5종 초기 프로젝트](SKKU_1398_Fitness_ML/01_notebooks/SKKU_1398_Colab_Project) · [24종에서 26종으로 확장한 기록](SKKU_1398_Fitness_ML/03_training_runs/equipment26_yolo11n_20261031T125943Z/initialization.json)
+**v2에서는 메가맥스 사진 107장과 더블 트위스트 사진 61장을 추가해 총 3,537장으로 재학습했습니다.** 다른 24종의 학습·검증·테스트 사진 수는 같았습니다. 5종 초기 실험과 24종 학습을 거쳐 메가맥스와 더블 트위스트를 더한 첫 26종 모델이 이 문서의 **v1**입니다. **v2**는 같은 YOLO11n 구조와 같은 26종을 유지하면서 두 기구의 사진을 보강한 모델입니다. [5종 초기 프로젝트](SKKU_1398_Fitness_ML/01_notebooks/SKKU_1398_Colab_Project) · [24종에서 26종으로 확장한 기록](SKKU_1398_Fitness_ML/03_training_runs/equipment26_yolo11n_20261031T125943Z/initialization.json)
 
 | 데이터 구성 | v1 · 2026년 10월 31일 | v2 · 2026년 11월 1일 |
 | --- | ---: | ---: |
@@ -33,6 +34,8 @@
 | 상자 위치를 더 엄격하게 평가하면? | mAP50–95 | 0.8065 | 0.7967 |
 
 mAP50은 예측 상자와 정답 상자의 겹침 비율(교집합 ÷ 합집합)이 50% 이상일 때 위치가 맞았다고 봅니다. mAP50–95는 이 기준을 50%에서 95%까지 바꿔 가며 구한 평균입니다. 각 버전의 테스트에서 v2는 실제 기구를 찾아낸 비율이 높았고, 표시한 결과 중 정답의 비율은 소폭 낮았습니다. 테스트 사진과 평가 대상이 달라 두 수치의 차이를 그대로 모델의 성능 향상 폭으로 해석하기는 어렵습니다. [v1 기구별 결과](SKKU_1398_Fitness_ML/03_training_runs/equipment26_yolo11n_20261031T125943Z/test_metrics.json) · [v2 기구별 결과](SKKU_1398_Fitness_ML/03_training_runs/equipment26_min100_retrain_20261101T020110Z/test_metrics.json)
+
+기구별 수집 후보 수와 실제 학습에 쓴 사진 수가 궁금하다면 두 수치를 함께 확인하세요. [기구 26종 전체 비교표](TRAINING_DATA.md#1-기구-인식용-사진-26종)
 
 ## 앱에서 사진을 기구 이름과 위치로 바꾸기
 

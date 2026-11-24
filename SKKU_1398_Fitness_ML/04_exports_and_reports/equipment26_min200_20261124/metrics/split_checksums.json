@@ -1,0 +1,32 @@
+{
+  "train": {
+    "original": [
+      6256,
+      "da597fb7508e8ed2e1afd7fa42a6b53f5c45a151ad30842d02765d7e224f5cf6"
+    ],
+    "retrained": [
+      7288,
+      "79a66ca6c8a7322c967ecbf926046d4f3bd93743b98ce527012fd5ec7c1e1e36"
+    ]
+  },
+  "val": {
+    "original": [
+      408,
+      "6bcd1daff25d4a429bbc92fde659882c42adf25bc650e3d94b303f5021c1e416"
+    ],
+    "retrained": [
+      408,
+      "6bcd1daff25d4a429bbc92fde659882c42adf25bc650e3d94b303f5021c1e416"
+    ]
+  },
+  "test": {
+    "original": [
+      410,
+      "020331651e98ebd1b381ad1d65b03942ee20007d43d2c1c1a4c405cbe22cb2f0"
+    ],
+    "retrained": [
+      410,
+      "020331651e98ebd1b381ad1d65b03942ee20007d43d2c1c1a4c405cbe22cb2f0"
+    ]
+  }
+}

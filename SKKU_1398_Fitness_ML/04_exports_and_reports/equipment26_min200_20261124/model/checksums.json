@@ -1,0 +1,12 @@
+{
+  "equipment26_anysize.tflite": {
+    "bytes": 10596132,
+    "sha256": "fd133dde0817595d8cf657b8f3d98d01d7b1c6b14c97af69e81ebc0fde9d6313",
+    "flatbuffer_identifier": "TFL3"
+  },
+  "equipment26_min200.pt": {
+    "bytes": 5485530,
+    "sha256": "2602fa10a670b54d0399b00b5f70549f55e16962d5b577a953d8beb6975b5781",
+    "tensor_storage_entries": 503
+  }
+}

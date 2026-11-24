@@ -1,0 +1,372 @@
+{
+  "images": 28,
+  "top1_matches": 28,
+  "max_abs_class_score_error": 1.0773539543151855e-05,
+  "max_abs_top_box_error": 7.690664599921404e-06,
+  "samples": [
+    {
+      "file": "4d97d82a806d1f4e425c.jpg",
+      "size": [
+        640,
+        640
+      ],
+      "pt_top1": 0,
+      "tflite_top1": 0,
+      "pt_top_score": 0.9280592799186707,
+      "tflite_top_score": 0.9280593991279602,
+      "max_score_abs_error": 1.1920928955078125e-07,
+      "top_box_max_abs_error": 1.9073486328125e-06
+    },
+    {
+      "file": "180191b66cbe04d57b9a.jpg",
+      "size": [
+        650,
+        650
+      ],
+      "pt_top1": 1,
+      "tflite_top1": 1,
+      "pt_top_score": 0.9691740870475769,
+      "tflite_top_score": 0.9691741466522217,
+      "max_score_abs_error": 5.960464477539063e-08,
+      "top_box_max_abs_error": 9.536743161842054e-08
+    },
+    {
+      "file": "4249d87694db72436d50.jpg",
+      "size": [
+        1500,
+        1500
+      ],
+      "pt_top1": 2,
+      "tflite_top1": 2,
+      "pt_top_score": 0.961888313293457,
+      "tflite_top_score": 0.9618886709213257,
+      "max_score_abs_error": 3.5762786865234375e-07,
+      "top_box_max_abs_error": 1.0132789612926629e-07
+    },
+    {
+      "file": "76812e064404efa90ace.jpg",
+      "size": [
+        860,
+        1080
+      ],
+      "pt_top1": 3,
+      "tflite_top1": 3,
+      "pt_top_score": 0.8982503414154053,
+      "tflite_top_score": 0.8982486128807068,
+      "max_score_abs_error": 1.7285346984863281e-06,
+      "top_box_max_abs_error": 7.690664599921404e-06
+    },
+    {
+      "file": "3685c8818f165fe6263e.jpg",
+      "size": [
+        640,
+        640
+      ],
+      "pt_top1": 4,
+      "tflite_top1": 4,
+      "pt_top_score": 0.7517164349555969,
+      "tflite_top_score": 0.7517164945602417,
+      "max_score_abs_error": 2.551823854446411e-07,
+      "top_box_max_abs_error": 2.384185793236071e-08
+    },
+    {
+      "file": "01d29ef3dc4615b3b85e.jpg",
+      "size": [
+        640,
+        640
+      ],
+      "pt_top1": 5,
+      "tflite_top1": 5,
+      "pt_top_score": 0.9688889980316162,
+      "tflite_top_score": 0.9688888788223267,
+      "max_score_abs_error": 1.1920928955078125e-07,
+      "top_box_max_abs_error": 1.1920928910669204e-08
+    },
+    {
+      "file": "157f08e262657ab3988a.jpg",
+      "size": [
+        2160,
+        3840
+      ],
+      "pt_top1": 6,
+      "tflite_top1": 6,
+      "pt_top_score": 0.6758232116699219,
+      "tflite_top_score": 0.6758222579956055,
+      "max_score_abs_error": 9.98377799987793e-07,
+      "top_box_max_abs_error": 2.781550090258378e-08
+    },
+    {
+      "file": "02b1e2d0e6f2fc2dfaab.jpg",
+      "size": [
+        640,
+        640
+      ],
+      "pt_top1": 5,
+      "tflite_top1": 5,
+      "pt_top_score": 0.6210492253303528,
+      "tflite_top_score": 0.6210447549819946,
+      "max_score_abs_error": 4.470348358154297e-06,
+      "top_box_max_abs_error": 1.7881393432617188e-07
+    },
+    {
+      "file": "171b7fd4f50491194220.jpg",
+      "size": [
+        416,
+        416
+      ],
+      "pt_top1": 8,
+      "tflite_top1": 8,
+      "pt_top_score": 0.9376366138458252,
+      "tflite_top_score": 0.937637209892273,
+      "max_score_abs_error": 5.960464477539062e-07,
+      "top_box_max_abs_error": 5.9604644775390625e-06
+    },
+    {
+      "file": "22883b3ee6b092afba04.jpg",
+      "size": [
+        416,
+        416
+      ],
+      "pt_top1": 9,
+      "tflite_top1": 9,
+      "pt_top_score": 0.9521594047546387,
+      "tflite_top_score": 0.9521535038948059,
+      "max_score_abs_error": 8.773989975452423e-06,
+      "top_box_max_abs_error": 6.270408630326685e-06
+    },
+    {
+      "file": "224c77611772176abc1a.jpg",
+      "size": [
+        1600,
+        1035
+      ],
+      "pt_top1": 10,
+      "tflite_top1": 10,
+      "pt_top_score": 0.9452940225601196,
+      "tflite_top_score": 0.9452938437461853,
+      "max_score_abs_error": 1.7881393432617188e-07,
+      "top_box_max_abs_error": 1.1080489066561672e-07
+    },
+    {
+      "file": "7ebf3697ee662c48cf86.jpg",
+      "size": [
+        640,
+        640
+      ],
+      "pt_top1": 11,
+      "tflite_top1": 11,
+      "pt_top_score": 0.8877215385437012,
+      "tflite_top_score": 0.8877214193344116,
+      "max_score_abs_error": 1.1920928955078125e-07,
+      "top_box_max_abs_error": 2.8312206268310547e-07
+    },
+    {
+      "file": "adcd96c549d3f30b173e.jpg",
+      "size": [
+        640,
+        640
+      ],
+      "pt_top1": 12,
+      "tflite_top1": 12,
+      "pt_top_score": 0.9339410662651062,
+      "tflite_top_score": 0.933941125869751,
+      "max_score_abs_error": 1.5832483768463135e-07,
+      "top_box_max_abs_error": 9.238719940463103e-08
+    },
+    {
+      "file": "027336d415fbcb8210b9.jpg",
+      "size": [
+        640,
+        640
+      ],
+      "pt_top1": 13,
+      "tflite_top1": 13,
+      "pt_top_score": 0.9533959627151489,
+      "tflite_top_score": 0.9533959031105042,
+      "max_score_abs_error": 5.960464477539063e-08,
+      "top_box_max_abs_error": 1.7881393432617188e-07
+    },
+    {
+      "file": "29048da899603a18987c.jpg",
+      "size": [
+        640,
+        640
+      ],
+      "pt_top1": 14,
+      "tflite_top1": 14,
+      "pt_top_score": 0.9615027904510498,
+      "tflite_top_score": 0.9615029096603394,
+      "max_score_abs_error": 1.1920928955078125e-07,
+      "top_box_max_abs_error": 2.145767211692018e-07
+    },
+    {
+      "file": "1815e1f78bb3bcee9629.jpg",
+      "size": [
+        640,
+        640
+      ],
+      "pt_top1": 19,
+      "tflite_top1": 19,
+      "pt_top_score": 0.8389400243759155,
+      "tflite_top_score": 0.8389394283294678,
+      "max_score_abs_error": 5.960464477539062e-07,
+      "top_box_max_abs_error": 9.573996067116508e-08
+    },
+    {
+      "file": "0357b347b6499369e759.jpg",
+      "size": [
+        640,
+        640
+      ],
+      "pt_top1": 16,
+      "tflite_top1": 16,
+      "pt_top_score": 0.953547477722168,
+      "tflite_top_score": 0.9535474181175232,
+      "max_score_abs_error": 5.960464477539063e-08,
+      "top_box_max_abs_error": 5.006790161354857e-07
+    },
+    {
+      "file": "28217688f3a361d70717.jpg",
+      "size": [
+        640,
+        640
+      ],
+      "pt_top1": 17,
+      "tflite_top1": 17,
+      "pt_top_score": 0.6214392185211182,
+      "tflite_top_score": 0.6214413046836853,
+      "max_score_abs_error": 2.086162567138672e-06,
+      "top_box_max_abs_error": 9.536743163923722e-08
+    },
+    {
+      "file": "0223b686acf2279a761b.jpg",
+      "size": [
+        416,
+        416
+      ],
+      "pt_top1": 18,
+      "tflite_top1": 18,
+      "pt_top_score": 0.9685596823692322,
+      "tflite_top_score": 0.968557596206665,
+      "max_score_abs_error": 2.086162567138672e-06,
+      "top_box_max_abs_error": 5.722045898493011e-07
+    },
+    {
+      "file": "67a0a5fbe1d1a9773349.jpg",
+      "size": [
+        640,
+        640
+      ],
+      "pt_top1": 19,
+      "tflite_top1": 19,
+      "pt_top_score": 0.5142415165901184,
+      "tflite_top_score": 0.5142426490783691,
+      "max_score_abs_error": 1.5497207641601562e-06,
+      "top_box_max_abs_error": 8.940696716308594e-08
+    },
+    {
+      "file": "3a69e66507caa4ef2fcc.jpg",
+      "size": [
+        1725,
+        1725
+      ],
+      "pt_top1": 20,
+      "tflite_top1": 20,
+      "pt_top_score": 0.940971851348877,
+      "tflite_top_score": 0.9409719705581665,
+      "max_score_abs_error": 1.1920928955078125e-07,
+      "top_box_max_abs_error": 9.573996067116508e-08
+    },
+    {
+      "file": "7d46a1b8c109d331e6d0.jpg",
+      "size": [
+        640,
+        640
+      ],
+      "pt_top1": 0,
+      "tflite_top1": 0,
+      "pt_top_score": 0.9744243621826172,
+      "tflite_top_score": 0.9744243621826172,
+      "max_score_abs_error": 2.5331974029541016e-07,
+      "top_box_max_abs_error": 8.940696716308594e-08
+    },
+    {
+      "file": "7a34e1ab4e257612fdc0.jpg",
+      "size": [
+        640,
+        640
+      ],
+      "pt_top1": 22,
+      "tflite_top1": 22,
+      "pt_top_score": 0.9829082489013672,
+      "tflite_top_score": 0.982908308506012,
+      "max_score_abs_error": 7.729977369308472e-08,
+      "top_box_max_abs_error": 1.9036233425001603e-07
+    },
+    {
+      "file": "54b7edff8b5eebe1224f.jpg",
+      "size": [
+        1366,
+        2048
+      ],
+      "pt_top1": 23,
+      "tflite_top1": 23,
+      "pt_top_score": 0.962710976600647,
+      "tflite_top_score": 0.962716817855835,
+      "max_score_abs_error": 5.841255187988281e-06,
+      "top_box_max_abs_error": 2.3048990503982125e-06
+    },
+    {
+      "file": "min100v2_r123_517.jpg",
+      "size": [
+        800,
+        800
+      ],
+      "pt_top1": 24,
+      "tflite_top1": 24,
+      "pt_top_score": 0.9361522197723389,
+      "tflite_top_score": 0.936151921749115,
+      "max_score_abs_error": 2.980232238769531e-07,
+      "top_box_max_abs_error": 2.682209016002801e-08
+    },
+    {
+      "file": "added26_double_twist_005.jpg",
+      "size": [
+        500,
+        500
+      ],
+      "pt_top1": 25,
+      "tflite_top1": 25,
+      "pt_top_score": 0.9504621624946594,
+      "tflite_top_score": 0.9504622220993042,
+      "max_score_abs_error": 5.960464477539063e-08,
+      "top_box_max_abs_error": 8.344650270775134e-08
+    },
+    {
+      "file": "add_21-002.jpg",
+      "size": [
+        427,
+        913
+      ],
+      "pt_top1": 21,
+      "tflite_top1": 21,
+      "pt_top_score": 0.39284422993659973,
+      "tflite_top_score": 0.3928429186344147,
+      "max_score_abs_error": 1.0773539543151855e-05,
+      "top_box_max_abs_error": 3.6954879756301295e-07
+    },
+    {
+      "file": "add_21-002.jpg",
+      "size": [
+        811,
+        373
+      ],
+      "pt_top1": 21,
+      "tflite_top1": 21,
+      "pt_top_score": 0.7915353775024414,
+      "tflite_top_score": 0.7915319204330444,
+      "max_score_abs_error": 3.4570693969726562e-06,
+      "top_box_max_abs_error": 6.61611557012387e-07
+    }
+  ]
+}

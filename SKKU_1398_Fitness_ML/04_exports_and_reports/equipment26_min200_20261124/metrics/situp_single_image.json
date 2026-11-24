@@ -1,0 +1,36 @@
+{
+  "file": "3a915b894b7f7ac47bb9.jpg",
+  "note": "Diagnostic for one image at square 640 input, post-NMS, score cutoff 0.001; reported AP uses the held-out batch evaluation instead.",
+  "truth_xyxy_norm": [
+    0.05781249999999993,
+    0.03046874999999999,
+    0.959375,
+    0.93828125
+  ],
+  "before": {
+    "first_prediction": [
+      {
+        "id": 22,
+        "name": "hyperextension",
+        "score": 0.6029288172721863,
+        "iou_with_situp": 0.9243044406397722
+      }
+    ],
+    "best_situp_score": [],
+    "best_situp_iou": null,
+    "situp_detections": 0
+  },
+  "after": {
+    "first_prediction": [
+      {
+        "id": 22,
+        "name": "hyperextension",
+        "score": 0.8091069459915161,
+        "iou_with_situp": 0.9730828611055642
+      }
+    ],
+    "best_situp_score": [],
+    "best_situp_iou": null,
+    "situp_detections": 0
+  }
+}
